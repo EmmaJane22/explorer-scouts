@@ -12,6 +12,7 @@
 ### ***Design***
 #### Colour Palette
 #### Typography
+- The 'Special Elite' font is the brand font used in the navigation bar at the top of the site. Sans-serif is the fallback font in case the title font is not being imported correctly. 
 #### Images
  
 ### ***Wireframes***
