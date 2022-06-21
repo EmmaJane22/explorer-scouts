@@ -22,7 +22,7 @@
 #### Hero Images
 #### The Footer
 #### Landing Page
-#### Events Page
+#### Meetings Page
 #### Contact Us Page
  
 ## Future Implementations
