@@ -1,13 +1,16 @@
 # Explorer Scouts - Emma Scott
-## DIWAD_MS1: Diploma in Web Development: Milestone Project 1
+# DIWAD_MS1: Diploma in Web Development: Milestone Project 1
  
 ## Table of Contents:
  
 ## User Experience (UX)
 ### ***User stories***
-#### First Time Visitor Goals
-#### Returning Visitor Goals
-#### Frequent User Goals
+#### External Users' Goal:
+- The site users are Explorer Scout members and potential members and their parents/carers, who want to know more about the Explorer Scout pack and its activities. This may be to celebrate the Pack's achievements or to explore what the Pack participates in adn to discover when adn where they meet and who the contact person is to find out more information. 
+#### Site Owner's Goal:
+- The Explorer Scout group is interested in attracting and retaining members. It also wants to celebrate the group’s success and showcase their activities.
+
+ 
  
 ### ***Design***
 #### Colour Palette
@@ -16,7 +19,10 @@
 #### Images
  
 ### ***Wireframes***
- 
+#### Features to include:
+- Showcase photos of members having fun at group activities.
+- Provide details of the activities Explorer Scouts participate in and the structure of meetings..
+- Provide information on the packs location, meeting times, contact details and any external resources. 
 ## Features
 #### Navigation Bar
 #### The Header
@@ -26,8 +32,6 @@
 #### Meetings Page
 #### Contact Us Page
  
-## Future Implementations
- 
 ## Technologies Used
  
 ## Testing
@@ -35,5 +39,5 @@
 ### Bugs & Fixes:
  
 ## Deployment
- 
+## Future Implementations 
 ## Credits
