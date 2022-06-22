@@ -1,7 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Special+Elite&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* -----------------------------------------------Nav bar */
+h1 {
+    font-family: 'Special Elite', sans-serif;
+    color: #006571;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
+/* -----------------------------------------------Body */
 body {
     font-family: 'Barlow', sans-serif;
 }
 
-/* -----------------------------------------------Nav bar */
+
