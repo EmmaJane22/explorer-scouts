@@ -19,6 +19,7 @@ h1 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 20px;
 }
 
 #menu {
@@ -51,7 +52,49 @@ h1 {
 }
 
 
-/* -----------------------------------------------Body */
+/* -----------------------------------------------Hero Image */
 
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/group-friends.jpg') no-repeat center center;
+    background-size: cover;
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
 
+#hero-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
 
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#hero-card {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    position: absolute;
+    right: 15%;
+    top: 15%;
+    bottom: 15%;
+}
+
+#hero-text {
+    text-align: center;
+    margin-top: 15%;
+    max-width: 20ch;
+}
+
+#hero-text p {
+    padding-top: 20%;
+    font-size: 200%;
+}

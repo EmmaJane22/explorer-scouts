@@ -18,7 +18,9 @@ https://color.adobe.com/Teals-color-theme-19171364/
 #### Typography
 - The 'Special Elite' font is the brand font used in the navigation bar at the top of the site. Sans-serif is the fallback font in case the title font is not being imported correctly. 
 #### Images
- 
+www.freepik.com/photos/camping-tent hero image by author: https://www.freepik.com/author/tawatchai07
+"https://www.freepik.com/photos/best-friends" https://www.freepik.com/author/standret
+"https://www.freepik.com/photos/teenager" https://www.freepik.com/author/standret
 ### ***Wireframes***
 #### Features to include:
 - Showcase photos of members having fun at group activities.
