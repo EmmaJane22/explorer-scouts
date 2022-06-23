@@ -15,6 +15,9 @@
 ### ***Design***
 #### Colour Palette
 https://color.adobe.com/Teals-color-theme-19171364/ 
+
+Footer colour gradient made using tutorial from W3Schools https://www.w3schools.com/css/css3_gradients.asp
+
 #### Typography
 - The 'Special Elite' font is the brand font used in the navigation bar at the top of the site. Sans-serif is the fallback font in case the title font is not being imported correctly. 
 #### Images

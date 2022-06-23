@@ -98,3 +98,40 @@ h1 {
     padding-top: 20%;
     font-size: 200%;
 }
+
+/* -----------------------------------------------Headings */
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* -----------------------------------------------Footer */
+
+
+footer {
+    /* gradient colour made using tutorial from W3Schools */
+    background-image: linear-gradient(to bottom right, #015958, #0caba8);
+    color:#fafafa;
+    min-height: 120px;   
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.footer-headings {
+    color: #fafafa;
+    font-family: 'Special Elite', sans-serif;
+    font-size: 120%;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
