@@ -56,22 +56,26 @@
 <!-----------------------------footer with socials------------------------>
     
     <footer class="container-fluid">
-        <div class="row">
+        <div class="row justify-content-between"> <!----Bootstrap documentation https://getbootstrap.com/docs/4.0/layout/grid/-->
                 <div class="col-sm-4">
                     <h4 class="footer-headings">Contact Us</h4>
-                    <p class="inline-block">
-                        <i class="social-media-icon fa-solid fa-envelope" aria-hidden="true"></i> 
-                        <a href="contact.html">email us</a><br>
-                        <i class="social-media-icon fa-solid fa-phone" aria-hidden="true"></i> 
-                        (0191) 123 4567
-                    </p>           
+                    <ul class="list-contact">
+                        <li class="list-contact-item">
+                            <i class="list-contact-icon fa-solid fa-envelope" aria-hidden="true"></i> 
+                            <a href="contact.html">Email us</a>
+                        </li>
+                        <li class="list-contact-item">
+                            <i class="list-contact-icon fa-solid fa-phone" aria-hidden="true"></i> 
+                            (0191) 123 4567
+                        </li>
+                    </ul>           
                 </div>
-                <div class="col-sm-4">
+                <!------Removed as layout looked unbalanced------<div class="col-sm-4">
                     <h4 class="footer-headings">Find Us</h4>
-                        <p class="inline-block">
+                        <p>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2294.384125421925!2d-1.3869393839900697!3d54.89617986519611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e669a38969543%3A0xbcb9db1b57e175ec!2sSt%20John&#39;s%20Methodist%20Church!5e0!3m2!1sen!2suk!4v1655996018367!5m2!1sen!2suk" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </p>
-                </div>
+                </div> ------------->
 <!-----------------------------inspired by https://learn.codeinstitute.net/ci_program/diplomainwebappdevelopment------------------------>                
                 <div class="col-sm-4">
                     <h4 class="footer-headings">Follow Us</h4>

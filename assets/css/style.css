@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Roboto&family=Special+Elite&display=swap');
 
 * {
     margin: 0;
@@ -120,20 +120,53 @@ footer {
     /* gradient colour made using tutorial from W3Schools */
     background-image: linear-gradient(to bottom right, #015958, #0caba8);
     color:#fafafa;
-    min-height: 120px;   
+    min-height: 200px;   
 }
 
-.inline-block {
+/*.inline-block {
     display: inline-block;
-}
+}*/
 
 .footer-headings {
     color: #fafafa;
     font-family: 'Special Elite', sans-serif;
-    font-size: 120%;
+    font-size: 150%;
     letter-spacing: 2px;
     margin-top: 20px;
     margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.list-contact {
+    list-style-type: none;
+}
+
+.list-contact-item {
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+}
+
+.list-contact-item > a {
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+}
+
+.list-contact-item > a:visited {
+    color: #0CABA8;
+}
+
+.list-contact-item > a:hover {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.list-contact-icon {
+    margin: 0 10px;
+    font-size: 25px;
+    color: #132b40;
+    padding: 1.5%;
 }
 
 .social-media-icon {
@@ -141,6 +174,7 @@ footer {
     font-size: 32px;
     color: #132b40;
     padding: 1.5%;
+    margin-left: 20px;
 }
 
 .social-media-hover i:hover {
