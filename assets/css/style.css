@@ -142,3 +142,7 @@ footer {
     color: #132b40;
     padding: 1.5%;
 }
+
+.social-media-hover i:hover {
+    color: #fafafa;
+}
