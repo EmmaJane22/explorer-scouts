@@ -13,75 +13,83 @@ body {
     background-color: #023535;
 }
 
-/* -----------------------------------------------Nav bar */
+/* -----------------------------------------------logo */
 
 header {
     background-color: #fff;
     width: 100%;
     height: 75px;
     top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     position: fixed;
     z-index: 1;
 }
 
-h1 {
+h1,
+h2,
+h3 {
     font-family: 'Special Elite', sans-serif;
     color: #015958;
 }
 
 #logo {
     float: left;
-    font-size: 280%;
-    margin-left: 20px;
+    font-size: 300%;
+    margin-left: 30px;
+    color: #023535;
+    padding-top: 5px;
 }
 
+/* -----------------------------------------------nav links */
 #menu {
-    list-style-type: none;
     font-size: 110%;
     letter-spacing: 2px;
 }
 
-#logo, #menu {
+#menu, 
+#logo,  {
     line-height: 75px;
 }
 
 #menu li {
     float: right;
     margin-right: 30px;
+    list-style-type: none;
 }
 
-#menu a {
+a {
     text-decoration: none;
     color: #023535;
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #0CABA8;
+    border-bottom: 3px solid #0CABA8;
+    text-decoration: none;
 }
 
 .active {
-    border-bottom: 2px solid #015958;
-    
+    border-bottom: 3px solid #015958;   
 }
 
-
 /* -----------------------------------------------Hero Image */
+
+#hero-outer {
+    height: 500px;
+    width: 100%;
+    margin: 105px 0 30px 0;
+    overflow: hidden;
+    position: relative;
+}
 
 #hero-image {
     height: 500px;
     width: 100%;
     background: url('../images/group-friends.jpg') no-repeat center center;
     background-size: cover;
+    margin: auto;
     animation-name: hero-zoom;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-}
-
-#hero-outer {
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
 }
 
 @keyframes hero-zoom {
@@ -93,38 +101,95 @@ h1 {
     }
 }
 
-#hero-card {
+#hero-text {
+    color: #023535;
+    font-size: 150%;
+    text-align: center;
+    width: 20%;
+    height: 70%;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
     background-color: rgba(255, 255, 255, 0.7);
-    display: inline-block;
-    position: absolute;
     right: 15%;
     top: 15%;
-    bottom: 15%;
+    position: absolute;
 }
 
-#hero-text {
-    text-align: center;
-    margin-top: 15%;
-    max-width: 20ch;
-}
 
 #hero-text p {
-    padding-top: 20%;
+    font-size: 150%;
+}
+
+/* -----------------------------------------------Landing Page Links */
+
+.page-section {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    margin: 30px 0;
+    padding-bottom: 30px;
+}
+
+.section-heading {
+    color: #023535;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 110%;
+}
+
+.link-circle {
+    padding-top: 30px;
+    width: 33%;
+}
+
+.link-img-container {
+    height: 300px;
+	width: 300px;
+	border-radius: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    border: 10px solid #0CABA8;
+}
+
+#meetings {
+    background: url(../images/meeting.jpg);
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: bottom center; /*tutorial https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching */
+}
+
+#events {
+    background: url(../images/events.jpg);
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: left center;
+}
+
+#contact {
+    background: url(../images/contact.jpg);
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: bottom center; 
+}
+
+.hover-text {
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
     font-size: 200%;
-}
-
-/* -----------------------------------------------Headings */
-
-h1, 
-h2, 
-h3, 
-h4, 
-h5 {
-    margin: 0;
-}
-
-.uppercase {
-    text-transform: uppercase;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    opacity: 0;
 }
 
 /* -----------------------------------------------Footer */
@@ -134,12 +199,10 @@ footer {
     /* gradient colour made using tutorial from W3Schools */
     background-image: linear-gradient(to bottom right, #015958, #0caba8);
     color:#fafafa;
-    min-height: 200px;   
+    min-height: 200px;
+    width: 100%
+    position: fixed; 
 }
-
-/*.inline-block {
-    display: inline-block;
-}*/
 
 .footer-headings {
     color: #fafafa;

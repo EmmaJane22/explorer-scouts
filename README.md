@@ -24,6 +24,9 @@ Footer colour gradient made using tutorial from W3Schools https://www.w3schools.
 www.freepik.com/photos/camping-tent hero image by author: https://www.freepik.com/author/tawatchai07
 "https://www.freepik.com/photos/best-friends" https://www.freepik.com/author/standret
 "https://www.freepik.com/photos/teenager" https://www.freepik.com/author/standret
+'Meeting' Photo by EKATERINA  BOLOVTSOVA: https://www.pexels.com/photo/happy-children-making-campfire-in-forest-5036955/
+'Events' Photo by Spencer Gurley Films from Pexels
+'Contact' Photo by cottonbro: https://www.pexels.com/photo/scouts-with-a-map-and-a-compass-9292813/
 ### ***Wireframes***
 #### Features to include:
 - Showcase photos of members having fun at group activities.
