@@ -21,12 +21,7 @@ Footer colour gradient made using tutorial from W3Schools https://www.w3schools.
 #### Typography
 - The 'Special Elite' font is the brand font used in the navigation bar at the top of the site. Sans-serif is the fallback font in case the title font is not being imported correctly. 
 #### Images
-www.freepik.com/photos/camping-tent hero image by author: https://www.freepik.com/author/tawatchai07
-"https://www.freepik.com/photos/best-friends" https://www.freepik.com/author/standret
-"https://www.freepik.com/photos/teenager" https://www.freepik.com/author/standret
-'Meeting' Photo by EKATERINA  BOLOVTSOVA: https://www.pexels.com/photo/happy-children-making-campfire-in-forest-5036955/
-'Events' Photo by Spencer Gurley Films from Pexels
-'Contact' Photo by cottonbro: https://www.pexels.com/photo/scouts-with-a-map-and-a-compass-9292813/
+
 ### ***Wireframes***
 #### Features to include:
 - Showcase photos of members having fun at group activities.
@@ -50,3 +45,15 @@ www.freepik.com/photos/camping-tent hero image by author: https://www.freepik.co
 ## Deployment
 ## Future Implementations 
 ## Credits
+### Content
+-Help centering the images on the Landing page circles was found here: https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching
+- Help creating the footer grid layout was found from https://getbootstrap.com/docs/4.0/layout/grid/
+- The stylised social media links in the footer took inspiration from  https://learn.codeinstitute.net/ci_program/diplomainwebappdevelopment
+### Images
+-Hero Image taken from "https://www.freepik.com/photos/best-friends" https://www.freepik.com/author/standret
+
+-'Meeting' Photo by EKATERINA  BOLOVTSOVA: https://www.pexels.com/photo/happy-children-making-campfire-in-forest-5036955/
+
+-'Events' Photo by Spencer Gurley Films from Pexels (Three Men Riding Kayaks On Body Of Water)
+
+-'Contact' Photo by cottonbro: https://www.pexels.com/photo/scouts-with-a-map-and-a-compass-9292813/
