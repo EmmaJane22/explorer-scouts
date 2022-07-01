@@ -3,19 +3,25 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    border: 0;
 }
 
 body {
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
     color:#015958;
-    background-color: #0CABA8;
+    background-color: #fff;
+}
+
+h1,
+h2 {
+    font-family: 'Special Elite', sans-serif;
+    color: #015958;
 }
 
 /* -----------------------------------------------logo */
 
-header {
+/*header {
     background-color: #fff;
     width: 100%;
     height: 75px;
@@ -23,43 +29,35 @@ header {
     margin-bottom: 10px;
     position: fixed;
     z-index: 1;
-}
-
-h1,
-h2,
-h3 {
-    font-family: 'Special Elite', sans-serif;
-    color: #015958;
-}
+}*/
 
 #logo {
     float: left;
     font-size: 300%;
     margin-left: 30px;
     color: #023535;
-    padding-top: 5px;
 }
 
 /* -----------------------------------------------nav links */
 #menu {
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 2px;
-}
-
-#menu, 
-#logo  {
-    line-height: 75px;
+    list-style-type: none;
 }
 
 #menu li {
     float: right;
     margin-right: 30px;
-    list-style-type: none;
 }
 
-a {
+#menu a {
     text-decoration: none;
     color: #023535;
+}
+ 
+#logo,
+#menu  {
+    line-height: 75px;
 }
 
 #menu a:hover {
@@ -74,15 +72,14 @@ a {
 /* -----------------------------------------------Hero Image */
 
 #hero-outer {
-    height: 500px;
+    height: 600px;
     width: 100%;
-    margin: 100px 0 30px 0;
     overflow: hidden;
     position: relative;
 }
 
 #hero-image {
-    height: 500px;
+    height: 600px;
     width: 100%;
     background: url('../images/group-friends.jpg') no-repeat center center;
     background-size: cover;
@@ -101,27 +98,36 @@ a {
     }
 }
 
+#hero-text, #hero-text h3 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
 #hero-text {
     color: #023535;
-    font-size: 150%;
+    font-size: 500%;
     text-align: center;
-    width: 20%;
-    height: 70%;
-    padding-top: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
+    width: 250px;
+    height: 200px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: rgba(255, 255, 255, 0.7);
-    right: 15%;
-    top: 15%;
+    bottom: 200px;
+    right: 150px;
     position: absolute;
 }
 
-
-#hero-text p {
-    font-size: 150%;
+/* -----------------------------------------------Landing Page Links */
+#landing-page-links {
+    height: 200px;
+    background-color: #fff;
 }
 
-/* -----------------------------------------------Landing Page Links */
+#landing-circles {
+    height: 400px;
+    background-color: #0caba8;
+}
 
 .page-section {
     background-color: #fff;
@@ -149,6 +155,10 @@ a {
     margin: 30px 0;
     font-size: 120%;
 }
+/* -----------------------------------------------Circles */
+.circle {
+    text-align: center;
+}
 
 .link-img-container {
     height: 300px;
@@ -163,8 +173,6 @@ a {
     height: 250px;
     width: 250x;
     border-radius: 50%;
-    /*padding: 15%;*/
-    /*margin: 0 auto;*/
     opacity: 1;
 }
 
@@ -230,7 +238,7 @@ footer {
     background-image: linear-gradient(to bottom right, #015958, #0caba8);
     color:#fafafa;
     min-height: 150px;
-    width: 100%;
+    width: auto;
 }
 
 .footer-headings {
