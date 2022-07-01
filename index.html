@@ -12,55 +12,50 @@
     <title>Explorer Scouts</title>
 </head>
 <body>
-<!-----------------------------navbar------------------------>
+<!-----------------------------header and navbar------------------------>
     <header>
-        <div id="logo-container">
-            <a href="index.html">
-                <h1 id="logo">St. John's Explorer Scouts</h1>
-            </a>
-        </div>
-        <div id="menu-container">
-            <nav>
-                <ul id="menu">
-                    <li>
-                        <a href="contact.html">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="events.html">Events</a>
-                    </li>
-                    <li>
-                        <a href="meetings.html">Meetings</a>
-                    </li>
-                    <li>
-                        <a class="active" href="index.html">Home</a>
-                    </li> 
-                </ul>
-            </nav>
-        </div>
+        <a href="index.html">
+        <h1 id="logo">St. John's Explorer Scouts</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+                <li>
+                    <a href="meetings.html">Meetings</a>
+                </li>
+                <li>
+                    <a class="active" href="index.html">Home</a>
+                </li> 
+            </ul>
+        </nav>
     </header>
 <!-----------------------------hero image------------------------>
-    <main>
-        
+    <main> 
         <section id="hero-outer">
             <div id="hero-image">
                 <div id="hero-text">
-                        <p>
-                            Developing skills for life... together
-                        </p>
+                    <h3>Developing skills for life... together</h3>
                 </div>
             </div>    
         </section>
     
     <!-----------------------------Landing links------------------------>
-    
         <section id="landing-page-links">
-            <div class="page-section">
+            <!--<div class="page-section">-->
                 <h2 class="section-heading">Try more. See more. Do more.</h2>
                 <p class="welcome-message">At Explorers, you'll stand on your own two feet, and make memories to last a lifetime. You'll be introduced to lots of new activities, people and skills for life.</p>
-            </div>    
-            <div class="row">
-                <div class="col-4">
-                    <div class="link-circle">
+            <!--</div>-->
+        </section>
+
+        <section id="landing-circles">
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="col-lg-4">
+                    <div id="circle">
                         <div class="link-img-container">
                             <a href="meetings.html">
                                 <div id="meetings">
@@ -71,9 +66,9 @@
                             </a>    
                         </div>
                     </div>
-                </div>    
-                <div class="col-4">
-                    <div class="link-circle">
+                </div>
+                <div class="col-lg-4">
+                    <div id="circle">
                         <div class="link-img-container">
                             <a href="events.html">
                                 <div id="events">
@@ -85,8 +80,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="link-circle">
+                <div class="col-lg-4">
+                    <div id="circle">
                         <div class="link-img-container">
                             <a href="contact.html">
                                 <div id="contact">
@@ -97,14 +92,13 @@
                             </a>
                         </div>
                     </div>
-                </div>      
-            </div>      
+                </div>    
+            </div>    
         </section>
-    
     </main>    
 <!-----------------------------footer with socials------------------------>
     
-    <footer class="container-fluid"> <!----------------------------NEED TO shorten footer height------------------------>
+    <footer class="container-fluid">
         <div class="row justify-content-between"> <!----Bootstrap documentation https://getbootstrap.com/docs/4.0/layout/grid/-->
                 <div class="col-sm-4">
                     <h4 class="footer-headings">Contact Us</h4>

@@ -49,6 +49,9 @@ Footer colour gradient made using tutorial from W3Schools https://www.w3schools.
 -Help centering the images on the Landing page circles was found here: https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching
 - Help creating the footer grid layout was found from https://getbootstrap.com/docs/4.0/layout/grid/
 - The stylised social media links in the footer took inspiration from  https://learn.codeinstitute.net/ci_program/diplomainwebappdevelopment
+
+-Help to center the images in the row found here: https://stackoverflow.com/questions/10879955/how-to-align-an-image-dead-center-with-bootstrap#:~:text=To%20center%20an%20image%20in,auto%20d%2Dblock%20...
+and https://stackoverflow.com/questions/42388989/bootstrap-center-vertical-and-horizontal-alignment to adjust the row height.
 ### Images
 -Hero Image taken from "https://www.freepik.com/photos/best-friends" https://www.freepik.com/author/standret
 
