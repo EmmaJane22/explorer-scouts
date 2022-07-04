@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color:#015958;
     background-color: #fff;
@@ -17,6 +17,11 @@ h1,
 h2 {
     font-family: 'Special Elite', sans-serif;
     color: #015958;
+}
+
+h3 {
+    font-family: 'Barlow', sans-serif;
+    color: #023535;
 }
 
 /* -----------------------------------------------logo */
@@ -124,8 +129,12 @@ header {
 }
 
 #landing-circles {
-    height: 400px;
     background-color: #0caba8;
+}
+
+.landing-container {
+    margin: 10px 0;
+    padding: 30px 10px
 }
 
 /*.page-section {
@@ -159,7 +168,7 @@ header {
     text-align: center;
 }
 
-.link-img-container {
+.link-img-outer {
     height: 300px;
 	width: 300px;
 	border-radius: 50%;
@@ -243,17 +252,6 @@ header {
 
 .col-extra-padding {
     padding: 25px;
-}
-
-.meeting-info {
-
-}
-.joining {
-
-}
-
-.badges {
-
 }
 
 .meeting-image {

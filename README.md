@@ -69,3 +69,5 @@ and https://stackoverflow.com/questions/42388989/bootstrap-center-vertical-and-h
 - Meeting page: Meeting image Photo by EKATERINA  BOLOVTSOVA: https://www.pexels.com/photo/teenagers-starting-campfire-5036952/
 
 - Meeting page hero image: Photo by EKATERINA  BOLOVTSOVA: https://www.pexels.com/photo/boys-walking-in-forest-together-5036789/
+
+- Meeting page Badge image: https://www.cleanpng.com/free/scout-badge.html
