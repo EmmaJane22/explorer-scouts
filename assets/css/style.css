@@ -229,6 +229,22 @@ header {
     background-position: bottom center; 
 }
 /* -----------------------------------------------Meeting Page */
+
+#meeting-hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/woods.jpg') no-repeat center center;
+    background-size: cover;
+    margin: auto;
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.col-extra-padding {
+    padding: 25px;
+}
+
 .meeting-info {
 
 }
@@ -237,8 +253,31 @@ header {
 }
 
 .badges {
-    
+
 }
+
+.meeting-image {
+    min-height: 230px;
+    background: url('../images/meeting.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.join-image {
+    min-height: 230px;
+    background: url('../images/group-friends.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.badge-image {
+    min-height: 230px;
+    background: url('../images/badge.png') no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+
 /* -----------------------------------------------Footer */
 
 

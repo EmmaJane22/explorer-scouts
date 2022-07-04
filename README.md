@@ -46,17 +46,26 @@ Footer colour gradient made using tutorial from W3Schools https://www.w3schools.
 ## Future Implementations 
 ## Credits
 ### Content
--Help centering the images on the Landing page circles was found here: https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching
+- Help centering the images on the Landing page circles was found here: https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching
 - Help creating the footer grid layout was found from https://getbootstrap.com/docs/4.0/layout/grid/
 - The stylised social media links in the footer took inspiration from  https://learn.codeinstitute.net/ci_program/diplomainwebappdevelopment
 
--Help to center the images in the row found here: https://stackoverflow.com/questions/10879955/how-to-align-an-image-dead-center-with-bootstrap#:~:text=To%20center%20an%20image%20in,auto%20d%2Dblock%20...
+- Help to center the images in the row found here: https://stackoverflow.com/questions/10879955/how-to-align-an-image-dead-center-with-bootstrap#:~:text=To%20center%20an%20image%20in,auto%20d%2Dblock%20...
 and https://stackoverflow.com/questions/42388989/bootstrap-center-vertical-and-horizontal-alignment to adjust the row height.
+
+- Information about Explorers has been taken from the official Scout website (www.scouts.org.uk) and the Sunderland District website (https://www.sunderlandscouts.org.uk/Explorers.html). 
+- Meeting page: Credit for grid used for the information containers on the Meeting page, - from Matt Rudge "Whiskey Drop Project" Code Institute
+
+
 ### Images
--Hero Image taken from "https://www.freepik.com/photos/best-friends" https://www.freepik.com/author/standret
+- Hero Image taken from "https://www.freepik.com/photos/best-friends" https://www.freepik.com/author/standret
 
--'Meeting' Photo by EKATERINA  BOLOVTSOVA: https://www.pexels.com/photo/happy-children-making-campfire-in-forest-5036955/
+- 'Meeting' Photo by EKATERINA  BOLOVTSOVA: https://www.pexels.com/photo/happy-children-making-campfire-in-forest-5036955/
 
--'Events' Photo by Spencer Gurley Films from Pexels (Three Men Riding Kayaks On Body Of Water)
+- 'Events' Photo by Spencer Gurley Films from Pexels (Three Men Riding Kayaks On Body Of Water)
 
--'Contact' Photo by cottonbro: https://www.pexels.com/photo/scouts-with-a-map-and-a-compass-9292813/
+- 'Contact' Photo by cottonbro: https://www.pexels.com/photo/scouts-with-a-map-and-a-compass-9292813/
+
+- Meeting page: Meeting image Photo by EKATERINA  BOLOVTSOVA: https://www.pexels.com/photo/teenagers-starting-campfire-5036952/
+
+- Meeting page hero image: Photo by EKATERINA  BOLOVTSOVA: https://www.pexels.com/photo/boys-walking-in-forest-together-5036789/
