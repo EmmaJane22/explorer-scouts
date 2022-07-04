@@ -56,6 +56,10 @@ and https://stackoverflow.com/questions/42388989/bootstrap-center-vertical-and-h
 - Information about Explorers has been taken from the official Scout website (www.scouts.org.uk) and the Sunderland District website (https://www.sunderlandscouts.org.uk/Explorers.html). 
 - Meeting page: Credit for grid used for the information containers on the Meeting page, - from Matt Rudge "Whiskey Drop Project" Code Institute
 
+- To autoplay and mute the video on the Events page, I used advice from https://www.w3schools.com/html/html_youtube.asp
+
+- Tutorial to add static images in Bootstrap found here: https://mdbootstrap.com/docs/standard/extended/gallery/
+
 
 ### Images
 - Hero Image taken from "https://www.freepik.com/photos/best-friends" https://www.freepik.com/author/standret
@@ -68,6 +72,14 @@ and https://stackoverflow.com/questions/42388989/bootstrap-center-vertical-and-h
 
 - Meeting page: Meeting image Photo by EKATERINA  BOLOVTSOVA: https://www.pexels.com/photo/teenagers-starting-campfire-5036952/
 
-- Meeting page hero image: Photo by EKATERINA  BOLOVTSOVA: https://www.pexels.com/photo/boys-walking-in-forest-together-5036789/
+- Meeting page - hero image: Photo by EKATERINA  BOLOVTSOVA: https://www.pexels.com/photo/boys-walking-in-forest-together-5036789/
 
-- Meeting page Badge image: https://www.cleanpng.com/free/scout-badge.html
+- Meeting page - Badge image: https://www.cleanpng.com/free/scout-badge.html
+
+- Events page - High Ropes image: Photo by Mike van Schoonderwalt from Pexels
+
+- Events page - Climbing image: Photo by Mike van Schoonderwalt from Pexels
+
+- Events page - Gokart image:Photo by Tima Miroshnichenko from Pexels
+
+- Events page - Climbing image: Photo by Tima Miroshnichenko: https://www.pexels.com/photo/a-girl-climbing-the-wall-5916172/
