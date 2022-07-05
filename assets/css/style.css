@@ -271,15 +271,88 @@ header {
     border-radius: 50%;
 }
 
-/* -----------------------------------------------Events */
+/* -----------------------------------------------Events Page*/
 iframe.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
-/* -----------------------------------------------Footer */
+/* -----------------------------------------------Contact Us page */
+#contact-us-section {
+    background-size: cover;
+    background-position: center;
+    height: 785px;
+    background-image: url('../images/mountainbackground.jpg');
+    margin: 0 0;
+}
 
+.form-section {
+    display: block;
+    text-align: center;
+}
+
+.form-area {
+    color: #132b40;
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 600px;
+    padding: 30px;
+    display: inline-block;
+    margin-top: 100px
+}
+
+.form-area h3 {
+    color: #023535;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-input {
+    background: inherit;
+    color: #132b40;
+    width: 100%;
+    height: 25px;
+    margin:  5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #132b40;
+    color: #023535;
+}
+
+#message_area {
+    background: inherit;
+    width: 100%;
+    color: #132b40;
+    margin: 5px 0 20px 0;
+    text-align: center;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+#message_area::placeholder {
+    color: #023535;
+    font-size: small;
+}
+
+.send-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #023535;
+    color: #fafafa;
+    display: inline-block;
+}
+
+.send-button:hover {
+    background-color: #015958;
+    color: #fff;
+}
+
+/* -----------------------------------------------Footer */
 
 footer {
     /* gradient colour made using tutorial from W3Schools */
