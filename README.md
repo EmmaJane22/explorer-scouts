@@ -45,7 +45,9 @@ Footer colour gradient made using tutorial from W3Schools https://www.w3schools.
 ## Deployment
 ## Future Implementations 
 ## Credits
+
 ### Content
+- The initial code for the header, footer and circle images/containers was taken from the Code Institute Love Running project.
 - Help centering the images on the Landing page circles was found here: https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching
 - Help creating the footer grid layout was found from https://getbootstrap.com/docs/4.0/layout/grid/
 - The stylised social media links in the footer took inspiration from  https://learn.codeinstitute.net/ci_program/diplomainwebappdevelopment
