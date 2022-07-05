@@ -29,7 +29,7 @@ h3 {
 
 /* -----------------------------------------------logo */
 
-header {
+/*header {
     background-color: #fff;
     width: 100%;
     height: 75px;
@@ -37,7 +37,7 @@ header {
     margin-bottom: 30px;
     position: fixed;
     z-index: 1;
-}
+}*/
 
 #logo {
     float: left;
@@ -64,6 +64,7 @@ header {
     color: #023535;
 }
  
+#menu,
 #logo  {
     line-height: 75px;
 }
@@ -82,7 +83,7 @@ header {
 #hero-outer {
     height: 400px;
     width: 100%;
-    margin: 105px 0 30px 0;
+    /*margin: 105px 0 30px 0;*/
     overflow: hidden;
     position: relative;
 }
@@ -94,7 +95,7 @@ header {
     background-size: cover;
     margin: auto;
     animation-name: hero-zoom;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
@@ -161,7 +162,7 @@ header {
     background-color: #57a3a1;
 }
 
-.circle {
+#circle {
     text-align: center;
 }
 
@@ -413,4 +414,29 @@ iframe.center {
 
 .social-media-hover i:hover {
     color: #fafafa;
+}
+
+/* ---------------------Media Queries--------*/
+/* ---------------------Tablet View*/
+@media screen and (max-width: 1393px) {
+        
+}
+
+
+@media screen and (max-width: 900px) {
+        
+}
+
+/* ---------------------SmartPhone View*/
+@media screen and (max-width: 493px) {
+    .welcome-message {
+        font-size: 100%;  
+    }
+
+    .section-heading {
+        font-size: 150%;
+        margin-top: 10px;
+        padding: 0;
+    }
+     /* ---------------------remove hero text*/   
 }
