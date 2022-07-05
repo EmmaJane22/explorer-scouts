@@ -16,7 +16,7 @@ body {
 h1,
 h2 {
     font-family: 'Special Elite', sans-serif;
-    color: #015958;
+    color: #023535;
 }
 
 h3 {
@@ -34,7 +34,7 @@ header {
     width: 100%;
     height: 75px;
     top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     position: fixed;
     z-index: 1;
 }
@@ -50,12 +50,13 @@ header {
 #menu {
     font-size: 120%;
     letter-spacing: 2px;
-    list-style-type: none;
+    
 }
 
 #menu li {
     float: right;
     margin-right: 30px;
+    list-style-type: none;
 }
 
 #menu a {
@@ -79,14 +80,15 @@ header {
 /* -----------------------------------------------Hero Image */
 
 #hero-outer {
-    height: 600px;
+    height: 400px;
     width: 100%;
+    margin: 105px 0 30px 0;
     overflow: hidden;
     position: relative;
 }
 
 #hero-image {
-    height: 600px;
+    height: 400px;
     width: 100%;
     background: url('../images/group-friends.jpg') no-repeat center center;
     background-size: cover;
@@ -105,7 +107,7 @@ header {
     }
 }
 
-#hero-text, #hero-text h3 {
+#hero-text h3 {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
 }
@@ -120,26 +122,21 @@ header {
     padding-left: 20px;
     padding-right: 20px;
     background-color: rgba(255, 255, 255, 0.7);
-    bottom: 200px;
+    bottom: 100px;
     right: 150px;
     position: absolute;
 }
 
-/* -----------------------------------------------Landing Page Links */
-#landing-page-links {
+/* -----------------------------------------------Landing Page message */
+#landing-page {
     height: 200px;
     background-color: #fff;
-}
-
-#landing-circles {
-    background-color: #0caba8;
 }
 
 .landing-container {
     margin: 10px 0;
     padding: 30px 10px
 }
-
 
 .section-heading {
     color: #023535;
@@ -160,6 +157,10 @@ header {
     font-size: 120%;
 }
 /* -----------------------------------------------Circles */
+#landing-circles {
+    background-color: #57a3a1;
+}
+
 .circle {
     text-align: center;
 }
@@ -236,7 +237,7 @@ header {
 /* -----------------------------------------------Meeting Page */
 
 #meeting-hero-image {
-    height: 600px;
+    height: 400px;
     width: 100%;
     background: url('../images/woods.jpg') no-repeat center center;
     background-size: cover;
@@ -272,6 +273,17 @@ header {
 }
 
 /* -----------------------------------------------Events Page*/
+#events-hero-image {
+    height: 400px;
+    width: 100%;
+    background: url('../images/events.jpg') no-repeat center center;
+    background-size: cover;
+    margin: auto;
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
 iframe.center {
     display: block;
     margin-left: auto;
@@ -353,48 +365,35 @@ iframe.center {
 }
 
 /* -----------------------------------------------Footer */
-
-footer {
+/* ---------------------code from https://codepen.io/cojdev/pen/QGwyOJ adapted here*/
+.footer {
     /* gradient colour made using tutorial from W3Schools */
-    background-image: linear-gradient(to bottom right, #015958, #0caba8);
+    background-image: linear-gradient(to bottom right, #013b3a, #57a3a1);
     color:#fafafa;
-    min-height: 150px;
-    width: auto;
-}
+    padding: 2rem;
+    li {
+        line-height: 1.5;
+      }
+      a {
+        color: #aaa;
+      }
+      hr {
+        max-width: $body-width;
+        border: 0;
+        height: 1px;
+        background: neutral($primary,2);
+      }
+    }
+/* ---------------------end of code from https://codepen.io/cojdev/pen/QGwyOJ*/
 
 .footer-headings {
     color: #fafafa;
     font-family: 'Special Elite', sans-serif;
     font-size: 150%;
     letter-spacing: 2px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 20px;
-}
-
-.list-contact {
-    list-style-type: none;
-}
-
-.list-contact-item {
-    color: #fafafa;
-    font-family: 'Roboto', sans-serif;
-    font-size: 120%;
-}
-
-.list-contact-item > a {
-    color: #fafafa;
-    font-family: 'Roboto', sans-serif;
-    font-size: 120%;
-}
-
-.list-contact-item > a:visited {
-    color: #132b40;
-}
-
-.list-contact-item > a:hover {
-    color: #fafafa;
-    text-decoration: none;
 }
 
 .list-contact-icon {
