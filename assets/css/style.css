@@ -239,16 +239,15 @@ header {
 #meeting-hero-image {
     height: 400px;
     width: 100%;
-    background: url('../images/woods.jpg') no-repeat center center;
+    background: url('../images/small_woods.png') no-repeat top center;
     background-size: cover;
     margin: auto;
     animation-name: hero-zoom;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
-
-.col-extra-padding {
-    padding: 25px;
+.meeting-info {
+    padding-top: 10px;
 }
 
 .meeting-image {
@@ -405,7 +404,7 @@ iframe.center {
 
 .social-media-icon {
     margin: 0 10px;
-    font-size: 32px;
+    font-size: 20px;
     color: #132b40;
     padding: 1.5%;
     margin-left: 20px;
@@ -442,9 +441,6 @@ iframe.center {
 
     #hero-outer {
         height: 200px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
     }
     
     #hero-image {
@@ -465,6 +461,21 @@ iframe.center {
         to {
             transform: scale(1.1);
         }
+    }
+
+    #hero-text {
+        display: none;
+    }
+
+    #meeting-hero-image {
+        height: 400px;
+        width: 100%;
+        background: url('../images/woods_xsmall.png') no-repeat right center;
+        background-size: cover;
+        margin: auto;
+        animation-name: hero-zoom;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
     }
     
     #landing-page {
@@ -514,6 +525,21 @@ iframe.center {
         margin: 10px auto;
     }
 
+    .meeting-info h2 {
+        font-size: 100%;
+    }
+
+    .meeting-info p {
+        font-size: 80%;
+        padding: 0;
+    }
+
+    .badge-image,
+    .join-image,
+    .meeting-image {
+        display: none;
+    }
+   
 }
 
 /* Tablet View */
