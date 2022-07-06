@@ -420,28 +420,102 @@ iframe.center {
 }
 
 /* Media Queries */
-/*----------------------------------- X-Small SmartPhone View */
-@media screen and (max-width: 375px) {
+/* XXX-Small SmartPhone View */
+@media screen and (max-width: 325px) {
+    header {
+        height: 80px;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    #logo {
+        font-size: 80%;
+        float: left;
+        margin: 0;
+        height: 30px;
+    }
+
+    #menu {
+        font-size: 40%;
+        float: left;
+        margin-left: 10px; 
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    #menu li {
+        padding: 0;
+        margin: 12px;
+    }
+
+    #menu,
+    #logo  {
+        line-height: 20px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+/* XX-Small SmartPhone View */
+@media screen and (max-width: 375px){
     header {
         height: 100px;
         width: 100%;
         text-align: center;
     }
+
     #logo {
-        font-size: 120%;
-        text-align: center;
+    font-size: 130%;
+    float: none;
+    margin-left: 10px;
+    }
+
+    #menu {
+        font-size: 70%;
         float: none;
-        margin: 0;
+        margin-left: 10px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    #menu,
+    #logo  {
+        line-height: 40px;
+    }
+
+    #landing-page {
+        height: 130px;
+        background-color: #fff;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* X-Small SmartPhone View */
+@media screen and (max-width: 493px){
+    header {
+        height: 100px;
+        width: 100%;
+    }
+
+    #logo {
+        font-size: 150%;
+        float: none;
+        margin-left: 20px;
+    }
+    
+    #menu,
+    #logo  {
+        line-height: 40px;
     }
 
     #menu {
         font-size: 80%;
-        float: left;
+        float: none;
         margin-left: 10px;
-    }
-    #menu,
-    #logo  {
-        line-height: 50px;
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 
     #hero-outer {
@@ -450,7 +524,7 @@ iframe.center {
     
     #hero-image {
         height: 200px;
-        background: url('../images/group-friends.jpg') no-repeat top center;
+        background: url('../images/friends_xsmall.png') no-repeat top center;
     }
 
     #hero-text {
@@ -468,14 +542,14 @@ iframe.center {
     }
 
     #landing-page {
-        height: 150px;
+        height: 130px;
         background-color: #fff;
         padding-left: 10px;
         padding-right: 10px;
     }
     
     .welcome-message {
-        font-size: 100%;
+        font-size: 90%;
         margin: 0;  
     }
 
@@ -535,74 +609,7 @@ iframe.center {
         height: 100%;
         width: 100%;
       }
-   
 }
-
-/* Tablet View */
-/*@media screen and (max-width: 900px) {
-    header {
-        height: 120px;
-        text-align: center;
-        position: static;
-    }
-    #logo {
-        font-size: 250%;
-        text-align: center;
-        float: none;
-    }
-
-    #menu-container {
-        clear: both;
-        margin: 0 auto;
-    }
-
-    #menu {
-        display: inline-block;
-    }
-
-    #landing-page {
-        height: 200px;
-        background-color: #fff;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    #hero-text {
-        color: #023535;
-        font-size: 150%;
-        text-align: center;
-        width: 200px;
-        height: 150px;
-        padding-top: 25px;
-        padding-left: 15px;
-        padding-right: 15px;
-        background-color: rgba(255, 255, 255, 0.7);
-        bottom: 120px;
-        right: 100px;
-        position: absolute;
-    }
-
-    #hero-text h3 {
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 1px;
-        font-size: 100%;
-    
-    .link-img-outer {
-        height: 250px;
-        width: 250px;
-        border-radius: 50%;
-        margin: 0 auto;
-        padding: 15px;
-        border: 10px solid #023535;
-    }
-    
-    .fade {
-        height: 200px;
-        width: 200x;
-        border-radius: 50%;
-        opacity: 1;
-    } 
-}
-
 /* SmartPhone View 
 @media screen and (max-width: 493px) {
     #logo {
@@ -685,7 +692,6 @@ iframe.center {
         margin: 0;
     }
 
-    .d-xs-none,
     .d-sm-none {
         display: none;
     }
@@ -694,6 +700,72 @@ iframe.center {
         padding: 10px;
         height: 60px;
     }
+}*/
+
+
+
+/* ------------------------------------------------Tablet View 
+/*@media screen and (max-width: 900px) {
+    header {
+        height: 120px;
+        text-align: center;
+        position: static;
+    }
+    #logo {
+        font-size: 250%;
+        text-align: center;
+        float: none;
+    }
+
+    #menu-container {
+        clear: both;
+        margin: 0 auto;
+    }
+
+    #menu {
+        display: inline-block;
+    }
+
+    #landing-page {
+        height: 200px;
+        background-color: #fff;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #hero-text {
+        color: #023535;
+        font-size: 150%;
+        text-align: center;
+        width: 200px;
+        height: 150px;
+        padding-top: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: rgba(255, 255, 255, 0.7);
+        bottom: 120px;
+        right: 100px;
+        position: absolute;
+    }
+
+    #hero-text h3 {
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 1px;
+        font-size: 100%;
+    
+    .link-img-outer {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        margin: 0 auto;
+        padding: 15px;
+        border: 10px solid #023535;
+    }
+    
+    .fade {
+        height: 200px;
+        width: 200x;
+        border-radius: 50%;
+        opacity: 1;
+    } 
 }
 */
-
