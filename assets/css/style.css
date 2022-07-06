@@ -243,9 +243,10 @@ header {
     background-size: cover;
     margin: auto;
     animation-name: hero-zoom;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 .meeting-info {
     padding-top: 10px;
 }
@@ -272,14 +273,18 @@ header {
 }
 
 /* Events Page */
+.events-info {
+    padding-top: 10px;
+}
+
 #events-hero-image {
     height: 400px;
     width: 100%;
-    background: url('../images/events.jpg') no-repeat center center;
+    background: url('../images/events_wide.png') no-repeat center center;
     background-size: cover;
     margin: auto;
     animation-name: hero-zoom;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
@@ -445,22 +450,7 @@ iframe.center {
     
     #hero-image {
         height: 200px;
-        width: 100%;
         background: url('../images/group-friends.jpg') no-repeat top center;
-        background-size: cover;
-        margin: auto;
-        animation-name: hero-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
-    }
-    
-    @keyframes hero-zoom {
-        from {
-            transform: scale(1);
-        }
-        to {
-            transform: scale(1.1);
-        }
     }
 
     #hero-text {
@@ -468,16 +458,15 @@ iframe.center {
     }
 
     #meeting-hero-image {
-        height: 400px;
-        width: 100%;
+        height: 200px;
         background: url('../images/woods_xsmall.png') no-repeat right center;
-        background-size: cover;
-        margin: auto;
-        animation-name: hero-zoom;
-        animation-duration: 3s;
-        animation-fill-mode: forwards;
     }
-    
+
+    #events-hero-image {
+        height: 200px;
+        background: url('../images/events_xsmall.png') no-repeat top center;
+    }
+
     #landing-page {
         height: 150px;
         background-color: #fff;
@@ -525,10 +514,12 @@ iframe.center {
         margin: 10px auto;
     }
 
+    .events-info h2,
     .meeting-info h2 {
         font-size: 100%;
     }
 
+    .events-info p,
     .meeting-info p {
         font-size: 80%;
         padding: 0;
@@ -539,6 +530,11 @@ iframe.center {
     .meeting-image {
         display: none;
     }
+
+    iframe.center {
+        height: 100%;
+        width: 100%;
+      }
    
 }
 
