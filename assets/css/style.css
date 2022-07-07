@@ -283,7 +283,36 @@ header {
     font-family: 'Roboto', sans-serif;
     margin: 30px 0;
     font-size: 120%;
-}  
+}
+
+.meeting-location {
+    color: #023535;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 120%;
+}
+/* Map */
+.map-responsive{
+    overflow:hidden;
+    padding-bottom: 30%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.map-contact-icon {
+    margin: 0 10px;
+    font-size: 25px;
+    color: #132b40;
+    padding: 1.5%;
+    float: right;
+}
 
 .meeting-image {
     min-height: 230px;
@@ -701,6 +730,14 @@ iframe.center {
         font-size: 100%;
     }  
 
+    .map-contact-icon {
+        margin: 0;
+        font-size: 25px;
+        color: #132b40;
+        padding-left: 15px;
+        float: left;
+    }
+
     .social-media-icon {
         display: inline-block;
         vertical-align: middle;
@@ -860,6 +897,7 @@ iframe.center {
         margin-bottom: 20px;
         font-size: 100%;
     } 
+    
 }
 
 /* XXX-Small SmartPhone View -For screen size smaller than 325px*/
