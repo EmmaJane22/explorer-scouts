@@ -89,7 +89,7 @@ header {
 #hero-image {
     height: 400px;
     width: 100%;
-    background: url('../images/friends_small.png') no-repeat center center;
+    background: url('../images/desktop_group.png') no-repeat center center;
     background-size: cover;
     margin: auto;
     animation-name: hero-zoom;
@@ -148,12 +148,23 @@ header {
     padding-bottom: 20px;
 }
 
+.welcome-section-heading{
+    font-size: 200%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
 .welcome-message {
     color: #023535;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin: 30px 0;
-    font-size: 120%;
+    font-size: 150%;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /* Circles */
@@ -239,7 +250,7 @@ header {
 #meeting-hero-image {
     height: 400px;
     width: 100%;
-    background: url('../images/small_woods.png') no-repeat top center;
+    background: url('../images/desktop_tent.png') no-repeat top center;
     background-size: cover;
     margin: auto;
     animation-name: hero-zoom;
@@ -303,7 +314,7 @@ header {
 #events-hero-image {
     height: 400px;
     width: 100%;
-    background: url('../images/events_wide.png') no-repeat center center;
+    background: url('../images/desktop_canoe.png') no-repeat center center;
     background-size: cover;
     margin: auto;
     animation-name: hero-zoom;
@@ -429,7 +440,7 @@ iframe.center {
 
 /* Media Queries */
 /*desktop view*/ 
-@media screen and (max-width: 1393px) {
+/*@media screen and (max-width: 1393px) 
     
     
     
@@ -479,6 +490,37 @@ iframe.center {
         padding: 0;
         margin: 10px;
     }
+
+    /*hero images*/
+    #hero-outer {
+        height: 400px;
+        width: 100%;
+    }
+    
+    #hero-image {
+        height: 400px;
+        width: 100%;
+        background: url('../images/mobile_group.png') no-repeat center center;
+        width: 100%;
+        background-size: cover;
+        margin: auto;
+    }
+
+    #meeting-hero-image {
+        height: 400px;
+        background: url('../images/mobile_tent.png') no-repeat right top;
+        width: 100%;
+        background-size: cover;
+        margin: auto;
+    }
+
+    #events-hero-image {
+        height: 400px;
+        background: url('../images/mobile_canoe.png') no-repeat top center;
+        width: 100%;
+        background-size: cover;
+        margin: auto;
+    }
     
     #landing-page {
         height: 150px;
@@ -486,7 +528,12 @@ iframe.center {
         padding-left: 10px;
         padding-right: 10px;
     }
-    
+    .welcome-section-heading{
+        font-size: 175%;
+        padding-top: 10px;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
 
     .welcome-message {
         font-size: 100%;  
@@ -574,7 +621,7 @@ iframe.center {
     }
 
     #logo {
-        font-size: 150%;
+        font-size: 175%;
         float: none;
         margin-left: 20px;
         text-align: center;
@@ -586,7 +633,7 @@ iframe.center {
     }
 
     #menu {
-        font-size: 80%;
+        font-size: 90%;
         float: right;
         margin-left: 10px;
         margin-right: 70px;
@@ -596,7 +643,7 @@ iframe.center {
         padding: 0;
         margin: 12px;
     }
-
+    /*hero images*/
     #hero-outer {
         height: 250px;
     }
@@ -604,7 +651,7 @@ iframe.center {
     #hero-image {
         height: 250px;
         width: 100%;
-        background: url('../images/friends.png') no-repeat center center;
+        background: url('../images/mobile_group.png') no-repeat center center;
         background-size: cover;
     }
 
@@ -613,13 +660,15 @@ iframe.center {
     }
 
     #meeting-hero-image {
-        height: 200px;
-        background: url('../images/small_woods.png') no-repeat center center;
+        height: 250px;
+        background: url('../images/mobile_tent.png') no-repeat top center;
+        width: 100%;
+        margin: auto;
     }
 
     #events-hero-image {
-        height: 200px;
-        background: url('../images/events_xsmall.png') no-repeat top center;
+        height: 250px;
+        background: url('../images/mobile_canoe.png') no-repeat top center;
     }
 
     #landing-page {
@@ -628,14 +677,20 @@ iframe.center {
         padding-left: 10px;
         padding-right: 10px;
     }
-    
+
+    .welcome-section-heading{
+        font-size: 150%;
+        padding-top: 10px;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
     .welcome-message {
-        font-size: 90%;
+        font-size: 100%;
         margin: 0;  
     }
 
     .section-heading {
-        font-size: 150%;
+        font-size: 175%;
         margin-top: 10px;
         margin-bottom: 5px;
         padding: 0;
@@ -646,18 +701,17 @@ iframe.center {
     }
     
     #meeting-information {
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
         background-color: #fff;
     }
     .meeting-heading {
         color: #023535;
         font-family: 'Special Elite', sans-serif;
         margin: 30px 0;
-        font-size: 150%;
+        font-size: 100%;
         margin-top: 10px;
-        padding-top: 20px;
+        padding-top: 0px;
     }
     
     .meeting-content {
@@ -697,13 +751,17 @@ iframe.center {
 
     .events-info h2,
     .meeting-info h2 {
-        font-size: 100%;
+        font-size: 150%;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .events-info p,
     .meeting-info p {
-        font-size: 80%;
+        font-size: 100%;
         padding: 0;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .badge-image,
@@ -764,26 +822,34 @@ iframe.center {
     }
     .welcome-message {
         font-size: 90%;
-        margin: 0;  
+        margin: 0; 
+        padding-left: 10px;
+        padding-right: 10px; 
     }
-
+    /*hero images*/
     #hero-outer {
-        height: 200px;
+        height: 250px;
     }
     
     #hero-image {
-        height: 200px;
+        height: 250px;
         width: 100%;
-        background: url('../images/friends.png') no-repeat center center;
+        background: url('../images/mobile_group.png') no-repeat center center;
         background-size: cover;
     }
 
     #meeting-hero-image {
-        height: 200px;
-        background: url('../images/woods_xsmall.png') no-repeat right top;
+        height: 250px;
+        background: url('../images/mobile_tent.png') no-repeat top center;
+        width: 100%;
+        margin: auto;
+    }
+
+    #events-hero-image {
+        height: 250px;
+        background: url('../images/mobile_canoe.png') no-repeat top center;
     }
     
-
     .meeting-info {
         padding-top: 10px;
         background-color: #fff;
@@ -791,8 +857,8 @@ iframe.center {
     
     #meeting-information {
         padding-top: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
         background-color: #fff;
     }
     .meeting-heading {
@@ -802,6 +868,8 @@ iframe.center {
         font-size: 200%;
         margin-top: 0;
         padding-top: 0;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     .meeting-content {
@@ -858,21 +926,28 @@ iframe.center {
         font-size: 80%;
         margin: 0;  
     }
-
+    /*hero images*/
     #hero-outer {
-        height: 180px;
+        height: 250px;
     }
-    
+
     #hero-image {
-        height: 180px;
+        height: 250px;
         width: 100%;
-        background: url('../images/friends.png') no-repeat center center;
+        background: url('../images/mobile_group.png') no-repeat center center;
         background-size: cover;
     }
 
     #meeting-hero-image {
-        height: 200px;
-        background: url('../images/woods_xsmall.png') no-repeat right top;
+        height: 250px;
+        background: url('../images/mobile_tent.png') no-repeat top left;
+        width: 100%;
+        margin: auto;
+    }
+
+    #events-hero-image {
+        height: 250px;
+        background: url('../images/mobile_canoe.png') no-repeat top center;
     }
 
     .meeting-info {
@@ -881,9 +956,7 @@ iframe.center {
     }
     
     #meeting-information {
-        padding-top: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 0;
         background-color: #fff;
     }
     .meeting-heading {
@@ -892,7 +965,7 @@ iframe.center {
         margin: 00;
         font-size: 150%;
         margin-top: 0;
-        padding-top: 0;
+        padding: 0;
     }
     
     .meeting-content {
@@ -900,6 +973,21 @@ iframe.center {
         font-family: 'Roboto', sans-serif;
         margin-top: 10px;
         margin-bottom: 20px;
-        font-size: 100%;
+        font-size: 80%;
+        padding: 0;
     } 
+    .events-info h2,
+    .meeting-info h2 {
+        font-size: 120%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .events-info p,
+    .meeting-info p {
+        font-size: 80%;
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
