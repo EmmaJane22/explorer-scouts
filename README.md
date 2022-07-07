@@ -49,11 +49,13 @@ Footer colour gradient made using tutorial from W3Schools https://www.w3schools.
 ### Content
 - The initial code for the header, footer and circle images/containers was taken from the Code Institute Love Running project.
 - Help centering the images on the Landing page circles was found here: https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching
-- Help creating the footer grid layout was found from https://getbootstrap.com/docs/4.0/layout/grid/
+- Help creating the footer grid layout was found from https://getbootstrap.com/docs/4.0/layout/grid/ and https://codepen.io/cojdev/pen/QGwyOJ
 - The stylised social media links in the footer took inspiration from  https://learn.codeinstitute.net/ci_program/diplomainwebappdevelopment
 
 - Help to center the images in the row found here: https://stackoverflow.com/questions/10879955/how-to-align-an-image-dead-center-with-bootstrap#:~:text=To%20center%20an%20image%20in,auto%20d%2Dblock%20...
 and https://stackoverflow.com/questions/42388989/bootstrap-center-vertical-and-horizontal-alignment to adjust the row height.
+
+- The gradient effect on the footer was made using a tutorial from W3Schools (https://www.w3schools.com/css/css3_gradients.asp).
 
 - Information about Explorers has been taken from the official Scout website (www.scouts.org.uk) and the Sunderland District website (https://www.sunderlandscouts.org.uk/Explorers.html). 
 - Meeting page: Credit for grid used for the information containers on the Meeting page, - from Matt Rudge "Whiskey Drop Project" Code Institute
@@ -64,6 +66,8 @@ and https://stackoverflow.com/questions/42388989/bootstrap-center-vertical-and-h
 
 
 ### Images
+- Images were compressed to allow faster loading using https://tinypng.com/
+
 - Hero Image taken from "https://www.freepik.com/photos/best-friends" https://www.freepik.com/author/standret
 
 - 'Meeting' Photo by EKATERINA  BOLOVTSOVA: https://www.pexels.com/photo/happy-children-making-campfire-in-forest-5036955/
