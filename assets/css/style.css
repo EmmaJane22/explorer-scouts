@@ -225,7 +225,7 @@ header {
     width: 100%;
     border-radius: 50%;
     background-size: cover;
-    background-position: bottom center; /*tutorial https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching */  
+    background-position: bottom center;  
 }
 
 #events {
@@ -245,8 +245,8 @@ header {
     background-size: cover;
     background-position: bottom center; 
 }
-/* Meeting Page */
 
+/* Meeting Page */
 #meeting-hero-image {
     height: 400px;
     width: 100%;
@@ -439,28 +439,7 @@ iframe.center {
 }
 
 /* Media Queries */
-/*desktop view*/ 
-/*@media screen and (max-width: 1393px) 
-    
-    
-    
-    
-    /*.link-img-outer {
-        height: 250px;
-        width: 250px;
-        border-radius: 50%;
-        margin: 0 auto;
-        padding: 15px;
-        border: 10px solid #023535;
-    }
-    
-    .fade {
-        height: 200px;
-        width: 200x;
-        border-radius: 50%;
-        opacity: 1;
-    } */
-/* ---------------------------------------------------SM, Tablet View */
+/* SM, Tablet View - For screen size smaller than 900px*/
 @media screen and (max-width: 900px) {
     header {
         height: 100px;
@@ -613,7 +592,7 @@ iframe.center {
     }
 }
 
-/* ------------------------------------------X-Small, SmartPhone View */
+/* X-Small, SmartPhone View -For screen size smaller than 493px */
 @media screen and (max-width: 493px){
     header {
         height: 100px;
@@ -643,6 +622,7 @@ iframe.center {
         padding: 0;
         margin: 12px;
     }
+
     /*hero images*/
     #hero-outer {
         height: 250px;
@@ -776,7 +756,7 @@ iframe.center {
       }
 } 
 
-/* XX-Small SmartPhone View -----------------------------------------------*/
+/* XX-Small SmartPhone View- For screen size smaller than 375px*/
 @media screen and (max-width: 375px){
     header {
         height: 100px;
@@ -861,6 +841,7 @@ iframe.center {
         padding-right: 10px;
         background-color: #fff;
     }
+
     .meeting-heading {
         color: #023535;
         font-family: 'Special Elite', sans-serif;
@@ -881,7 +862,7 @@ iframe.center {
     } 
 }
 
-/* XXX-Small SmartPhone View ---------------------------------------------------------*/
+/* XXX-Small SmartPhone View -For screen size smaller than 325px*/
 @media screen and (max-width: 325px) {
     header {
         height: 80px;
@@ -916,6 +897,7 @@ iframe.center {
         padding: 0;
         margin: 0;
     }
+
     .welcome-section-heading{
         font-size: 130%;
         padding-top: 10px;
@@ -926,6 +908,7 @@ iframe.center {
         font-size: 80%;
         margin: 0;  
     }
+
     /*hero images*/
     #hero-outer {
         height: 250px;
@@ -976,6 +959,7 @@ iframe.center {
         font-size: 80%;
         padding: 0;
     } 
+    
     .events-info h2,
     .meeting-info h2 {
         font-size: 120%;
