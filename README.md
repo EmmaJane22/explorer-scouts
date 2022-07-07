@@ -63,10 +63,12 @@ and https://stackoverflow.com/questions/42388989/bootstrap-center-vertical-and-h
 - To autoplay and mute the video on the Events page, I used advice from https://www.w3schools.com/html/html_youtube.asp
 
 - Tutorial to add static images in Bootstrap found here: https://mdbootstrap.com/docs/standard/extended/gallery/
+- Tutortal for making Google map responsive: https://blog.duda.co/responsive-google-maps-for-your-website 
 
 
 ### Images
 - Images were compressed to allow faster loading using https://tinypng.com/
+- Tutorial used to fit images without stretching https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching */
 
 - Hero Image taken from "https://www.freepik.com/photos/best-friends" https://www.freepik.com/author/standret
 
