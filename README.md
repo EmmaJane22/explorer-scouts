@@ -1,25 +1,45 @@
-# Explorer Scouts - Emma Scott
+# Explorer Scouts Website - Emma Scott
 # DIWAD_MS1: Diploma in Web Development: Milestone Project 1
- 
-## Table of Contents:
- 
-## User Experience (UX)
-### ***User stories***
-#### External Users' Goal:
-- The site users are Explorer Scout members and potential members and their parents/carers, who want to know more about the Explorer Scout pack and its activities. This may be to celebrate the Pack's achievements or to explore what the Pack participates in adn to discover when adn where they meet and who the contact person is to find out more information. 
-#### Site Owner's Goal:
-- The Explorer Scout group is interested in attracting and retaining members. It also wants to celebrate the group’s success and showcase their activities.
+* St. John's Explorer Scouts are a group of 15 Scouts who meet weekly from across Sunderland. The aim of the website is to appeal to current members and their parents and to attract new potential members to the group. The website is designed to be responsive so that it is appealing and can be used on any device. 
+* My website features four pages and has been built using HTML and CSS.
 
- 
- 
-### ***Design***
-#### Colour Palette
-https://color.adobe.com/Teals-color-theme-19171364/ 
+## Live Project
+[View the live project here.] 
 
-Footer colour gradient made using tutorial from W3Schools https://www.w3schools.com/css/css3_gradients.asp
+## Repository
+[View the project repository here.] (https://github.com/EmmaJane22/explorer-scouts.git)
 
-#### Typography
-- The 'Special Elite' font is the brand font used in the navigation bar at the top of the site. Sans-serif is the fallback font in case the title font is not being imported correctly. 
+# Table of Contents:
+ 
+# User Experience (UX)
+## User stories
+### External Users' Goals:
+* The site users are Explorer Scout members and potential members and their parents/carers, who want to know more about the Explorer Scout pack and it's activities.* 
+* External users may want to celebrate the Pack's achievements or to explore what events the Pack participates in.
+* External users may want to be able to know when and where the group meet and who the contact person is to find out more information.
+* External users may want to find out who an Explorer Scout group is made up of, age requirements and Scouting aims.  
+
+### Site Owner's Goals:
+* The Explorer Scout group is interested in attracting and retaining members.*
+* The group also wants to celebrate their successes and showcase their activities/events.
+* It requires a simple contact form that people can use to ask questions.
+
+### Design
+### Colour Palette
+<h2 align="center"><img src="assests/readme/colour_scheme.png"></h2>
+
+- A simple colour scheme has been used. The teal colours mimic the group's uniform. 
+
+- The footer section has a colour gradient made using a tutorial from W3Schools https://www.w3schools.com/css/css3_gradients.asp
+
+- I used https://color.adobe.com/ to decide on the colour scheme.
+
+### Typography
+- The 'Special Elite' font is used for the logo at the top of the site and for headings. Sans-serif is the fallback font in case the title font is not being imported correctly. 'Special ELite' adds character to the logo, as it creates an image of adventures.
+- The 'Roboto' font is used for all other body text. It is a clean and easily legible font.
+
+<!--Continue here-->
+
 #### Images
 
 ### ***Wireframes***
