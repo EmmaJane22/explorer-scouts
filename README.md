@@ -24,7 +24,7 @@
 * The group also wants to celebrate their successes and showcase their activities/events.
 * It requires a simple contact form that people can use to ask questions.
 
-### Design
+## Design
 ### Colour Palette
 <h2 align="center"><img src="assests/readme/colour_scheme.png"></h2>
 
