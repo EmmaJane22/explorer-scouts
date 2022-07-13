@@ -9,7 +9,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300px;
-    color:#015958;
+    color: #023535;
     background-color: #57a3a1;
 }
 
@@ -42,7 +42,6 @@ header {
     float: left;
     font-size: 300%;
     margin-left: 30px;
-    color: #023535;
     margin-top: 10px;
 }
 
@@ -111,7 +110,6 @@ header {
 }
 
 #hero-text {
-    color: #023535;
     font-size: 500%;
     text-align: center;
     width: 250px;
@@ -157,7 +155,6 @@ header {
 }
 
 .welcome-message {
-    color: #023535;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin: 30px 0;
@@ -269,7 +266,6 @@ header {
     background-color: #fff;
 }
 .meeting-heading {
-    color: #023535;
     margin: 30px 0;
     font-size: 200%;
     margin-top: 10px;
@@ -277,30 +273,28 @@ header {
 }
 
 .meeting-content {
-    color: #023535;
     margin: 30px 0;
     font-size: 120%;
 }
 
 .meeting-location {
-    color: #023535;
     margin: 0;
     font-size: 120%;
 }
 /* Map */
 .map-responsive{
-    overflow:hidden;
+    overflow: hidden;
     padding-bottom: 30%;
-    position:relative;
-    height:0;
+    position: relative;
+    height: 0;
 }
 
 .map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 .map-contact-icon {
     margin: 0 10px;
@@ -374,10 +368,6 @@ iframe.center {
     padding: 30px;
     display: inline-block;
     margin-top: 100px
-}
-
-.form-area h3 {
-    color: #023535;
 }
 
 .text-input {
@@ -588,7 +578,6 @@ iframe.center {
     }
 
     .meeting-heading {
-        color: #023535;
         margin: 30px 0;
         font-size: 150%;
         margin-top: 5px;
@@ -596,7 +585,6 @@ iframe.center {
     }
     
     .meeting-content {
-        color: #023535;
         margin: 30px 0;
         font-size: 100%;
     }   
@@ -706,8 +694,8 @@ iframe.center {
         padding-right: 10px;
         background-color: #fff;
     }
+    
     .meeting-heading {
-        color: #023535;
         margin: 30px 0;
         font-size: 100%;
         margin-top: 10px;
@@ -715,7 +703,6 @@ iframe.center {
     }
     
     .meeting-content {
-        color: #023535;
         margin: 30px 0;
         font-size: 100%;
     }  
@@ -880,12 +867,10 @@ iframe.center {
     }
     
     .meeting-content {
-        color: #023535;
         margin-top: 10px;
         margin-bottom: 20px;
         font-size: 100%;
     } 
-    
 }
 
 /* XXX-Small SmartPhone View -For screen size smaller than 325px*/
@@ -969,7 +954,6 @@ iframe.center {
         background-color: #fff;
     }
     .meeting-heading {
-        color: #023535;
         margin: 00;
         font-size: 150%;
         margin-top: 0;
@@ -977,7 +961,6 @@ iframe.center {
     }
     
     .meeting-content {
-        color: #023535;
         margin-top: 10px;
         margin-bottom: 20px;
         font-size: 80%;
