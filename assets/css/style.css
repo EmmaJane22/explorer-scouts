@@ -23,6 +23,7 @@ h3 {
     font-family: 'Roboto', sans-serif;
     color: #023535;
 }
+
 .container {
     background-color: #fff;
 }
@@ -453,6 +454,13 @@ iframe.center {
 }
 
 /* Media Queries */
+/* small desktop - For screen size smaller than 1160px*/
+@media screen and (max-width: 1160px) {
+    #logo {
+        font-size: 170%;
+    }
+}
+
 /* SM, Tablet View - For screen size smaller than 900px*/
 @media screen and (max-width: 900px) {
     header {
@@ -521,7 +529,8 @@ iframe.center {
         padding-left: 10px;
         padding-right: 10px;
     }
-    .welcome-section-heading{
+
+    .welcome-section-heading {
         font-size: 175%;
         padding-top: 10px;
         text-align: center;
@@ -531,11 +540,11 @@ iframe.center {
         font-size: 100%;  
     }
 
-    .section-heading {
+    /*.section-heading {
         font-size: 150%;
         margin-top: 10px;
         padding: 0;
-    }   
+    } */ 
     
     .link-img-outer {
         height: 250px;
@@ -673,17 +682,19 @@ iframe.center {
         font-family: 'Roboto', sans-serif;
         text-align: center;
     }
+    
     .welcome-message {
         font-size: 100%;
         margin: 0;  
     }
 
-    .section-heading {
+    /*.section-heading {
         font-size: 175%;
         margin-top: 10px;
         margin-bottom: 5px;
         padding: 0;
-    }
+    }*/
+
     .meeting-info {
         padding-top: 10px;
         background-color: #fff;
@@ -953,6 +964,7 @@ iframe.center {
         padding: 0;
         background-color: #fff;
     }
+
     .meeting-heading {
         margin: 00;
         font-size: 150%;
@@ -981,4 +993,5 @@ iframe.center {
         padding-left: 10px;
         padding-right: 10px;
     }
+
 }
