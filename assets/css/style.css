@@ -79,9 +79,7 @@ header {
 }
 /* end Hover classes */
 
-
 /*new hero image*/
-
 .hero-outer {
     height: 400px;
     width: 100%;
@@ -94,7 +92,6 @@ header {
     height:400px;
     background: url('../images/desktop_group.png') no-repeat center center;
     background-size: cover;
-    /*background-attachment: fixed;*/
     margin: auto;
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -191,7 +188,7 @@ header {
 /* End of Circles on Home Page*/ 
 
 /* Meeting Page */
-/* new hero image */
+/* hero image */
 .meet-image {
     width:100%;
     height:400px;
@@ -241,9 +238,6 @@ header {
 }
 
 /* Events Page */
-.events-info {
-    padding-top: 10px;
-}
 
 /*new hero image*/
 .events-image {
@@ -418,39 +412,8 @@ iframe.center {
 
 /* X-Small, SmartPhone View -For screen size smaller than 493px */
 @media screen and (max-width: 493px) {
-    .events-info h2 {
-        font-size: 150%;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    .events-info p {
-        font-size: 100%;
-        padding: 0;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
     iframe.center {
         height: 100%;
         width: 100%;
       }
 } 
-
-
-/* XXX-Small SmartPhone View -For screen size smaller than 325px*/
-@media screen and (max-width: 325px) {
-      
-    .events-info h2 {
-        font-size: 120%;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .events-info p {
-        font-size: 80%;
-        padding: 0;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-}
