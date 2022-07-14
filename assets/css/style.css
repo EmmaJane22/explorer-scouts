@@ -110,19 +110,9 @@ header {
     }
 }
 
-/* Landing Page message*/
-
-.welcome-message {
-    padding-left: 10px;
-    padding-right: 10px; 
-}*/
-
-
-
-
-/* Circles */
+/* Circles on Home Page*/ 
 #landing-circles {
-    background-color: #57a3a1;
+    background-color: #fff;
 }
 
 #circle {
@@ -133,7 +123,7 @@ header {
     height: 300px;
 	width: 300px;
 	border-radius: 50%;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 15px;
     border: 10px solid #023535;
 }
@@ -173,16 +163,16 @@ header {
 }
 
 #meetings {
-    background: url(../images/meeting.jpg);
+    background: url(../images/mobile_tent.png);
     height: 100%;
     width: 100%;
     border-radius: 50%;
     background-size: cover;
-    background-position: bottom center;  
+    background-position: left center;  
 }
 
 #events {
-    background: url(../images/events.jpg);
+    background: url(../images/mobile_canoe2.png);
     height: 100%;
     width: 100%;
     border-radius: 50%;
@@ -191,13 +181,14 @@ header {
 }
 
 #contact {
-    background: url(../images/contact.jpg);
+    background: url(../images/mobile_contact_us1.png);
     height: 100%;
     width: 100%;
     border-radius: 50%;
     background-size: cover;
     background-position: bottom center; 
 }
+/* End of Circles on Home Page*/ 
 
 /* Meeting Page */
 /* new hero image */
@@ -304,7 +295,6 @@ header {
     height:400px;
     background: url('../images/desktop_canoe.png') no-repeat center center;
     background-size: cover;
-    /*background-attachment: fixed;*/
     margin: auto;
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -434,36 +424,6 @@ iframe.center {
 /* Media Queries */
 /* SM, Tablet View - For screen size smaller than 900px*/
 @media screen and (max-width: 900px) {
-    
-    .link-img-outer {
-        height: 250px;
-        width: 250px;
-        margin: 10px auto;
-        padding: 10px;
-        border: 5px solid #023535;
-    }
-    
-    .fade {
-        height: 220px;
-        width: 220px;
-        border-radius: 50%;
-        opacity: 1;
-    }
-    
-    #hero-text {
-        bottom: 60px;
-        right: 80px;
-        width: 190px;
-        height: 150px;
-        padding-top: 25px;
-        padding-left: 15px;
-        padding-right: 15px;
-        font-size: 140%;
-    }
-    #hero-text h3 {
-        font-size: 100%;
-    }
-
     .form-area {
         margin-top: 120px;
     }
@@ -501,7 +461,7 @@ iframe.center {
 
 /* X-Small, SmartPhone View -For screen size smaller than 493px */
 @media screen and (max-width: 493px){
-    /*hero images*/
+    /*new hero images*/
     .hero-outer {
         height: 250px;
     }
@@ -573,10 +533,6 @@ iframe.center {
 
     .social {
         text-align: center;
-    }
-    
-    .link-img-outer {
-        margin: 10px auto;
     }
 
     .events-info h2,
@@ -679,5 +635,4 @@ iframe.center {
         padding-left: 10px;
         padding-right: 10px;
     }
-
 }
