@@ -9,7 +9,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #023535;
-    background-color: #fafafa;
+    background-color: #fff;
     text-align: center;
 }
 
@@ -25,7 +25,7 @@ h3 {
 }
 
 .container {
-    background-color: #fafafa;
+    background-color: #fff;
 }
 
 /* Header & Nav Bar */
