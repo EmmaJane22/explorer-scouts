@@ -49,6 +49,9 @@
 - Provide information on the packs location, meeting times, contact details and any external resources. 
 ## Features
 #### Navigation Bar
+- Code sourced from the Code Institute Whiskey Drop tutorial.
+
+- Hover effects sourced from https://stackoverflow.com/questions/58939609/bootstrap-4-nav-link-hover-effect
 #### The Header
 #### Hero Images
 #### The Footer
@@ -111,3 +114,5 @@ and https://stackoverflow.com/questions/42388989/bootstrap-center-vertical-and-h
 - Events page - Gokart image:Photo by Tima Miroshnichenko from Pexels
 
 - Events page - Climbing image: Photo by Tima Miroshnichenko: https://www.pexels.com/photo/a-girl-climbing-the-wall-5916172/
+
+- Meetings page - badges Photo by Janneck Lange: https://www.pexels.com/photo/a-two-way-radio-mouthpiece-on-a-scout-collar-6768469/
