@@ -52,36 +52,10 @@ header {
 
 
 /* nav links */
-/*#menu {
-    font-size: 120%;
-    letter-spacing: 2px;
-}*/
-
-/* #menu li {
-    float: right;
-    margin-right: 30px;
-    list-style-type: none;
-}
-
-#menu a {
-    text-decoration: none;
-    color: #023535;
-}
- 
-#menu,
-#logo  {
-    line-height: 75px;
-}
-
-#menu a:hover {
-    border-bottom: 3px solid #57A3A1;
-    text-decoration: none;
-}
-*/
 /* Hover classes sourced from Stack Overflow article (see README)*/
 
 .navbar-light .navbar-nav .nav-link {
-    color: #015958;
+    color: #023535;
 }
 
 .nav-link {
@@ -95,35 +69,32 @@ header {
 }
 
 .nav-link:hover {
-    border-color: #015958;
+    border-color: #132b40;
 }
 
 .active .nav-link {
     border-bottom: 2px solid transparent;
-    color: #015958;
+    color: #023535;
     border-color: #015958;
 }
+/* end Hover classes */
 
 
+/*new hero image*/
 
-
-
-
-
-/* Hero Image */
-
-#hero-outer {
+.hero-outer {
     height: 400px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#hero-image {
-    height: 400px;
-    width: 100%;
+.heroimage {
+    width:100%;
+    height:400px;
     background: url('../images/desktop_group.png') no-repeat center center;
     background-size: cover;
+    /*background-attachment: fixed;*/
     margin: auto;
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -137,24 +108,6 @@ header {
     to {
         transform: scale(1.1);
     }
-}
-
-#hero-text h3 {
-    letter-spacing: 1px;
-}
-
-#hero-text {
-    font-size: 500%;
-    text-align: center;
-    width: 250px;
-    height: 200px;
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: rgba(255, 255, 255, 0.7);
-    bottom: 80px;
-    right: 150px;
-    position: absolute;
 }
 
 /* Landing Page message */
@@ -277,15 +230,26 @@ header {
 }
 
 /* Meeting Page */
-#meeting-hero-image {
-    height: 400px;
-    width: 100%;
-    background: url('../images/desktop_tent.png') no-repeat top center;
+/* new hero image */
+.meet-image {
+    width:100%;
+    height:400px;
+    background: url('../images/desktop_tent.png') no-repeat center center;
     background-size: cover;
+    /*background-attachment: fixed;*/
     margin: auto;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
 
 .meeting-info {
@@ -364,15 +328,26 @@ header {
     padding-top: 10px;
 }
 
-#events-hero-image {
-    height: 400px;
-    width: 100%;
+/*new hero image*/
+.events-image {
+    width:100%;
+    height:400px;
     background: url('../images/desktop_canoe.png') no-repeat center center;
     background-size: cover;
+    /*background-attachment: fixed;*/
     margin: auto;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
 
 iframe.center {
@@ -487,78 +462,9 @@ iframe.center {
 }
 
 /* Media Queries */
-/* small desktop - For screen size smaller than 1160px*/
-@media screen and (max-width: 1160px) {
-    #logo {
-        font-size: 170%;
-    }
-}
-
 /* SM, Tablet View - For screen size smaller than 900px*/
 @media screen and (max-width: 900px) {
-    header {
-        height: 100px;
-        width: 100%;
-        margin-bottom: 0;
-    }
-
-    #logo {
-        font-size: 200%;
-        float: left;
-        margin-left: 20px;
-        text-align: center;
-    }
-
-    #menu {
-        font-size: 90%;
-        float: right;
-        margin-left: 10px;
-        margin-bottom: 0;
-        margin-right: 15px;
-        padding-bottom: 0;
-    }
-    
-    #menu,
-    #logo  {
-        line-height: 30px;
-    }
-
-    #menu li {
-        padding: 0;
-        margin: 5px;
-    }
-
-    /*hero images*/
-    #hero-outer {
-        height: 400px;
-        width: 100%;
-    }
-    
-    #hero-image {
-        height: 400px;
-        width: 100%;
-        background: url('../images/mobile_group.png') no-repeat center center;
-        width: 100%;
-        background-size: cover;
-        margin: auto;
-    }
-
-    #meeting-hero-image {
-        height: 400px;
-        background: url('../images/mobile_tent.png') no-repeat right top;
-        width: 100%;
-        background-size: cover;
-        margin: auto;
-    }
-
-    #events-hero-image {
-        height: 400px;
-        background: url('../images/mobile_canoe.png') no-repeat top center;
-        width: 100%;
-        background-size: cover;
-        margin: auto;
-    }
-    
+      
     #landing-page {
         height: 150px;
         background-color: #fff;
@@ -575,12 +481,6 @@ iframe.center {
     .welcome-message {
         font-size: 100%;  
     }
-
-    /*.section-heading {
-        font-size: 150%;
-        margin-top: 10px;
-        padding: 0;
-    } */ 
     
     .link-img-outer {
         height: 250px;
@@ -648,63 +548,24 @@ iframe.center {
 
 /* X-Small, SmartPhone View -For screen size smaller than 493px */
 @media screen and (max-width: 493px){
-    header {
-        height: 100px;
-        width: 100%;
-        text-align: center;
-    }
-
-    #logo {
-        font-size: 140%;
-        float: left;
-        margin-left: 10px;
-        text-align: center;
-    }
-    
-    #menu,
-    #logo  {
-        line-height: 30px;
-    }
-
-    #menu {
-        font-size: 80%;
-        float: right;
-        margin-left: 10px;
-        margin-right: 15px;
-    }
-        
-    #menu li {
-        padding: 0;
-        margin: 5px;
-    }
-
     /*hero images*/
-    #hero-outer {
+    .hero-outer {
         height: 250px;
     }
     
-    #hero-image {
+    .heroimage {
         height: 250px;
-        width: 100%;
-        background: url('../images/mobile_group.png') no-repeat center center;
-        background-size: cover;
     }
 
-    #hero-text {
-        display: none;
+    .meet-image {
+        height: 250px;
+        background: url('../images/desktop_tent.png') no-repeat left center;
     }
 
-    #meeting-hero-image {
+    .events-image {
         height: 250px;
-        background: url('../images/mobile_tent.png') no-repeat top center;
-        width: 100%;
-        margin: auto;
     }
-
-    #events-hero-image {
-        height: 250px;
-        background: url('../images/mobile_canoe.png') no-repeat top center;
-    }
+    /*hero image end*/
 
     #landing-page {
         height: 130px;
@@ -724,13 +585,6 @@ iframe.center {
         font-size: 100%;
         margin: 0;  
     }
-
-    /*.section-heading {
-        font-size: 175%;
-        margin-top: 10px;
-        margin-bottom: 5px;
-        padding: 0;
-    }*/
 
     .meeting-info {
         padding-top: 10px;
@@ -819,37 +673,7 @@ iframe.center {
 } 
 
 /* XX-Small SmartPhone View- For screen size smaller than 375px*/
-@media screen and (max-width: 375px){
-    header {
-        height: 100px;
-        width: 100%;
-        text-align: center;
-    }
-
-    #logo {
-        font-size: 140%;
-        float: left;
-        margin: 0;
-        margin-left: 10px;
-    }
-
-    #menu {
-        font-size: 70%;
-        float: none;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    
-    #menu li {
-        padding: 0;
-        margin: 5px;
-    }
-
-    #menu,
-    #logo  {
-        line-height: 40px;
-    }
-
+@media screen and (max-width: 375px) {
     #landing-page {
         height: 130px;
         background-color: #fff;
@@ -868,29 +692,6 @@ iframe.center {
         margin: 0; 
         padding-left: 10px;
         padding-right: 10px; 
-    }
-    /*hero images*/
-    #hero-outer {
-        height: 250px;
-    }
-    
-    #hero-image {
-        height: 250px;
-        width: 100%;
-        background: url('../images/mobile_group.png') no-repeat center center;
-        background-size: cover;
-    }
-
-    #meeting-hero-image {
-        height: 250px;
-        background: url('../images/mobile_tent.png') no-repeat top center;
-        width: 100%;
-        margin: auto;
-    }
-
-    #events-hero-image {
-        height: 250px;
-        background: url('../images/mobile_canoe.png') no-repeat top center;
     }
     
     .meeting-info {
@@ -924,40 +725,6 @@ iframe.center {
 
 /* XXX-Small SmartPhone View -For screen size smaller than 325px*/
 @media screen and (max-width: 325px) {
-    header {
-        height: 80px;
-        width: 100%;
-        text-align: center;
-        margin: 0;
-        padding-top: 10px;
-    }
-
-    #logo {
-        font-size: 110%;
-        float: none;
-        height: 30px;
-    }
-
-    #menu {
-        font-size: 70%;
-        float: none;
-        margin-left: 10px; 
-        margin-bottom: 0;
-        padding: 0;
-    }
-
-    #menu li {
-        padding: 0;
-        margin: 8px;
-    }
-
-    #menu,
-    #logo  {
-        line-height: 20px;
-        padding: 0;
-        margin: 0;
-    }
-
     .welcome-section-heading{
         font-size: 130%;
         padding-top: 10px;
@@ -969,30 +736,7 @@ iframe.center {
         margin: 0;  
     }
 
-    /*hero images*/
-    #hero-outer {
-        height: 250px;
-    }
-
-    #hero-image {
-        height: 250px;
-        width: 100%;
-        background: url('../images/mobile_group.png') no-repeat center center;
-        background-size: cover;
-    }
-
-    #meeting-hero-image {
-        height: 250px;
-        background: url('../images/mobile_tent.png') no-repeat top left;
-        width: 100%;
-        margin: auto;
-    }
-
-    #events-hero-image {
-        height: 250px;
-        background: url('../images/mobile_canoe.png') no-repeat top center;
-    }
-
+    
     .meeting-info {
         padding-top: 10px;
         background-color: #fff;
