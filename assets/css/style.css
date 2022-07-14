@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Special+Elite&display=swap');
 
 * {
     margin: 0;
@@ -110,45 +110,15 @@ header {
     }
 }
 
-/* Landing Page message */
-#landing-page {
-    height: 200px;
-    background-color: #fff;
-}
-
-.landing-container {
-    margin: 10px 0;
-    padding: 30px 10px
-}
-
-/*.section-heading {
-    color: #023535;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    margin: 30px 0;
-    font-size: 200%;
-    margin-top: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}*/
-
-.welcome-section-heading{
-    font-size: 200%;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
+/* Landing Page message*/
 
 .welcome-message {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    margin: 30px 0;
-    font-size: 150%;
-    padding-left: 30px;
-    padding-right: 30px;
-}
+    padding-left: 10px;
+    padding-right: 10px; 
+}*/
+
+
+
 
 /* Circles */
 #landing-circles {
@@ -464,23 +434,6 @@ iframe.center {
 /* Media Queries */
 /* SM, Tablet View - For screen size smaller than 900px*/
 @media screen and (max-width: 900px) {
-      
-    #landing-page {
-        height: 150px;
-        background-color: #fff;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .welcome-section-heading {
-        font-size: 175%;
-        padding-top: 10px;
-        text-align: center;
-    }
-
-    .welcome-message {
-        font-size: 100%;  
-    }
     
     .link-img-outer {
         height: 250px;
@@ -566,25 +519,6 @@ iframe.center {
         height: 250px;
     }
     /*hero image end*/
-
-    #landing-page {
-        height: 130px;
-        background-color: #fff;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .welcome-section-heading{
-        font-size: 150%;
-        padding-top: 10px;
-        font-family: 'Roboto', sans-serif;
-        text-align: center;
-    }
-    
-    .welcome-message {
-        font-size: 100%;
-        margin: 0;  
-    }
 
     .meeting-info {
         padding-top: 10px;
@@ -674,25 +608,6 @@ iframe.center {
 
 /* XX-Small SmartPhone View- For screen size smaller than 375px*/
 @media screen and (max-width: 375px) {
-    #landing-page {
-        height: 130px;
-        background-color: #fff;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .welcome-section-heading{
-        font-size: 140%;
-        padding-top: 10px;
-        font-family: 'Roboto', sans-serif;
-        text-align: center;
-    }
-    .welcome-message {
-        font-size: 90%;
-        margin: 0; 
-        padding-left: 10px;
-        padding-right: 10px; 
-    }
     
     .meeting-info {
         padding-top: 10px;
@@ -725,17 +640,6 @@ iframe.center {
 
 /* XXX-Small SmartPhone View -For screen size smaller than 325px*/
 @media screen and (max-width: 325px) {
-    .welcome-section-heading{
-        font-size: 130%;
-        padding-top: 10px;
-        font-family: 'Roboto', sans-serif;
-        text-align: center;
-    }
-    .welcome-message {
-        font-size: 80%;
-        margin: 0;  
-    }
-
     
     .meeting-info {
         padding-top: 10px;
