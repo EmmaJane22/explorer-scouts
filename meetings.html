@@ -6,38 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A website providing information about Explorer Scouts">
     <meta name="keywords" content="explorer scouts, explorers, scouts, st johns">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" type="text/css"/>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
-    <title>Explorer Scouts</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>St.John's Explorers</title>
 </head>
 <body>
-    <!--header and navbar-->
-    <header>
-        <div id="logo-container">
-            <a href="index.html">
-            <h1 id="logo">St. John's Explorer Scouts</h1>
+<!--Nav bar --taken from Code Institute Whiskey Drop tutorial-->
+<header>
+    <nav class="navbar navbar-light navbar-expand-lg bg-light">
+        <div class="container-fluid" id="page-top">
+            <a class="navbar-brand" href="index copy.html">
+                <span class="logo">St John's Explorers</span>
             </a>
-        </div>
-        <div id="menu-container">
-            <nav>
-                <ul id="menu">
-                    <li>
-                        <a href="contact.html">Contact Us</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a>
                     </li>
-                    <li>
-                        <a href="events.html">Events</a>
+                    <li class="active nav-item">
+                        <a class="nav-link" href="meetings.html">Meetings</a>
                     </li>
-                    <li>
-                        <a class="active" href="meetings.html">Meetings</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
                     </li>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
                 </ul>
-            </nav>
+            </div>
         </div>
-    </header>
+    </nav>
+</header>
     <!--hero image-->
     <main> 
         <section id="hero-outer">
@@ -151,5 +156,9 @@
             </div>
         </div>
     </footer>
+<!--Bootstrap JS-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
