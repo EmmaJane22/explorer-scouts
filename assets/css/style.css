@@ -8,9 +8,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300px;
     color: #023535;
-    background-color: #57a3a1;
+    background-color: #fafafa;
+    text-align: center;
 }
 
 h1,
@@ -25,34 +25,39 @@ h3 {
 }
 
 .container {
-    background-color: #fff;
+    background-color: #fafafa;
 }
 
-/* logo */
+/* Header & Nav Bar */
 
 header {
-    background-color: #fff;
-    width: 100%;
-    top: 0;
-    margin-bottom: 30px;
-    position: fixed;
-    z-index: 1;
+    margin: 0;
 }
 
-#logo {
-    float: left;
-    font-size: 250%;
-    margin-left: 30px;
-    margin-top: 10px;
+.navbar-brand {
+    margin: 0;
 }
+
+.logo {
+    font-family: 'Special Elite', sans-serif;
+    color: #023535;
+    margin: 20px;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+#page-top {
+    padding-top: 4px;
+}
+
 
 /* nav links */
-#menu {
+/*#menu {
     font-size: 120%;
     letter-spacing: 2px;
-}
+}*/
 
-#menu li {
+/* #menu li {
     float: right;
     margin-right: 30px;
     list-style-type: none;
@@ -72,10 +77,38 @@ header {
     border-bottom: 3px solid #57A3A1;
     text-decoration: none;
 }
+*/
+/* Hover classes sourced from Stack Overflow article (see README)*/
 
-.active {
-    border-bottom: 3px solid #015958;   
+.navbar-light .navbar-nav .nav-link {
+    color: #015958;
 }
+
+.nav-link {
+    padding: 0.2rem 1rem;
+    margin: 0.3rem;
+    border-bottom: 2px solid transparent;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.nav-link:hover {
+    border-color: #015958;
+}
+
+.active .nav-link {
+    border-bottom: 2px solid transparent;
+    color: #015958;
+    border-color: #015958;
+}
+
+
+
+
+
+
 
 /* Hero Image */
 
