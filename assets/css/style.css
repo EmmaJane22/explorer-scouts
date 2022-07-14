@@ -393,28 +393,22 @@ iframe.center {
     }
 
 .footer-headings {
-    color: #fafafa;
+    color: #fff;
     font-family: 'Special Elite', sans-serif;
-    font-size: 150%;
-    letter-spacing: 2px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
 }
 
 .list-contact-icon {
     margin: 0 10px;
-    font-size: 25px;
+    font-size: 30px;
     color: #132b40;
     padding: 1.5%;
 }
 
 .social-media-icon {
-    margin: 0 10px;
-    font-size: 20px;
+    font-size: 30px;
     color: #132b40;
     padding: 1.5%;
-    margin-left: 20px;
+    margin: 0;
 }
 
 .social-media-hover i:hover {
@@ -446,16 +440,20 @@ iframe.center {
         margin: 30px 0;
         font-size: 100%;
     }   
-    
+}
+
+/* Small, SmartPhone View -For screen size smaller than 576px */
+@media screen and (max-width: 576px){
+    .footer-headings {
+        display: none;
+    }
     .social-media-icon {
-        display: inline-block;
-        vertical-align: middle;
-        float: none;
-        margin: 0;
+        margin: 10px;
+        font-size: 30px;
     }
 
-    .footer {
-        height: 180px;
+    .list-contact-icon {
+        display: none;
     }
 }
 
@@ -509,30 +507,6 @@ iframe.center {
         color: #132b40;
         padding-left: 15px;
         float: left;
-    }
-
-    .social-media-icon {
-        display: inline-block;
-        vertical-align: middle;
-        float: none;
-        margin: 0;
-    }
-
-    .contact {
-        display: none;
-    }
-
-    .footer-headings {
-        display: none;
-    }
-
-    .footer {
-        padding: 10px;
-        height: 60px;
-    }
-
-    .social {
-        text-align: center;
     }
 
     .events-info h2,
