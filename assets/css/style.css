@@ -197,7 +197,6 @@ header {
     height:400px;
     background: url('../images/desktop_tent.png') no-repeat center center;
     background-size: cover;
-    /*background-attachment: fixed;*/
     margin: auto;
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -213,33 +212,10 @@ header {
     }
 }
 
-.meeting-info {
-    padding-top: 10px;
-    background-color: #fff;
-}
-
-#meeting-information {
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #fff;
-}
-.meeting-heading {
-    margin: 30px 0;
-    font-size: 200%;
-    margin-top: 10px;
-    padding-top: 20px;
-}
-
 .meeting-content {
-    margin: 30px 0;
-    font-size: 120%;
+    text-align: justify;
 }
 
-.meeting-location {
-    margin: 0;
-    font-size: 120%;
-}
 /* Map */
 .map-responsive{
     overflow: hidden;
@@ -255,33 +231,13 @@ header {
     width: 100%;
     position: absolute;
 }
+
 .map-contact-icon {
-    margin: 0 10px;
+    margin: 0;
     font-size: 25px;
     color: #132b40;
     padding: 1.5%;
     float: right;
-}
-
-.meeting-image {
-    min-height: 230px;
-    background: url('../images/meeting.jpg') no-repeat center center;
-    background-size: cover;
-    border-radius: 50%;
-}
-
-.join-image {
-    min-height: 230px;
-    background: url('../images/group-friends.jpg') no-repeat center center;
-    background-size: cover;
-    border-radius: 50%;
-}
-
-.badge-image {
-    min-height: 230px;
-    background: url('../images/badge.png') no-repeat center center;
-    background-size: cover;
-    border-radius: 50%;
 }
 
 /* Events Page */
@@ -388,8 +344,8 @@ iframe.center {
 /* Footer */
 .footer {
     background-image: linear-gradient(to bottom right, #013b3a, #57a3a1);
-    color:#fafafa;
     padding: 10px;
+    color: #fff;
     }
 
 .footer-headings {
@@ -420,30 +376,29 @@ iframe.center {
 @media screen and (max-width: 900px) {
     .form-area {
         margin-top: 120px;
-    }
-
-    #meeting-information {
-        padding-top: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-        background-color: #fff;
-    }
-
-    .meeting-heading {
-        margin: 30px 0;
-        font-size: 150%;
-        margin-top: 5px;
-        padding-top: 5px;
-    }
-    
-    .meeting-content {
-        margin: 30px 0;
-        font-size: 100%;
-    }   
+    } 
 }
 
 /* Small, SmartPhone View -For screen size smaller than 576px */
 @media screen and (max-width: 576px){
+    /*new hero images*/
+    .hero-outer {
+        height: 175px;
+    }
+    
+    .heroimage {
+        height: 175px;
+    }
+
+    .meet-image {
+        height: 175px;
+        background: url('../images/desktop_tent.png') no-repeat left center;
+    }
+
+    .events-image {
+        height: 175px;
+    }/*hero image end*/
+
     .footer-headings {
         display: none;
     }
@@ -455,79 +410,25 @@ iframe.center {
     .list-contact-icon {
         display: none;
     }
+
+    .map-contact-icon {
+        display: none;
+    }
 }
 
 /* X-Small, SmartPhone View -For screen size smaller than 493px */
-@media screen and (max-width: 493px){
-    /*new hero images*/
-    .hero-outer {
-        height: 250px;
-    }
-    
-    .heroimage {
-        height: 250px;
-    }
-
-    .meet-image {
-        height: 250px;
-        background: url('../images/desktop_tent.png') no-repeat left center;
-    }
-
-    .events-image {
-        height: 250px;
-    }
-    /*hero image end*/
-
-    .meeting-info {
-        padding-top: 10px;
-        background-color: #fff;
-    }
-    
-    #meeting-information {
-        padding-left: 10px;
-        padding-right: 10px;
-        background-color: #fff;
-    }
-    
-    .meeting-heading {
-        margin: 30px 0;
-        font-size: 100%;
-        margin-top: 10px;
-        padding-top: 0px;
-    }
-    
-    .meeting-content {
-        margin: 30px 0;
-        font-size: 100%;
-    }  
-
-    .map-contact-icon {
-        margin: 0;
-        font-size: 25px;
-        color: #132b40;
-        padding-left: 15px;
-        float: left;
-    }
-
-    .events-info h2,
-    .meeting-info h2 {
+@media screen and (max-width: 493px) {
+    .events-info h2 {
         font-size: 150%;
         padding-left: 15px;
         padding-right: 15px;
     }
 
-    .events-info p,
-    .meeting-info p {
+    .events-info p {
         font-size: 100%;
         padding: 0;
         padding-left: 15px;
         padding-right: 15px;
-    }
-
-    .badge-image,
-    .join-image,
-    .meeting-image {
-        display: none;
     }
 
     iframe.center {
@@ -536,74 +437,17 @@ iframe.center {
       }
 } 
 
-/* XX-Small SmartPhone View- For screen size smaller than 375px*/
-@media screen and (max-width: 375px) {
-    
-    .meeting-info {
-        padding-top: 10px;
-        background-color: #fff;
-    }
-    
-    #meeting-information {
-        padding-top: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-        background-color: #fff;
-    }
-
-    .meeting-heading {
-        color: #023535;
-        margin: 00;
-        font-size: 200%;
-        margin-top: 0;
-        padding-top: 0;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    
-    .meeting-content {
-        margin-top: 10px;
-        margin-bottom: 20px;
-        font-size: 100%;
-    } 
-}
 
 /* XXX-Small SmartPhone View -For screen size smaller than 325px*/
 @media screen and (max-width: 325px) {
-    
-    .meeting-info {
-        padding-top: 10px;
-        background-color: #fff;
-    }
-    
-    #meeting-information {
-        padding: 0;
-        background-color: #fff;
-    }
-
-    .meeting-heading {
-        margin: 00;
-        font-size: 150%;
-        margin-top: 0;
-        padding: 0;
-    }
-    
-    .meeting-content {
-        margin-top: 10px;
-        margin-bottom: 20px;
-        font-size: 80%;
-        padding: 0;
-    } 
-    
-    .events-info h2,
-    .meeting-info h2 {
+      
+    .events-info h2 {
         font-size: 120%;
         padding-left: 10px;
         padding-right: 10px;
     }
 
-    .events-info p,
-    .meeting-info p {
+    .events-info p {
         font-size: 80%;
         padding: 0;
         padding-left: 10px;
