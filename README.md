@@ -62,7 +62,7 @@ ___
 - The 'Special Elite' font is used for the logo at the top of the site and for headings. Sans-serif is the fallback font in case the title font is not being imported correctly. 'Special ELite' adds character to the logo, as it creates an image of adventures.
 - The 'Roboto' font is used for all other body text. It is a clean and easily legible font.
 
-## Images
+### Images
 
 - A consistent aspect ratio of 16:9 has been used for all of the hero images to bring consistency to the pages. 
 
@@ -96,16 +96,19 @@ ___
 - Hover effects sourced from https://stackoverflow.com/questions/58939609/bootstrap-4-nav-link-hover-effect
 #### The Header
 #### Hero Images
+- Images were compressed to allow faster loading using https://tinypng.com/
+
 #### The Footer
 #### Landing Page
 #### Meetings Page
 #### Contact Us Page
  
-## Technologies Used
+# Technologies Used
  
-## Testing
-### Testing Results:
-### Bugs & Fixes:
+# Testing
+## Testing Results:
+
+## Bugs & Fixes:
 
 * When I produced the pages originally I worked from desktop down. This created the need for a lot of media queries which I initally added, however I wasn't happy with the amount of queries needed so decided to rewrite all of the pages starting from mobile-first and using more Bootstrap code to make the elements much more responsive on larger devices. This was a major fix which took a large amount of time, but I am much more satisfied with the end product.
 
@@ -120,58 +123,70 @@ ___
 * During my middle mentor meeting, we realised the hero images were loading slowly, so I fixed this by reducing the image size and compressing the images using tinypng.com. The lower resolution hero images load much faster.
 
  
-## Deployment
-## Future Implementations 
-## Credits
+# Deployment
 
-### Content
-- The initial code for the header, footer and circle images/containers was taken from the Code Institute Love Running project.
-- Help centering the images on the Landing page circles was found here: https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching
-- Help creating the footer grid layout was found from https://getbootstrap.com/docs/4.0/layout/grid/ and https://codepen.io/cojdev/pen/QGwyOJ
-- The stylised social media links in the footer took inspiration from  https://learn.codeinstitute.net/ci_program/diplomainwebappdevelopment
+# Future Implementations 
 
-- Help to center the images in the row found here: https://stackoverflow.com/questions/10879955/how-to-align-an-image-dead-center-with-bootstrap#:~:text=To%20center%20an%20image%20in,auto%20d%2Dblock%20...
+# Credits
+
+## Code
+
+* The initial code for the header, footer and circle images/containers was taken from the Code Institute Love Running project.
+
+* Help centering the images on the Landing page circles was found here: https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching
+
+* Help creating the footer grid layout was found from https://getbootstrap.com/docs/4.0/layout/grid/ and https://codepen.io/cojdev/pen/QGwyOJ
+
+* The stylised social media links in the footer took inspiration from  https://learn.codeinstitute.net/ci_program/diplomainwebappdevelopment
+
+* Help to center the images in the row found here: https://stackoverflow.com/questions/10879955/how-to-align-an-image-dead-center-with-bootstrap#:~:text=To%20center%20an%20image%20in,auto%20d%2Dblock%20...
 and https://stackoverflow.com/questions/42388989/bootstrap-center-vertical-and-horizontal-alignment to adjust the row height.
 
-- The gradient effect on the footer was made using a tutorial from W3Schools (https://www.w3schools.com/css/css3_gradients.asp).
+* The gradient effect on the footer was made using a tutorial from W3Schools (https://www.w3schools.com/css/css3_gradients.asp).
 
-- Information about Explorers has been taken from the official Scout website (www.scouts.org.uk) and the Sunderland District website (https://www.sunderlandscouts.org.uk/Explorers.html). 
-- Meeting page: Credit for grid used for the information containers on the Meeting page, - from Matt Rudge "Whiskey Drop Project" Code Institute
+* Information about Explorers has been taken from the official Scout website (www.scouts.org.uk) and the Sunderland District website (https://www.sunderlandscouts.org.uk/Explorers.html). 
 
-- To autoplay and mute the video on the Events page, I used advice from https://www.w3schools.com/html/html_youtube.asp
+* Meeting page: Credit for grid used for the information containers on the Meeting page, - from Matt Rudge "Whiskey Drop Project" Code Institute
 
-- Tutorial to add static images in Bootstrap found here: https://mdbootstrap.com/docs/standard/extended/gallery/
-- Tutorial for making Google map responsive: https://blog.duda.co/responsive-google-maps-for-your-website 
-- Code sourced from here for embedding a responsive video: https://getbootstrap.com/docs/4.0/utilities/embed/
+* Code used to autoplay and mute the video on the Events page, from https://www.w3schools.com/html/html_youtube.asp
+
+* Tutorial to add static images in Bootstrap found here: https://mdbootstrap.com/docs/standard/extended/gallery/
+
+* Tutorial for making Google map responsive: https://blog.duda.co/responsive-google-maps-for-your-website 
+
+* Code sourced from here for embedding a responsive video: https://getbootstrap.com/docs/4.0/utilities/embed/
+
+* Tutorial used to fit images without stretching https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching 
 
 
-### Images
-- Images were compressed to allow faster loading using https://tinypng.com/
+## Images
 
-- Tutorial used to fit images without stretching https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching */
+Most images were sourced from the open source websites, Pexels.
+Several of these were produced by EKATERINA BOLOVTSOVA, and used to maintain the colour theme. These include:
+* 'Meeting' Photo https://www.pexels.com/photo/happy-children-making-campfire-in-forest-5036955/
+* Meeting hero image: https://www.pexels.com/photo/boys-walking-in-forest-together-5036789/
+* Events hero image: https://www.pexels.com/photo/scouts-in-forest-smiling-5036700/
+* Contact form background image: https://www.pexels.com/photo/kids-holding-hands-on-wooden-bridge-5036782/
 
-- Hero Image taken from "https://www.freepik.com/photos/best-friends" https://www.freepik.com/author/standret
+Other images were sourced from:
+* Landing page Hero Image:"https://www.freepik.com/photos/best-friends" https://www.freepik.com/author/standret
+* 'Events' Photo by Spencer Gurley Films from Pexels (Three Men Riding Kayaks On Body Of Water)
+* 'Contact' Photo by cottonbro: https://www.pexels.com/photo/scouts-with-a-map-and-a-compass-9292813/
+* Events page - High Ropes image: Photo by Mike van Schoonderwalt from Pexels
+* Events page - Climbing image: Photo by Mike van Schoonderwalt from Pexels
+* Events page - Gokart image:Photo by Tima Miroshnichenko from Pexels
+* Events page - Climbing image: Photo by Tima Miroshnichenko: https://www.pexels.com/photo/a-girl-climbing-the-wall-5916172/
+* Meetings page - badges Photo by Janneck Lange: https://www.pexels.com/photo/a-two-way-radio-mouthpiece-on-a-scout-collar-6768469/
 
-- 'Meeting' Photo by EKATERINA  BOLOVTSOVA: https://www.pexels.com/photo/happy-children-making-campfire-in-forest-5036955/
+* #SkillsForLife video sourced from https://www.youtube.com/watch?v=cMGyuucCmuY
 
-- 'Events' Photo by Spencer Gurley Films from Pexels (Three Men Riding Kayaks On Body Of Water)
 
-- 'Contact' Photo by cottonbro: https://www.pexels.com/photo/scouts-with-a-map-and-a-compass-9292813/
+## Content
 
-- Meeting page: Meeting image Photo by EKATERINA  BOLOVTSOVA: https://www.pexels.com/photo/teenagers-starting-campfire-5036952/
+* All content was written by myself using information from the official Scouts website https://www.scouts.org.uk/ and the Sunderland District webpage https://www.sunderlandscouts.org.uk/
 
-- Meeting page - hero image: Photo by EKATERINA  BOLOVTSOVA: https://www.pexels.com/photo/boys-walking-in-forest-together-5036789/
+## Acknowledgements
 
-- Meeting page - Badge image: https://www.cleanpng.com/free/scout-badge.html
-
-- Events page - High Ropes image: Photo by Mike van Schoonderwalt from Pexels
-
-- Events page - Climbing image: Photo by Mike van Schoonderwalt from Pexels
-
-- Events page - Gokart image:Photo by Tima Miroshnichenko from Pexels
-
-- Events page - Climbing image: Photo by Tima Miroshnichenko: https://www.pexels.com/photo/a-girl-climbing-the-wall-5916172/
-
-- Meetings page - badges Photo by Janneck Lange: https://www.pexels.com/photo/a-two-way-radio-mouthpiece-on-a-scout-collar-6768469/
-
-- 
+* Thank you to my mentor, Marcel, for helpful feedback, industry insights and recommended tools.
+* Thank you to my friends, Jeanette and Chelsea and brother, Ian, for participating in testing and review.
+* Thank you to the tutors and staff at Code Institute for their support. 
