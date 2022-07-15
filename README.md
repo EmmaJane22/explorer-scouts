@@ -1,33 +1,36 @@
 # Explorer Scouts Website - Emma Scott
+
 # DIWAD_MS1: Diploma in Web Development: Milestone Project 1
 
 <<<ADD IMAGE IN HERE>>>
 
-* St. John's Explorer Scouts are a group of 15 Scouts who meet weekly from across Sunderland. The aim of the website is to appeal to current members and their parents and to attract new potential members to the group. The website is designed to be responsive so that it is appealing and can be used on any device. 
-* My website features four pages and has been built using HTML and CSS.
+* St. John's Explorer Scouts are a group of over 20 Scouts who meet weekly from across Sunderland. The aim of the website is to appeal to current members and their parents, to attract new potential members to the group and to showcase the group's succeses and activities. The website is designed to be responsive so that it is appealing and can be used on any device. 
+* The website features four pages and has been built using HTML and CSS and Bootstrap.
 
 ## Live Project
-[View the live project here.] <<<<LINK>>>>
+[View the live project here.](https://www.google.com "View the Live project here")
 
 ## Repository
-[View the project repository here.] (https://github.com/EmmaJane22/explorer-scouts.git)
+[View the project repository here.](https://github.com/EmmaJane22/explorer-scouts.git "View the project repository here")
+___
 
 # Table of Contents:
+
  
 # User Experience (UX)
 ## User stories
 ### External Users' Goals:
 * The site users are Explorer Scout members and potential members and their parents/carers, who want to know more about the Explorer Scout pack and it's activities.* 
 * External users may want to celebrate the Pack's achievements or to explore what events the Pack participates in.
-* External users may want to be able to know when and where the group meet and who the contact person is to find out more information.
-* External users may want to find out who an Explorer Scout group is made up of, age requirements and Scouting aims.  
+* External users may want to be able to know when and where the group meet and be able to contact leaders directly to find out more information using an online form.
+* External users may want to find out who can join Explorer Scout groups, age requirements and Scouting aims and the activities their child might take part in if they become an Explorer.  
 
 ### Site Owner's Goals:
-* The Explorer Scout group is interested in attracting and retaining members.*
-* The group also wants to celebrate their successes and showcase their activities/events.
-* It requires a simple contact form that people can use to ask questions.
+* The Explorer Scout group is interested in attracting  new members as well as retaining current members.
+* The group also wants to celebrate their successes and showcase their activities/events to a wider community, as parents and the public are not permitted to attend group sessions. Scouting officals from county level are also interested in viewing the group's activities.
+* The site owner requires a simple contact form that people can use to ask questions.
 
-## Design
+## Design Choices
 ### Colour Palette
 
 ![colour palette](assets/readme/colour_scheme.png)
@@ -50,7 +53,8 @@
 #### Features to include:
 - Showcase photos of members having fun at group activities.
 - Provide details of the activities Explorer Scouts participate in and the structure of meetings..
-- Provide information on the packs location, meeting times, contact details and any external resources. 
+- Provide information on the packs location, meeting times, contact details and any external resources (e.g. Scouts official website). 
+
 ## Features
 #### Navigation Bar
 - Code sourced from the Code Institute Whiskey Drop tutorial.
@@ -96,6 +100,7 @@ and https://stackoverflow.com/questions/42388989/bootstrap-center-vertical-and-h
 
 ### Images
 - Images were compressed to allow faster loading using https://tinypng.com/
+
 - Tutorial used to fit images without stretching https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching */
 
 - Hero Image taken from "https://www.freepik.com/photos/best-friends" https://www.freepik.com/author/standret
