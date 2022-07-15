@@ -2,7 +2,7 @@
 
 # DIWAD_MS1: Diploma in Web Development: Milestone Project 1
 
-<<<ADD IMAGE IN HERE>>>
+ADD MOCKUPS
 
 * St. John's Explorer Scouts are a group of over 20 Scouts who meet weekly from across Sunderland. The aim of the website is to appeal to current members and their parents, to attract new potential members to the group and to showcase the group's succeses and activities. The website is designed to be responsive so that it is appealing and can be used on any device. 
 * The website features four pages and has been built using HTML and CSS and Bootstrap.
@@ -18,17 +18,34 @@ ___
 
  
 # User Experience (UX)
+
 ## User stories
+
 ### External Users' Goals:
-* The site users are Explorer Scout members and potential members and their parents/carers, who want to know more about the Explorer Scout pack and it's activities.* 
+
+* The site users are Explorer Scout members and potential members and their parents/carers, who want to know more about the Explorer Scout pack and it's activities.
+
 * External users may want to celebrate the Pack's achievements or to explore what events the Pack participates in.
+
 * External users may want to be able to know when and where the group meet and be able to contact leaders directly to find out more information using an online form.
-* External users may want to find out who can join Explorer Scout groups, age requirements and Scouting aims and the activities their child might take part in if they become an Explorer.  
+
+* External users may want to find out who can join Explorer Scout groups, age requirements and Scouting aims and the activities their child might take part in if they become an Explorer. 
+
 
 ### Site Owner's Goals:
 * The Explorer Scout group is interested in attracting  new members as well as retaining current members.
+
 * The group also wants to celebrate their successes and showcase their activities/events to a wider community, as parents and the public are not permitted to attend group sessions. Scouting officals from county level are also interested in viewing the group's activities.
+
 * The site owner requires a simple contact form that people can use to ask questions.
+
+
+### Features to include:
+* Showcase photos of members having fun at group activities.
+
+* Provide details of the activities Explorer Scouts participate in and the structure of meetings.
+
+* Provide information on the packs location, meeting times, contact details and any external resources (e.g. Scouts official website). 
 
 ## Design Choices
 ### Colour Palette
@@ -49,11 +66,25 @@ ___
 
 - A consistent aspect ratio of 16:9 has been used for all of the hero images to bring consistency to the pages. 
 
-### ***Wireframes***
-#### Features to include:
-- Showcase photos of members having fun at group activities.
-- Provide details of the activities Explorer Scouts participate in and the structure of meetings..
-- Provide information on the packs location, meeting times, contact details and any external resources (e.g. Scouts official website). 
+___
+
+## Wireframes
+
+### Site Map
+![site map](assets/images/wireframes/site-map.jpg "Site Map")
+
+### Landing Page
+![landing page](assets/images/wireframes/low-res-landing-page.png "Landing Page")
+
+### Meeting Page
+![meeting page](assets/images/wireframes/low-res-meeting-page.png "Meeting Page")
+
+### Events Page
+![events page](assets/images/wireframes/low-res-events-page.png "Events Page")
+
+### Contact Page
+![contact page](assets/images/wireframes/low-res-contact-page.png "Contact Page")
+
 
 ## Features
 #### Navigation Bar
