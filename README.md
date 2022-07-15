@@ -85,9 +85,12 @@ ___
 ### Contact Page
 ![contact page](assets/images/wireframes/low-res-contact-page.png "Contact Page")
 
+___
 
 ## Features
+
 #### Navigation Bar
+
 - Code sourced from the Code Institute Whiskey Drop tutorial.
 
 - Hover effects sourced from https://stackoverflow.com/questions/58939609/bootstrap-4-nav-link-hover-effect
@@ -103,6 +106,19 @@ ___
 ## Testing
 ### Testing Results:
 ### Bugs & Fixes:
+
+* When I produced the pages originally I worked from desktop down. This created the need for a lot of media queries which I initally added, however I wasn't happy with the amount of queries needed so decided to rewrite all of the pages starting from mobile-first and using more Bootstrap code to make the elements much more responsive on larger devices. This was a major fix which took a large amount of time, but I am much more satisfied with the end product.
+
+* When I made some final checks to the responsiveness of the pages, I discovered my logo was a broken link as I had a typing error in the link. I fixed this by correcting the typing error.
+
+* During testiing, I realised the YouTube video was not resizing on different size devices. I sourced code from https://getbootstrap.com/docs/4.0/utilities/embed/ to fix this and allow it to resize.
+
+* During my middle mentor meeting, we realised the YouTube video was auto-playing. I sourced code from https://www.w3schools.com/html/html_youtube.asp to prevent it auto-playing.
+
+* While producing the header containing the logo and nav links, I noticed that the logo was pushing the menu links out of alignment when the screen was resized. I decided to use a 'hamburger' menu instead and sourced a tutorial from https://getbootstrap.com/
+
+* During my middle mentor meeting, we realised the hero images were loading slowly, so I fixed this by reducing the image size and compressing the images using tinypng.com. The lower resolution hero images load much faster.
+
  
 ## Deployment
 ## Future Implementations 
