@@ -336,6 +336,7 @@ iframe.center {
 }
 
 /* Footer */
+/*Code sourced from (https://www.w3schools.com/css/css3_gradients.asp)*/
 .footer {
     background-image: linear-gradient(to bottom right, #013b3a, #57a3a1);
     padding: 10px;
@@ -416,4 +417,9 @@ iframe.center {
         height: 100%;
         width: 100%;
       }
+    
+    .logo {
+        font-size: large;
+        text-decoration: none;
+    }
 } 
