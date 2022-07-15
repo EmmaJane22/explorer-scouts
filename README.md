@@ -1,10 +1,13 @@
 # Explorer Scouts Website - Emma Scott
 # DIWAD_MS1: Diploma in Web Development: Milestone Project 1
+
+<<<ADD IMAGE IN HERE>>>
+
 * St. John's Explorer Scouts are a group of 15 Scouts who meet weekly from across Sunderland. The aim of the website is to appeal to current members and their parents and to attract new potential members to the group. The website is designed to be responsive so that it is appealing and can be used on any device. 
 * My website features four pages and has been built using HTML and CSS.
 
 ## Live Project
-[View the live project here.] 
+[View the live project here.] <<<<LINK>>>>
 
 ## Repository
 [View the project repository here.] (https://github.com/EmmaJane22/explorer-scouts.git)
@@ -26,11 +29,12 @@
 
 ## Design
 ### Colour Palette
-<h2 align="center"><img src="assests/readme/colour_scheme.png"></h2>
 
-- A simple colour scheme has been used. The teal colours mimic the group's uniform. 
+![colour palette](assets/readme/colour_scheme.png)
 
-- The footer section has a colour gradient made using a tutorial from W3Schools https://www.w3schools.com/css/css3_gradients.asp
+- A simple colour scheme has been used. The teal colours echo the muted colours of the Explorer group's uniform. 
+
+- The footer section has a colour gradient which adds visual appeal, made using a tutorial from W3Schools https://www.w3schools.com/css/css3_gradients.asp 
 
 - I used https://color.adobe.com/ to decide on the colour scheme.
 
@@ -38,9 +42,9 @@
 - The 'Special Elite' font is used for the logo at the top of the site and for headings. Sans-serif is the fallback font in case the title font is not being imported correctly. 'Special ELite' adds character to the logo, as it creates an image of adventures.
 - The 'Roboto' font is used for all other body text. It is a clean and easily legible font.
 
-<!--Continue here-->
+## Images
 
-#### Images
+- A consistent aspect ratio of 16:9 has been used for all of the hero images to bring consistency to the pages. 
 
 ### ***Wireframes***
 #### Features to include:
@@ -86,7 +90,8 @@ and https://stackoverflow.com/questions/42388989/bootstrap-center-vertical-and-h
 - To autoplay and mute the video on the Events page, I used advice from https://www.w3schools.com/html/html_youtube.asp
 
 - Tutorial to add static images in Bootstrap found here: https://mdbootstrap.com/docs/standard/extended/gallery/
-- Tutortal for making Google map responsive: https://blog.duda.co/responsive-google-maps-for-your-website 
+- Tutorial for making Google map responsive: https://blog.duda.co/responsive-google-maps-for-your-website 
+- Code sourced from here for embedding a responsive video: https://getbootstrap.com/docs/4.0/utilities/embed/
 
 
 ### Images
@@ -116,3 +121,5 @@ and https://stackoverflow.com/questions/42388989/bootstrap-center-vertical-and-h
 - Events page - Climbing image: Photo by Tima Miroshnichenko: https://www.pexels.com/photo/a-girl-climbing-the-wall-5916172/
 
 - Meetings page - badges Photo by Janneck Lange: https://www.pexels.com/photo/a-two-way-radio-mouthpiece-on-a-scout-collar-6768469/
+
+- 
