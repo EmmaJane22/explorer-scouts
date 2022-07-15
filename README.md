@@ -8,7 +8,7 @@ ADD MOCKUPS
 * The website features four pages and has been built using HTML and CSS and Bootstrap.
 
 ## Live Project
-[View the live project here.](https://www.google.com "View the Live project here")
+[View the live project here.](https://emmajane22.github.io/explorer-scouts/ "View the Live project here")
 
 ## Repository
 [View the project repository here.](https://github.com/EmmaJane22/explorer-scouts.git "View the project repository here")
@@ -106,7 +106,28 @@ ___
 # Technologies Used
  
 # Testing
-## Testing Results:
+
+The St John's Explorer Scouts website has been tested using the following methods:
+
+## Chrome Devloper Tools
+* I made use of the Developer Tools throughout the project to inspect my pages and make changes accordingly.
+
+## Code Validation
+### W3C HTML Validator
+![w3c screenshot 1](assets/images/testing/w3c-screenshot1.jpg "W3C Validator screenshot 1")
+
+![w3c screenshot 2](assets/images/testing/w3c-screenshot2.jpg "W3C Validator screenshot 2")
+
+The following steps were taken to fix the bugs identified by W3C Validator:
+1. Additional hypens removed.
+2. Section class (hero-outer) changed to div class as no heading was needed.
+3. Div id="circle" changed to div class.
+4. Section class (landing-circles) changed to div class as no heading was needed.
+
+All identified bugs fixed:
+![w3c screenshot 3](assets/images/testing/w3c-screenshot3.jpg "W3C Validator screenshot 3")
+
+
 
 ## Bugs & Fixes:
 
