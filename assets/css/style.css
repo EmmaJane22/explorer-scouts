@@ -260,11 +260,24 @@ header {
     }
 }
 
-iframe.center {
+/* code sourced from https://stackoverflow.com/questions/70863997/make-youtube-video-embed-responsive */
+.video-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  iframe {
+    max-width: 900px;
+    max-height: 500px;
+  }
+
+/*iframe.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+  }*/
+
+
 
 /* Contact Us page */
 #contact-us-section {
