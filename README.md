@@ -127,6 +127,15 @@ The following steps were taken to fix the bugs identified by W3C Validator:
 All identified bugs fixed:
 ![w3c screenshot 3](assets/images/testing/w3c-screenshot3.jpg "W3C Validator screenshot 3")
 
+### W3C CSS Validator
+The W3C CSS Validator showed the following errors:
+
+![w3c css screenshot](assets/images/testing/css-screenshot1.jpg "W3C CSS Validator screenshot")
+
+Following research, I realised this error is with the Font Awesome toolkit so I was unable to address this, so have made no changes.
+
+
+
 
 
 ## Bugs & Fixes:
@@ -142,6 +151,8 @@ All identified bugs fixed:
 * While producing the header containing the logo and nav links, I noticed that the logo was pushing the menu links out of alignment when the screen was resized. I decided to use a 'hamburger' menu instead and sourced a tutorial from https://getbootstrap.com/
 
 * During my middle mentor meeting, we realised the hero images were loading slowly, so I fixed this by reducing the image size and compressing the images using tinypng.com. The lower resolution hero images load much faster.
+
+* After running W3C html validator I discovered that the events.html page didn't display. This was fixed by adding in an end section tag which was missing.
 
  
 # Deployment
