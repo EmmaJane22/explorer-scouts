@@ -15,7 +15,49 @@
 ___
 
 # Table of Contents:
+[1. User Expereince (UX)](#ux)
+  - [User Stories](#user-stories)
+  - [External Users' Goals](#external-users)
+  -	[Site Owners goals](#owner-goals)
 
+      
+[2. Design Choices](#design)
+  - [Colour Palette](#colour)
+  - [Typography](#typography)
+  - [Images](#images)
+
+[3. Site Structure](#structure)
+  - [Wireframes](#wireframes)
+  - [Site Map](#map)
+  - [Landing Pages](#landing)
+  - [Meeting Page](#meeting)
+  - [Events Page](#events)
+  - [Contact Page](#contact)
+ 
+[4. Features](#sitefeatures)
+  - [Navigation Bar](#nav)
+  - [Hero Images](#hero)
+  - [Footer](#footer)
+  - [Future Features](#future)
+
+[5. Technologies Used](#tech)
+
+[6. Testing](#testing)
+  - [Chrome DevTools](#devtools)
+  - [Code Validation](#val)
+  - [W3C HTML](#w3chtml)
+  - [W3C CSS](#w3ccss)
+  - [Lighthouse](#lighthouse)
+
+[7. Bugs & Fixes](#bugs)
+
+[8. Deployment](#deployment)
+
+[9. Credits](#credit)
+  - [Code](#code)
+  - [Images](#image-credit)
+  - [Content](#content)
+  - [Acknowledgements](#acknowledge)
  
 # User Experience (UX)
 
@@ -46,9 +88,12 @@ ___
 * Provide details of the activities Explorer Scouts participate in and the structure of meetings.
 
 * Provide information on the packs location, meeting times, contact details and any external resources (e.g. Scouts official website). 
+___
 
-## Design Choices
-### Colour Palette
+# Design Choices
+
+
+## Colour Palette
 
 ![colour palette](assets/readme/colour_scheme.png)
 
@@ -58,15 +103,16 @@ ___
 
 - I used https://color.adobe.com/ to decide on the colour scheme.
 
-### Typography
+## Typography
 - The 'Special Elite' font is used for the logo at the top of the site and for headings. Sans-serif is the fallback font in case the title font is not being imported correctly. 'Special ELite' adds character to the logo, as it creates an image of adventures.
 - The 'Roboto' font is used for all other body text. It is a clean and easily legible font.
 
-### Images
+## Images
 
 - A consistent aspect ratio of 16:9 has been used for all of the hero images to bring consistency to the pages. 
 
 ___
+# Site Structure
 
 ## Wireframes
 
@@ -75,6 +121,7 @@ ___
 
 ### Landing Page
 ![landing page](assets/images/wireframes/low-res-landing-page.png "Landing Page")
+
 
 ### Meeting Page
 ![meeting page](assets/images/wireframes/low-res-meeting-page.png "Meeting Page")
@@ -85,26 +132,27 @@ ___
 ### Contact Page
 ![contact page](assets/images/wireframes/low-res-contact-page.png "Contact Page")
 
+The contact form was set to method GET after viewing a post on Slack regarding form methods: https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1653483581074199
+
+In order to do this, I created a copy of the index.html page but changed the content to have an acknowledgement of the form submision rather than going to the Code Institute page.
 ___
 
-## Features
+# Features
 
-#### Navigation Bar
-
+## Naviagtion Bar
 - Code sourced from the Code Institute Whiskey Drop tutorial.
 
 - Hover effects sourced from https://stackoverflow.com/questions/58939609/bootstrap-4-nav-link-hover-effect
-#### The Header
-#### Hero Images
+
+## Hero Images
 - Images were compressed to allow faster loading using https://tinypng.com/
 
-#### The Footer
-#### Landing Page
-#### Meetings Page
-#### Contact Us Page
-The form was set to method GET after viewing a post on Slack regarding form methods: https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1653483581074199
+## Footer
 
-In order to do this, I created a copy of the index.html page but changed the content to have an acknowledgement of the form submision rather than going to the Code Institute page. 
+## Future Features
+* I will research using NextGen formats for images in future.
+
+___
 
 # Technologies Used
 
@@ -114,10 +162,11 @@ In order to do this, I created a copy of the index.html page but changed the con
 
 The St John's Explorer Scouts website has been tested using the following methods:
 
-## Chrome Devloper Tools
+### Chrome Devloper Tools
 * I made use of the Developer Tools throughout the project to inspect my pages and make changes accordingly.
 
 ## Code Validation
+
 ### W3C HTML Validator
 ![w3c screenshot 1](assets/images/testing/w3c-screenshot1.jpg "W3C Validator screenshot 1")
 
@@ -201,7 +250,7 @@ The reports for meeting.html and events.html showed 'good' for all areas:
 
 ___
 
-## Bugs & Fixes:
+# Bugs & Fixes:
 
 * When I produced the pages originally I worked from desktop down. This created the need for a lot of media queries which I initally added, however I wasn't happy with the amount of queries needed so decided to rewrite all of the pages starting from mobile-first and using more Bootstrap code to make the elements much more responsive on larger devices. This was a major fix which took a large amount of time, but I am much more satisfied with the end product.
 
@@ -223,11 +272,11 @@ ___
 
 * The Lighthouse report for the Contact page showed a missing form label, which I fixed.
  
+___
+
 # Deployment
 
-# Future Implementations 
-
-* I will research using NextGen formats for images in future.
+___
 
 # Credits
 
@@ -260,7 +309,6 @@ and https://stackoverflow.com/questions/42388989/bootstrap-center-vertical-and-h
 
 * Tutorial used to fit images without stretching https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching 
 
-
 ## Images
 
 Most images were sourced from the open source websites, Pexels.
@@ -281,7 +329,6 @@ Other images were sourced from:
 * Meetings page - badges Photo by Janneck Lange: https://www.pexels.com/photo/a-two-way-radio-mouthpiece-on-a-scout-collar-6768469/
 
 * #SkillsForLife video sourced from https://www.youtube.com/watch?v=cMGyuucCmuY
-
 
 ## Content
 
