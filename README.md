@@ -2,10 +2,10 @@
 
 # DIWAD_MS1: Diploma in Web Development: Milestone Project 1
 
-ADD MOCKUPS
+![mockups](assets/images/testing/mockup.jpg "Mockup")
 
 * St. John's Explorer Scouts are a group of over 20 Scouts who meet weekly from across Sunderland. The aim of the website is to appeal to current members and their parents, to attract new potential members to the group and to showcase the group's succeses and activities. The website is designed to be responsive so that it is appealing and can be used on any device. 
-* The website features four pages and has been built using HTML and CSS and Bootstrap.
+* The website features five pages and has been built using HTML and CSS and Bootstrap.
 
 ## Live Project
 [View the live project here.](https://emmajane22.github.io/explorer-scouts/ "View the Live project here")
@@ -102,9 +102,14 @@ ___
 #### Landing Page
 #### Meetings Page
 #### Contact Us Page
- 
+The form was set to method GET after viewing a post on Slack regarding form methods: https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1653483581074199
+
+In order to do this, I created a copy of the index.html page but changed the content to have an acknowledgement of the form submision rather than going to the Code Institute page. 
+
 # Technologies Used
- 
+
+ ___
+
 # Testing
 
 The St John's Explorer Scouts website has been tested using the following methods:
@@ -132,11 +137,69 @@ The W3C CSS Validator showed the following errors:
 
 ![w3c css screenshot](assets/images/testing/css-screenshot1.jpg "W3C CSS Validator screenshot")
 
-Following research, I realised this error is with the Font Awesome toolkit so I was unable to address this, so have made no changes.
+Following research, I realised this error is with the Font Awesome toolkit so I was unable to address this.
 
+### Lighthouse Desktop
 
+I used the Lighthouse reports in Google DevTools to examine the desktop pages of the website for:
+* Performance
+* Accessibility
+* Best Practices
+* SEO
 
+The report for index.html on desktop was 'good' for Accessibility and SEO but 'needs improvement' for Performance and Best Practices. 
 
+![lighthouse screenshot](/assets/images/testing/lighthouse1.jpg "Lighthouse screenshot")
+
+![lighthouse 2 screenshot](/assets/images/testing/lighthouse2.jpg "Lighthouse 2 screenshot")
+
+![lighthouse 3 screenshot](/assets/images/testing/lighthouse3.jpg "Lighthouse 3 screenshot")
+
+![lighthouse 4 screenshot](/assets/images/testing/lighthouse4.jpg "Lighthouse 4 screenshot")
+
+The reports showed that I needed to update the version of Bootstrap. Updating this to version 5.1.3 resolved this issue.
+
+A new Lighthouse report was actioned and showed 'good' for all areas. 
+
+![lighthouse desktop screenshot](/assets/images/testing/desktop-home.jpg "Lighthouse desktop screenshot")
+
+Subsequent reports for the other website pages showed all areas to be 'good' on desktop:
+
+meetings.html:
+
+![lighthouse desktop meetings screenshot](/assets/images/testing/desktop-meetings.jpg "Lighthouse desktop meetings screenshot")
+
+events.html:
+
+![lighthouse desktop events screenshot](/assets/images/testing/desktop-events.jpg "Lighthouse desktop events screenshot")
+
+contact.html:
+
+![lighthouse desktop contact screenshot](/assets/images/testing/desktop-contact.jpg "Lighthouse desktop contact screenshot")
+
+### Lighthouse mobile
+
+I used the Lighthouse reports in Google DevTools to examine the mobile pages of the website for:
+* Performance
+* Accessibility
+* Best Practices
+* SEO
+
+The reports showed 'good' for Accessibility, Best Practices and SEO on the contact.html and index.html pages: 
+
+![lighthouse mobile contact screenshot](/assets/images/testing/mobile-contact.jpg "Lighthouse mobile contact screenshot")
+
+![lighthouse mobile home screenshot](/assets/images/testing/mobile-home.jpg "Lighthouse mobile index screenshot")
+
+Upon inspection of the Performance errors, it recommended saving images in NextGen formats. This is something I can look into for the future.
+
+The reports for meeting.html and events.html showed 'good' for all areas:
+
+![lighthouse mobile meeting screenshot](/assets/images/testing/mobile-meeting.jpg "Lighthouse mobile meeting screenshot")
+
+![lighthouse mobile events screenshot](/assets/images/testing/mobile-events.jpg "Lighthouse mobile events screenshot")
+
+___
 
 ## Bugs & Fixes:
 
@@ -152,12 +215,19 @@ Following research, I realised this error is with the Font Awesome toolkit so I 
 
 * During my middle mentor meeting, we realised the hero images were loading slowly, so I fixed this by reducing the image size and compressing the images using tinypng.com. The lower resolution hero images load much faster.
 
+* Friends and family were asked to test the site and discovered the photos did not display on events.html. This was due to a missing end tag, which fixed the problem.
+
 * After running W3C html validator I discovered that the events.html page didn't display. This was fixed by adding in an end section tag which was missing.
 
+* After running the Lighthouse check, it recommended changing to the latest versions of Bootstrap (v. 5.1.3), therefore I updated my code to this version. This then prevented the hamburger menu working on mobile view. I fixed this by checking the code against the code sourced on getbootstrap.com and found the toggler class needed BS adding. Then then fixed the problem and allowed the hamburger menu to expand again.
+
+* The Lighthouse report for the Contact page showed a missing form label, which I fixed.
  
 # Deployment
 
 # Future Implementations 
+
+* I will research using NextGen formats for images in future.
 
 # Credits
 
@@ -220,5 +290,5 @@ Other images were sourced from:
 ## Acknowledgements
 
 * Thank you to my mentor, Marcel, for helpful feedback, industry insights and recommended tools.
-* Thank you to my friends, Jeanette and Chelsea and brother, Ian, for participating in testing and review.
+* Thank you to my friends, Jeanette and Chelsea and son, Ben, for participating in testing and review.
 * Thank you to the tutors and staff at Code Institute for their support. 
