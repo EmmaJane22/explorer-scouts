@@ -413,6 +413,14 @@ header {
         animation-fill-mode: none;
     }/*hero image end*/
 
+    #contact-us-section {
+        background-size: cover;
+        background-position: center;
+        height: 785px;
+        background-image: url('../images/contact-mobile.png');
+        margin: 0 0;
+    }
+
     .footer-headings {
         display: none;
     }
