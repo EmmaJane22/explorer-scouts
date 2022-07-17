@@ -30,10 +30,14 @@ ___
   - [Meeting Page](#meeting)
   - [Events Page](#events)
   - [Contact Page](#contact)
+  - [Thank-you Page](#thank-you)
  
 [4. Features](#sitefeatures)
   - [Navigation Bar](#nav)
   - [Hero Images](#hero)
+  - [Gallery](#gallery)
+  - [Video](#video)
+  - [Form](#form)
   - [Footer](#footer)
   - [Future Features](#future)
 
@@ -41,6 +45,7 @@ ___
 
 [6. Testing](#testing)
   - [Chrome DevTools](#devtools)
+  - [Manual Testing](#manual)  
   - [Code Validation](#val)
   - [W3C HTML](#w3chtml)
   - [W3C CSS](#w3ccss)
@@ -56,6 +61,7 @@ ___
   - [Content](#content)
   - [Acknowledgements](#acknowledge)
  
+<a name="ux"></a>
 # User Experience (UX)
 
 ## User stories
@@ -116,41 +122,7 @@ ___
 
 # Site Structure
 
-The website has a Home page and four other pages.
-
-## Home Page
-![home page](/readme-images/page-screenshots/home-screenshot.jpg "Home page")
-
-![home page bottom](/readme-images/page-screenshots/home-screenshot-2.jpg "Home page bottom")
-
-The home page (index.html) is a simple landing page. It has a welcome message underneath the hero image and below that are three images in circle containers that are hyperlinks to the site pages, allowing very easy site navigation.
-
-## Meeting Page
-![Meeting page](/readme-images/page-screenshots/meeting-screenshot-1.jpg "Meeting page")
-
-![Meeting page bottom](/readme-images/page-screenshots/meeting-screenshot-2.jpg "Meeting page bottom")
-
-The meeting page (meetings.html) provides clear information about meetings, joining the unit and the badges the unit works towards. There is an accompanying image for each block of text to make it visually appealing.
-
-Beneath the rows of text is an embedded, responsive Google map linked to the groups address and the address is also next to the map to provide information easily and intuitively.  
-
-## Events Page
-![Events page](/readme-images/page-screenshots/events-screenshot.jpg "Events page")
-
-![Events page bottom](/readme-images/page-screenshots/events-screenshot-2.jpg "Events page bottom")
-
-The events page (events.html) follows a similar layout to the meeting page, with clear informative text followed by an embedded YouTube video from the official Scouts YouTube channel. The page provides information about the activities the unit participate in and has an image gallery to showcase these.
-
-## Contact Page
-![Contact page](/readme-images/page-screenshots/contact-screenshot.jpg "Contact page")
-
-The contact page (contact.html) provides a simple contact form for users to ask questions. The contact form is not active as I have not learnt this technology yet. The contact form was set to method GET after viewing a post on Slack regarding form methods: https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1653483581074199
-
-In order to do this, I created a copy of the index.html page but changed the content to have an acknowledgement of the form submission rather than going to the Code Institute page. If this site was to go live for the public, this would be changed. The form redirects to the thank-you.html page.
-
-## Thank-you page
-![Thank-you page](/readme-images/page-screenshots/thanks-screenshot.jpg "Thank-you page")
-The contact form is set to direct to this page rather than the Code Institute form dump. It redirects users back to the site.
+The website has a Home page and four other pages. The initial wireframes for these can be found below.
 
 
 ## Wireframes
@@ -170,6 +142,46 @@ The contact form is set to direct to this page rather than the Code Institute fo
 
 ### Contact Page
 ![contact page](/readme-images/wireframes/low-res-contact-page.png "Contact Page")
+
+___
+
+## Home Page
+![home page](/readme-images/page-screenshots/home-screenshot.jpg "Home page")
+
+Page bottom
+![home page bottom](/readme-images/page-screenshots/home-screenshot-2.jpg "Home page bottom")
+
+The home page (index.html) is a simple landing page. It has a welcome message underneath the hero image and below that are three images in circle containers that are hyperlinks to the site pages, allowing very easy site navigation.
+
+## Meeting Page
+![Meeting page](/readme-images/page-screenshots/meeting-screenshot-1.jpg "Meeting page")
+
+Page bottom
+![Meeting page bottom](/readme-images/page-screenshots/meeting-screenshot-2.jpg "Meeting page bottom")
+
+The meeting page (meetings.html) provides clear information about meetings, joining the unit and the badges the unit works towards. There is an accompanying image for each block of text to make it visually appealing.
+
+Beneath the rows of text is an embedded, responsive Google map linked to the groups address and the address is also next to the map to provide information easily and intuitively.  
+
+## Events Page
+![Events page](/readme-images/page-screenshots/events-screenshot.jpg "Events page")
+
+Page bottom
+![Events page bottom](/readme-images/page-screenshots/events-screenshot-2.jpg "Events page bottom")
+
+The events page (events.html) follows a similar layout to the meeting page, with clear informative text followed by an embedded YouTube video from the official Scouts YouTube channel. The page provides information about the activities the unit participate in and has an image gallery to showcase these.
+
+## Contact Page
+![Contact page](/readme-images/page-screenshots/contact-screenshot.jpg "Contact page")
+
+The contact page (contact.html) provides a simple contact form for users to ask questions. The contact form is not active as I have not learnt this technology yet. The contact form was set to method GET after viewing a post on Slack regarding form methods: https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1653483581074199
+
+In order to do this, I created a copy of the index.html page but changed the content to have an acknowledgement of the form submission rather than going to the Code Institute page. If this site was to go live for the public, this would be changed. The form redirects to the thank-you.html page.
+
+## Thank-you page
+![Thank-you page](/readme-images/page-screenshots/thanks-screenshot.jpg "Thank-you page")
+
+The contact form is set to direct to this page rather than the Code Institute form dump. It redirects users back to the site.
 
 ___
 
@@ -229,7 +241,57 @@ ___
 The St John's Explorer Scouts website has been tested using the following methods:
 
 ### Chrome Devoloper Tools
-* I made use of the Developer Tools throughout the project to inspect my pages and make changes accordingly.
+* I made use of the Developer Tools to aid debugging throughout the project to inspect my pages and make changes accordingly.
+
+## Manual Testing
+The following aspects were manually tested as I progressed through the project. I checked each element using the Live Server in Gitpod to confirm that what I expected to happen, happened successfully, and then also checked it in an incognito window with the cache cleared.
+The following elements were manually tested:
+
+### Navigation Bars
+
+|TEST                  | DESIRED OUTCOME                      | PASS / FAIL  |
+| -------------------- | --------------------------------     | ------------ |
+| Home page | When 'Home' hyperlink clicked, the browder directs me to index.html. The hover effect (underline) appears when mouse is over hyperlink. The active page effect (underline) displays correctly underneath the Home link.      | PASS |
+| Meeting Page | When 'Meeting' hyperlink clicked, the browder directs me to meeting.html. The hover effect (underline) appears when mouse is over hyperlink. The active page effect (underline) displays correctly underneath the Meeting link.     | PASS |
+| Events Page | When 'Events' hyperlink clicked, the browder directs me to events.html. The hover effect (underline) appears when mouse is over hyperlink. The active page effect (underline) displays correctly underneath the Events link.     | PASS |
+| Contact Page | When 'Contact' hyperlink clicked, the browder directs me to contact.html. The hover effect (underline) appears when mouse is over hyperlink. The active page effect (underline) displays correctly underneath the Contact link.     | PASS |
+| Thank you Page | When any hyperlink clicked, the browder directs me to the correct page. The hover effect (underline) appears when mouse is over hyperlink. The active page effect (underline) should not be displayed.     | PASS |
+| All pages | All pages responsive using DevTools to resize the screen size for mobile to desktop.     | PASS |
+| Background Colour | The background colour does not distract from the text.     | PASS |
+| Text Colour | The text colour significantly contrasts to the background colour to allow good accessibility.     | PASS |
+| Font-style | The logo font displays as Special Elite and the menu links font appears as Roboto.     | PASS |
+
+
+### Footer
+
+|TEST                  | DESIRED OUTCOME                      | PASS / FAIL  |
+| -------------------- | --------------------------------     | ------------ |
+| Background Colour | The background colour does not distract from the text. The colour gradient does not distract from the text.     | PASS |
+| Text Colour | The text colour contrasts to the background colour to allow good accessibility.     | PASS |
+| Font-style | The heading font displays as Special Elite and the paragraph font appears as Roboto.     | PASS |
+| Icons | The Font Awesome icons display as the expected size and colour.     | PASS |
+| Social Media Icons | The Font Awesome icons link to the correct social media pages.     | PASS |
+
+
+### Home Page
+
+|TEST                  | DESIRED OUTCOME                      | PASS / FAIL  |
+| -------------------- | --------------------------------     | ------------ |
+| Text Colour | The text colour contrasts to the background colour to allow good accessibility.     | PASS |
+| Font-style | The heading font displays as Special Elite and the paragraph font appears as Roboto.     | PASS |
+| Hero Image | The image covers the width of the screen and is the specified height. The image loads quickly on desktop and mobile. The image is responsive and resizes for different devices.     | PASS |
+| Links on circular images | The images are displayed as circles with a border. A transparent overlay and the hyperlink text appears when hovered over. Each circle links to the correct page.    | PASS |
+| Welcome message | The text is centered on the screen.     | PASS |
+
+### Meeting Page
+
+|TEST                  | DESIRED OUTCOME                      | PASS / FAIL  |
+| -------------------- | --------------------------------     | ------------ |
+| Text Colour | The text colour contrasts to the background colour to allow good accessibility.     | PASS |
+| Font-style | The heading font displays as Special Elite and the paragraph font appears as Roboto.     | PASS |
+| Hero Image | The image covers the width of the screen and is the specified height. The image loads quickly on desktop and mobile. The image is responsive and resizes for different devices.     | PASS |
+| Links on circular images | The images are displayed as circles with a border. A transparent overlay and the hyperlink text appears when hovered over. Each circle links to the correct page.    | PASS |
+| Welcome message | The text is centered on the screen.     | PASS |
 
 ## Code Validation
 
