@@ -329,18 +329,21 @@ ___
 ## Code Validation
 
 ### W3C HTML Validator
-![w3c screenshot 1](/readme-images/testing/w3c-screenshot1.jpg "W3C Validator screenshot 1")
 
-![w3c screenshot 2](/readme-images/testing/w3c-screenshot2.jpg "W3C Validator screenshot 2")
+The code for all pages was tested using W3C Validator. It was validated by direct input.
 
-The following steps were taken to fix the bugs identified by W3C Validator:
-1. Additional hyphens removed.
-2. Section class (hero-outer) changed to div class as no heading was needed.
-3. Div id="circle" changed to div class.
-4. Section class (landing-circles) changed to div class as no heading was needed.
+![w3c home](/readme-images/testing/w3chome.jpg "W3C Validator screenshot home")
 
-All identified bugs fixed:
-![w3c screenshot 3](/readme-images/testing/w3c-screenshot3.jpg "W3C Validator screenshot 3")
+![w3c meeting](/readme-images/testing/w3cmeeting.jpg "W3C Validator screenshot meeting")
+
+![w3c events](/readme-images/testing/w3cevents.jpg "W3C Validator screenshot events")
+
+![w3c contact](/readme-images/testing/w3ccontact.jpg "W3C Validator screenshot contact")
+
+![w3c thank-you](/readme-images/testing/w3cthankyou.jpg "W3C Validator screenshot thankyou")
+
+The pages all passed the validator with no errors apart from the events page which had a warning that an article lacks a heading. 
+
 
 ### W3C CSS Validator
 The W3C CSS Validator showed the following errors:
