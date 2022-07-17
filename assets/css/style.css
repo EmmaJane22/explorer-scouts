@@ -417,6 +417,8 @@ header {
 
     .events-image {
         height: 175px;
+        background: url('../images/small-tent-banner.png') no-repeat center center;
+        background-size: cover;
         animation-name: hero-zoom;
         animation-duration: 0s;
         animation-fill-mode: forwards;
