@@ -163,7 +163,7 @@ I used Bootstrap to produce the menu, and added an underline for the active page
 ## Hero Images
 
 All pages feature a hero image across the top to create a consitent view. The hero images use different images on each page to reflect the content  of that page.
-The contact page does not feature a hero image to create a greater focus on the form itself. The form has a background image instead with a semi-transparent overlay to maintain the branding.
+The desktop contact page does not feature a hero image to create a greater focus on the form itself. The form has a background image instead with a semi-transparent overlay to maintain the branding. The mobile version has a hero image and the background image removed to increase the loading speed and because the impact of the background image was lost on a small screen.
 
 - All images were compressed to allow faster loading using https://tinypng.com/
 - Credit for all images can be found below.
@@ -279,6 +279,16 @@ The reports for meeting.html and events.html showed 'good' for all areas:
 ![lighthouse mobile meeting screenshot](/readme-images/testing/mobile-meeting.jpg "Lighthouse mobile meeting screenshot")
 
 ![lighthouse mobile events screenshot](/readme-images/testing/mobile-events.jpg "Lighthouse mobile events screenshot")
+
+To try to improve Performance, I changed removed the animation from the hero images on mobile view for all pages and removed the background image on the contact form page, replacing it with a hero image to maintain consistency.
+
+The new reports for the mobile pages were: 
+
+![lighthouse mobile home screenshot](/readme-images/testing/mobile-home-lighthouse.jpg "Lighthouse mobile home screenshot")
+
+![lighthouse mobile events screenshot](/readme-images/testing/mobile-contact-lighthouse.jpg "Lighthouse mobile contact screenshot")
+
+While the Performance score is still 'needs improvement' there has been an improvement. 
 
 ## Peer Review
 The project was shared to Slack for peer review and the following changes were made:
