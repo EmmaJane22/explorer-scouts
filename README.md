@@ -150,7 +150,7 @@ ___
 
 # Features
 
-## Naviagtion Bar
+## Navigation Bar
 All pages are accessible from the NavBar apart from the thank-you.html as this is the form response. This allows the user to easliy naviagte the site without the need to return to the home page.
 The navbar appears as a horizontal list on desktop and changes to a vertical drop down menu on mobile.
 The decision was made to not make the navbar sticky so that the user can see more on the page as they scroll down.
