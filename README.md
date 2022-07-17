@@ -116,11 +116,42 @@ ___
 
 # Site Structure
 
-The website has a Home page and four other pages:
-- Meetings - provides information about where meetings are and who can join.
-- Events - provides information about the activities the unit participate in and has photos to showcase these.
-- Contact - provides a simple contact form for users to ask questions.
-- Thank you - the contact form is set to direct to this page rather than the Code Institute form dump. It redirects users back to the site.
+The website has a Home page and four other pages.
+
+## Home Page
+![home page](/readme-images/page-screenshots/home-screenshot.jpg "Home page")
+
+![home page bottom](/readme-images/page-screenshots/home-screenshot-2.jpg "Home page bottom")
+
+The home page (index.html) is a simple landing page. It has a welcome message underneath the hero image and below that are three images in circle containers that are hyperlinks to the site pages, allowing very easy site navigation.
+
+## Meeting Page
+![Meeting page](/readme-images/page-screenshots/meeting-screenshot-1.jpg "Meeting page")
+
+![Meeting page bottom](/readme-images/page-screenshots/meeting-screenshot-2.jpg "Meeting page bottom")
+
+The meeting page (meetings.html) provides clear information about meetings, joining the unit and the badges the unit works towards. There is an accompanying image for each block of text to make it visually appealing.
+
+Beneath the rows of text is an embedded, responsive Google map linked to the groups address and the address is also next to the map to provide information easily and intuitively.  
+
+## Events Page
+![Events page](/readme-images/page-screenshots/events-screenshot.jpg "Events page")
+
+![Events page bottom](/readme-images/page-screenshots/events-screenshot-2.jpg "Events page bottom")
+
+The events page (events.html) follows a similar layout to the meeting page, with clear informative text followed by an embedded YouTube video from the official Scouts YouTube channel. The page provides information about the activities the unit participate in and has an image gallery to showcase these.
+
+## Contact Page
+![Contact page](/readme-images/page-screenshots/contact-screenshot.jpg "Contact page")
+
+The contact page (contact.html) provides a simple contact form for users to ask questions. The contact form is not active as I have not learnt this technology yet. The contact form was set to method GET after viewing a post on Slack regarding form methods: https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1653483581074199
+
+In order to do this, I created a copy of the index.html page but changed the content to have an acknowledgement of the form submission rather than going to the Code Institute page. If this site was to go live for the public, this would be changed. The form redirects to the thank-you.html page.
+
+## Thank-you page
+![Thank-you page](/readme-images/page-screenshots/thanks-screenshot.jpg "Thank-you page")
+The contact form is set to direct to this page rather than the Code Institute form dump. It redirects users back to the site.
+
 
 ## Wireframes
 
@@ -140,10 +171,6 @@ The website has a Home page and four other pages:
 ### Contact Page
 ![contact page](/readme-images/wireframes/low-res-contact-page.png "Contact Page")
 
-The contact form is not active as I have not learnt this technology yet.
-The contact form was set to method GET after viewing a post on Slack regarding form methods: https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1653483581074199
-
-In order to do this, I created a copy of the index.html page but changed the content to have an acknowledgement of the form submission rather than going to the Code Institute page. If this site was to go live for the public, this would be changed.
 ___
 
 # Features
@@ -165,6 +192,15 @@ The desktop contact page does not feature a hero image to create a greater focus
 
 - All images were compressed to allow faster loading using https://tinypng.com/
 - Credit for all images can be found below.
+
+## Gallery
+The events page (events.html) features a gallery of images showing the Explorers activities. This has been styled to appear as three columns on desktop pages, reduce to two columns on tablets and reduce to one column on mobiles.
+
+## Video
+The events page (events.html) features an embedded YouTube video from the official Scouts YouTube channel. This has been styled to be responsive on all device sizes. It is also set to turn off autoplay and to set to mute.
+
+## Form
+The contact page (contact.html) features a simple form that users can complete to send enquiries to the Explorer unit. The fields are all set to be required and the large text area features placeholder text. 
 
 ## Footer
 The footer element links to social media channels and shows the phone number and email address for ease of contact.
