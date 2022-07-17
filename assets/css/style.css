@@ -144,7 +144,7 @@ header {
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    font-size: 200%;
+    font-size: 1.75rem;
     text-align: center;
     opacity: 0;
     text-align: center;
@@ -233,7 +233,7 @@ header {
 
 .map-contact-icon {
     margin: 0;
-    font-size: 25px;
+    font-size: 2rem;
     color: #132b40;
     padding: 1.5%;
     float: right;
@@ -326,7 +326,7 @@ header {
 
 #message_area::placeholder {
     color: #023535;
-    font-size: small;
+    font-size: 0.75rem;
 }
 
 .send-button {
@@ -334,7 +334,7 @@ header {
     border-radius: 2px;
     padding: 15px 30px 15px 30px;
     text-align: center;
-    font-size: 100%;
+    font-size: 1rem;
     background-color: #023535;
     color: #fafafa;
     display: inline-block;
@@ -360,15 +360,15 @@ header {
 
 .list-contact-icon {
     margin: 0 10px;
-    font-size: 30px;
+    font-size: 2rem;
     color: #132b40;
-    padding: 1.5%;
+    padding: 2px;
 }
 
 .social-media-icon {
-    font-size: 30px;
+    font-size: 2rem;
     color: #132b40;
-    padding: 1.5%;
+    padding: 2px;
     margin: 0;
 }
 
@@ -408,7 +408,7 @@ header {
     }
     .social-media-icon {
         margin: 10px;
-        font-size: 30px;
+        font-size: 2rem;
     }
 
     .list-contact-icon {
