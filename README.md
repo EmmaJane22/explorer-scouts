@@ -1,8 +1,7 @@
 # Explorer Scouts Website - Emma Scott
 
-# DIWAD_MS1: Diploma in Web Development: Milestone Project 1
 
-![mockups](assets/images/testing/mockup.jpg "Mockup")
+![mockups](/readme-images/testing/mockup.jpg "Mockup")
 
 * St. John's Explorer Scouts are a group of over 20 Scouts who meet weekly from across Sunderland. The aim of the website is to appeal to current members and their parents, to attract new potential members to the group and to showcase the group's succeses and activities. The website is designed to be responsive so that it is appealing and can be used on any device. 
 * The website features five pages and has been built using HTML and CSS and Bootstrap.
@@ -95,7 +94,7 @@ ___
 
 ## Colour Palette
 
-![colour palette](assets/readme/colour_scheme.png)
+![colour palette](/readme-images/colour_scheme.png)
 
 - A simple colour scheme has been used. The teal colours echo the muted colours of the Explorer group's uniform. 
 
@@ -127,20 +126,20 @@ The website has a Home page and four other pages:
 ## Wireframes
 
 ### Site Map
-![site map](assets/images/wireframes/site-map.jpg "Site Map")
+![site map](/readme-images/wireframes/site-map.jpg "Site Map")
 
 ### Landing Page
-![landing page](assets/images/wireframes/low-res-landing-page.png "Landing Page")
+![landing page](/readme-images/wireframes/low-res-landing-page.png "Landing Page")
 
  
 ### Meeting Page
-![meeting page](assets/images/wireframes/low-res-meeting-page.png "Meeting Page")
+![meeting page](/readme-images/wireframes/low-res-meeting-page.png "Meeting Page")
 
 ### Events Page
-![events page](assets/images/wireframes/low-res-events-page.png "Events Page")
+![events page](/readme-images/wireframes/low-res-events-page.png "Events Page")
 
 ### Contact Page
-![contact page](assets/images/wireframes/low-res-contact-page.png "Contact Page")
+![contact page](/readme-images/wireframes/low-res-contact-page.png "Contact Page")
 
 The contact form was set to method GET after viewing a post on Slack regarding form methods: https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1653483581074199
 
@@ -155,14 +154,20 @@ The navbar appears as a horizontal list on desktop and changes to a vertical dro
 The decision was made to not make the navbar sticky so that the user can see more on the page as they scroll down.
 I used Bootstrap to produce the menu, and added an underline for the active page and a hover state to non-active pages.
 
-![navbar desktop](assets/readme/navbar.jpg "navbar")
+![navbar desktop](/readme-images/navbar.jpg "navbar")
 
-![navbar mobile](assets/readme/navbar-mobile.jpg "navbar mobile")
+![navbar mobile](/readme-images/navbar-mobile.jpg "navbar mobile")
 
 ## Hero Images
-- Images were compressed to allow faster loading using https://tinypng.com/
+
+All pages feature a hero image across the top to create a consitent view. The hero images use different images on each page to reflect the content  of that page.
+The contact page does not feature a hero image to create a greater focus on the form itself. The form has a background image instead with a semi-transparent overlay to maintain the branding.
+
+- All images were compressed to allow faster loading using https://tinypng.com/
+- Credit for all images can be found below.
 
 ## Footer
+
 
 ## Future Features
 * I will research using NextGen formats for images in future.
@@ -183,9 +188,9 @@ The St John's Explorer Scouts website has been tested using the following method
 ## Code Validation
 
 ### W3C HTML Validator
-![w3c screenshot 1](assets/images/testing/w3c-screenshot1.jpg "W3C Validator screenshot 1")
+![w3c screenshot 1](/readme-images/testing/w3c-screenshot1.jpg "W3C Validator screenshot 1")
 
-![w3c screenshot 2](assets/images/testing/w3c-screenshot2.jpg "W3C Validator screenshot 2")
+![w3c screenshot 2](/readme-images/testing/w3c-screenshot2.jpg "W3C Validator screenshot 2")
 
 The following steps were taken to fix the bugs identified by W3C Validator:
 1. Additional hypens removed.
@@ -194,12 +199,12 @@ The following steps were taken to fix the bugs identified by W3C Validator:
 4. Section class (landing-circles) changed to div class as no heading was needed.
 
 All identified bugs fixed:
-![w3c screenshot 3](assets/images/testing/w3c-screenshot3.jpg "W3C Validator screenshot 3")
+![w3c screenshot 3](/readme-images/testing/w3c-screenshot3.jpg "W3C Validator screenshot 3")
 
 ### W3C CSS Validator
 The W3C CSS Validator showed the following errors:
 
-![w3c css screenshot](assets/images/testing/css-screenshot1.jpg "W3C CSS Validator screenshot")
+![w3c css screenshot](/readme-images/testing/css-screenshot1.jpg "W3C CSS Validator screenshot")
 
 Following research, I realised this error is with the Font Awesome toolkit so I was unable to address this.
 
@@ -213,33 +218,33 @@ I used the Lighthouse reports in Google DevTools to examine the desktop pages of
 
 The report for index.html on desktop was 'good' for Accessibility and SEO but 'needs improvement' for Performance and Best Practices. 
 
-![lighthouse screenshot](/assets/images/testing/lighthouse1.jpg "Lighthouse screenshot")
+![lighthouse screenshot](/readme-images/testing/lighthouse1.jpg "Lighthouse screenshot")
 
-![lighthouse 2 screenshot](/assets/images/testing/lighthouse2.jpg "Lighthouse 2 screenshot")
+![lighthouse 2 screenshot](/readme-images/testing/lighthouse2.jpg "Lighthouse 2 screenshot")
 
-![lighthouse 3 screenshot](/assets/images/testing/lighthouse3.jpg "Lighthouse 3 screenshot")
+![lighthouse 3 screenshot](/readme-images/testing/lighthouse3.jpg "Lighthouse 3 screenshot")
 
-![lighthouse 4 screenshot](/assets/images/testing/lighthouse4.jpg "Lighthouse 4 screenshot")
+![lighthouse 4 screenshot](/readme-images/testing/lighthouse4.jpg "Lighthouse 4 screenshot")
 
 The reports showed that I needed to update the version of Bootstrap. Updating this to version 5.1.3 resolved this issue.
 
 A new Lighthouse report was actioned and showed 'good' for all areas. 
 
-![lighthouse desktop screenshot](/assets/images/testing/desktop-home.jpg "Lighthouse desktop screenshot")
+![lighthouse desktop screenshot](/readme-images/testing/desktop-home.jpg "Lighthouse desktop screenshot")
 
 Subsequent reports for the other website pages showed all areas to be 'good' on desktop:
 
 meetings.html:
 
-![lighthouse desktop meetings screenshot](/assets/images/testing/desktop-meetings.jpg "Lighthouse desktop meetings screenshot")
+![lighthouse desktop meetings screenshot](/readme-images/testing/desktop-meetings.jpg "Lighthouse desktop meetings screenshot")
 
 events.html:
 
-![lighthouse desktop events screenshot](/assets/images/testing/desktop-events.jpg "Lighthouse desktop events screenshot")
+![lighthouse desktop events screenshot](/readme-images/testing/desktop-events.jpg "Lighthouse desktop events screenshot")
 
 contact.html:
 
-![lighthouse desktop contact screenshot](/assets/images/testing/desktop-contact.jpg "Lighthouse desktop contact screenshot")
+![lighthouse desktop contact screenshot](/readme-images/testing/desktop-contact.jpg "Lighthouse desktop contact screenshot")
 
 ### Lighthouse mobile
 
@@ -251,17 +256,21 @@ I used the Lighthouse reports in Google DevTools to examine the mobile pages of 
 
 The reports showed 'good' for Accessibility, Best Practices and SEO on the contact.html and index.html pages: 
 
-![lighthouse mobile contact screenshot](/assets/images/testing/mobile-contact.jpg "Lighthouse mobile contact screenshot")
+![lighthouse mobile contact screenshot](/readme-images/testing/mobile-contact.jpg "Lighthouse mobile contact screenshot")
 
-![lighthouse mobile home screenshot](/assets/images/testing/mobile-home.jpg "Lighthouse mobile index screenshot")
+![lighthouse mobile home screenshot](/readme-images/testing/mobile-home.jpg "Lighthouse mobile index screenshot")
 
 Upon inspection of the Performance errors, it recommended saving images in NextGen formats. This is something I can look into for the future.
 
 The reports for meeting.html and events.html showed 'good' for all areas:
 
-![lighthouse mobile meeting screenshot](/assets/images/testing/mobile-meeting.jpg "Lighthouse mobile meeting screenshot")
+![lighthouse mobile meeting screenshot](/readme-images/testing/mobile-meeting.jpg "Lighthouse mobile meeting screenshot")
 
-![lighthouse mobile events screenshot](/assets/images/testing/mobile-events.jpg "Lighthouse mobile events screenshot")
+![lighthouse mobile events screenshot](/readme-images/testing/mobile-events.jpg "Lighthouse mobile events screenshot")
+
+## Peer Review
+The project was shared to Slack for peer review and the following changes were made:
+* the images for readme.md were moved to their own folder not in assets.
 
 ___
 
