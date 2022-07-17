@@ -3,18 +3,16 @@
 
 ![mockups](/readme-images/testing/mockup.jpg "Mockup")
 
-* St. John's Explorer Scouts are a group of over 20 Scouts who meet weekly from across Sunderland. The aim of the website is to appeal to current members and their parents, to attract new potential members to the group and to showcase the group's succeses and activities. The website is designed to be responsive so that it is appealing and can be used on any device. 
+* St. John's Explorer Scouts are a group of over 20 Scouts who meet weekly from across Sunderland. The aim of the website is to appeal to current members and their parents, to attract new potential members to the group and to showcase the group's successes and activities. The website is designed to be responsive so that it is appealing and can be used on any device. 
 * The website features five pages and has been built using HTML and CSS and Bootstrap.
 
 ## Live Project
 [View the live project here.](https://emmajane22.github.io/explorer-scouts/ "View the Live project here")
 
-## GitHub Repository
-[View the project repository here.](https://github.com/EmmaJane22/explorer-scouts.git "View the project repository here")
 ___
 
 # Table of Contents:
-[1. User Expereince (UX)](#ux)
+[1. User Experience (UX)](#ux)
   - [User Stories](#user-stories)
   - [External Users' Goals](#external-users)
   -	[Site Owners goals](#owner-goals)
@@ -64,7 +62,7 @@ ___
 
 ### External Users' Goals:
 
-* The site users are Explorer Scout members and potential members and their parents/carers, who want to know more about the Explorer Scout pack and it's activities.
+* The site users are Explorer Scout members and potential members and their parents/carers, who want to know more about the Explorer Scout unit and its activities.
 
 * External users may want to celebrate the Pack's achievements or to explore what events the Pack participates in.
 
@@ -74,9 +72,9 @@ ___
 
 
 ### Site Owner's Goals:
-* The Explorer Scout group is interested in attracting  new members as well as retaining current members.
+* The Explorer Scout group is interested in attracting new members as well as retaining current members.
 
-* The group also wants to celebrate their successes and showcase their activities/events to a wider community, as parents and the public are not permitted to attend group sessions. Scouting officals from county level are also interested in viewing the group's activities.
+* The group also wants to celebrate their successes and showcase their activities/events to a wider community, as parents and the public are not permitted to attend group sessions. Scouting officials from county level are also interested in viewing the group's activities.
 
 * The site owner requires a simple contact form that people can use to ask questions.
 
@@ -105,7 +103,7 @@ ___
 
 ## Typography
 
-- The 'Special Elite' font is used for the logo at the top of the site and for headings. Sans-serif is the fallback font in case the title font is not being imported correctly. 'Special ELite' adds character to the logo, as it creates an image of adventures.
+- The 'Special Elite' font is used for the logo at the top of the site and for headings. Sans-serif is the fallback font in case the title font is not being imported correctly. 'Special Elite' adds character to the logo, as it creates an image of adventures.
 - The 'Roboto' font is used for all other body text. It is a clean and easily legible font.
 
 ## Images
@@ -122,7 +120,7 @@ The website has a Home page and four other pages:
 - Meetings - provides information about where meetings are and who can join.
 - Events - provides information about the activities the unit participate in and has photos to showcase these.
 - Contact - provides a simple contact form for users to ask questions.
-- Thank you - the contact form is set to direct to this page rather than the Code Institue form dump. It redircets users back to the site.
+- Thank you - the contact form is set to direct to this page rather than the Code Institute form dump. It redirects users back to the site.
 
 ## Wireframes
 
@@ -145,16 +143,16 @@ The website has a Home page and four other pages:
 The contact form is not active as I have not learnt this technology yet.
 The contact form was set to method GET after viewing a post on Slack regarding form methods: https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1653483581074199
 
-In order to do this, I created a copy of the index.html page but changed the content to have an acknowledgement of the form submision rather than going to the Code Institute page. If this site was to go live for the public, this would be changed.
+In order to do this, I created a copy of the index.html page but changed the content to have an acknowledgement of the form submission rather than going to the Code Institute page. If this site was to go live for the public, this would be changed.
 ___
 
 # Features
 
 ## Navigation Bar
-All pages are accessible from the NavBar apart from the thank-you.html as this is the form response. This allows the user to easliy naviagte the site without the need to return to the home page.
-The navbar appears as a horizontal list on desktop and changes to a vertical drop down menu on mobile.
+All pages are accessible from the navbar apart from the thank-you.html as this is the form response. This allows the user to easily navigate the site without the need to return to the home page.
+The navbar appears as a horizontal list on desktop and changes to a vertical drop-down menu on mobile.
 The decision was made to not make the navbar sticky so that the user can see more on the page as they scroll down.
-I used Bootstrap to produce the menu, and added an underline for the active page and a hover state to non-active pages.
+I used Bootstrap to produce the menu and added an underline for the active page and a hover state to non-active pages.
 
 ![navbar desktop](/readme-images/navbar.jpg "navbar")
 
@@ -162,20 +160,20 @@ I used Bootstrap to produce the menu, and added an underline for the active page
 
 ## Hero Images
 
-All pages feature a hero image across the top to create a consitent view. The hero images use different images on each page to reflect the content  of that page.
+All pages feature a hero image across the top to create a consistent view. The hero images use different images on each page to reflect the content of that page.
 The desktop contact page does not feature a hero image to create a greater focus on the form itself. The form has a background image instead with a semi-transparent overlay to maintain the branding. The mobile version has a hero image and the background image removed to increase the loading speed and because the impact of the background image was lost on a small screen.
 
 - All images were compressed to allow faster loading using https://tinypng.com/
 - Credit for all images can be found below.
 
 ## Footer
-The footer element links to social media chanels and shows the phone number and email address for ease of contact.
+The footer element links to social media channels and shows the phone number and email address for ease of contact.
 It features a gradient colour for interest.
 
 ## Future Features
 * I will research using NextGen formats for images in future.
 * In order to make the form action POST work, I need to learn the scripting behind the form.
-* It was suggested in Peer Review that I make the page one scrolling page rather than seperate pages. This is something I will consider for the future.
+* It was suggested in Peer Review that I make the page one scrolling page rather than separate pages. This is something I will consider for the future.
 
 ___
 
@@ -185,7 +183,7 @@ ___
 * Bootstrap v5.1.3 - used to improve the responsiveness of the site for access on different size devices.
 * Balsamiq: Balsamiq was used to create wireframes for the project.
 * Font Awesome: The project uses icons from Font Awesome version 6.
-* Chrome DevTools: This featured heavily as I tested the site throughout to adjust sizings and spacings.
+* Chrome DevTools: This featured heavily as I tested the site throughout to adjust sizing and spacing.
 * Google Fonts: The fonts used have been imported from Google Fonts.
 
  ___
@@ -194,7 +192,7 @@ ___
 
 The St John's Explorer Scouts website has been tested using the following methods:
 
-### Chrome Devloper Tools
+### Chrome Devoloper Tools
 * I made use of the Developer Tools throughout the project to inspect my pages and make changes accordingly.
 
 ## Code Validation
@@ -205,7 +203,7 @@ The St John's Explorer Scouts website has been tested using the following method
 ![w3c screenshot 2](/readme-images/testing/w3c-screenshot2.jpg "W3C Validator screenshot 2")
 
 The following steps were taken to fix the bugs identified by W3C Validator:
-1. Additional hypens removed.
+1. Additional hyphens removed.
 2. Section class (hero-outer) changed to div class as no heading was needed.
 3. Div id="circle" changed to div class.
 4. Section class (landing-circles) changed to div class as no heading was needed.
@@ -298,17 +296,17 @@ The project was shared to Slack for peer review and the following changes were m
 * 'integrity' and 'cross origin' code was removed to improve performance.
 
 ## Contrast Checker
-The colours used in the site were checked for contrast using https://coolors.co/contrast-checker/
+The colours used in the site were checked for contrast using https://coolors.co/contrast-checker/ to improve accessibility.
 
 ___
 
 # Bugs & Fixes:
 
-* When I produced the pages originally I worked from desktop down. This created the need for a lot of media queries which I initally added, however I wasn't happy with the amount of queries needed so decided to rewrite all of the pages starting from mobile-first and using more Bootstrap code to make the elements much more responsive on larger devices. This was a major fix which took a large amount of time, but I am much more satisfied with the end product.
+* When I produced the pages originally I worked from desktop down. This created the need for a lot of media queries which I initially added, however I wasn't happy with the amount of queries needed so decided to rewrite all of the pages starting from mobile-first and using more Bootstrap code to make the elements much more responsive on larger devices. This was a major fix which took a large amount of time, but I am much more satisfied with the end product.
 
 * When I made some final checks to the responsiveness of the pages, I discovered my logo was a broken link as I had a typing error in the link. I fixed this by correcting the typing error.
 
-* During testiing, I realised the YouTube video was not resizing on different size devices. I sourced code from https://getbootstrap.com/docs/4.0/utilities/embed/ to fix this and allow it to resize.
+* During testing, I realised the YouTube video was not resizing on different size devices. I sourced code from https://getbootstrap.com/docs/4.0/utilities/embed/ to fix this and allow it to resize.
 
 * During my middle mentor meeting, we realised the YouTube video was auto-playing. I sourced code from https://www.w3schools.com/html/html_youtube.asp to prevent it auto-playing.
 
@@ -326,7 +324,7 @@ ___
 
 * Following peer review, I changed the font size specification to rem.
 
-* Following peer review, I removed 'intergrity' and 'crossorigin' code from all pages.
+* Following peer review, I removed 'integrity' and 'crossorigin' code from all pages.
 
 * To improve the Performance score on Lighthouse on the mobile versions of all pages, I removed the hero image animation which was slowing loading speed.
 
@@ -334,12 +332,11 @@ ___
 
 # Deployment
 The project was deployed using these steps:
-1. Create a repository: Go to GitHub and create a public repository, named username.github.io. Make the username your username on GitHub.
-
-2. Go to your repository
-- on top right click Settings.
-- Scroll down to GitHub Pages, select main/master branch from the dropdown and press save.
-- A link will be generated for your live site.
+1. Create a repository: Go to GitHub and create a public repository named username.github.io. Make the username your username on GitHub.
+2. Go to your repository.
+3. On top right click Settings.
+4. Scroll down to GitHub Pages, select main/master branch from the dropdown and press save.
+5. A link will be generated for your live site.
 
 ___
 
@@ -349,7 +346,7 @@ ___
 
 * The initial code for the header, footer and circle images/containers was taken from the Code Institute Love Running project.
 
-* Help centering the images on the Landing page circles was found here: https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching
+* Help centring the images on the Landing page circles was found here: https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching
 
 * Code sourced from the Code Institute Whiskey Drop tutorial.
 
