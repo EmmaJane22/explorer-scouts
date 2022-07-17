@@ -314,6 +314,8 @@ ___
 
 * Following peer review, I changed the font size specification to rem.
 
+* Following peer review, I removed 'intergrity' and 'crossorigin' code from all pages.
+
 ___
 
 # Deployment
@@ -325,9 +327,7 @@ The project was deployed using these steps:
 - Scroll down to GitHub Pages, select main/master branch from the dropdown and press save.
 - A link will be generated for your live site.
 
-
-
-__
+___
 
 # Credits
 
