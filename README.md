@@ -326,6 +326,8 @@ ___
 
 * Following peer review, I removed 'intergrity' and 'crossorigin' code from all pages.
 
+* To improve the Performance score on Lighthouse on the mobile versions of all pages, I removed the hero image animation which was slowing loading speed.
+
 ___
 
 # Deployment
