@@ -294,6 +294,8 @@ While the Performance score is still 'needs improvement' there has been an impro
 The project was shared to Slack for peer review and the following changes were made:
 * the images for readme.md were moved to their own folder not in assets.
 * font sizes were changed to rem.
+* the hero image animation was removed on the mobile pages.
+* 'integrity' and 'cross origin' code was removed to improve performance.
 
 ## Contrast Checker
 The colours used in the site were checked for contrast using https://coolors.co/contrast-checker/
