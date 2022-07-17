@@ -391,12 +391,12 @@ The results for all pages came back as 'good'.
 
 index.html
 
-![lighthouse mobile home screenshot](/readme-images/testing/lighthousehome.jpg "Lighthouse mobile home screenshot")
+![lighthouse mobile home screenshot](/readme-images/testing/lighhousehome.jpg "Lighthouse mobile home screenshot")
 
 
 meetings.html:
 
-![lighthouse mobile meetings screenshot](/readme-images/testing/lighthousemeetings.jpg "Lighthouse mobile meetings screenshot")
+![lighthouse mobile meetings screenshot](/readme-images/testing/lighhousemeetings.jpg "Lighthouse mobile meetings screenshot")
 
 events.html:
 
