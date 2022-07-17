@@ -330,7 +330,7 @@ ___
 
 ### W3C HTML Validator
 
-The code for all pages was tested using W3C Validator. It was validated by direct input.
+The HTML code for all pages was tested using W3C Validator. It was validated by direct input.
 
 ![w3c home](/readme-images/testing/w3chome.jpg "W3C Validator screenshot home")
 
@@ -346,11 +346,11 @@ The pages all passed the validator with no errors apart from the events page whi
 
 
 ### W3C CSS Validator
-The W3C CSS Validator showed the following errors:
 
-![w3c css screenshot](/readme-images/testing/css-screenshot1.jpg "W3C CSS Validator screenshot")
+The CSS code was tested using Jigsaw W3C CSS Validator. It was validated by direct input and passed all checks.
 
-Following research, I realised this error is with the Font Awesome toolkit so I was unable to address this.
+![css](/readme-images/testing/jigsawvalidator.jpg "CSS Validator screenshot")
+
 
 ### Lighthouse Desktop
 
