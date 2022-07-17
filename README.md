@@ -91,7 +91,6 @@ ___
 
 # Design Choices
 
-
 ## Colour Palette
 
 ![colour palette](/readme-images/colour_scheme.png)
@@ -101,6 +100,8 @@ ___
 - The footer section has a colour gradient which adds visual appeal, made using a tutorial from W3Schools https://www.w3schools.com/css/css3_gradients.asp 
 
 - I used https://color.adobe.com/ to decide on the colour scheme.
+
+- The font colour and background colour for the header and body were checked for contrast on https://coolors.co/contrast-checker/ and scored '13.43 - super' showing the contrast makes the accessibility good. The contrast was checked for the footer and was scored '12.44 - Super'.
 
 ## Typography
 
@@ -141,6 +142,7 @@ The website has a Home page and four other pages:
 ### Contact Page
 ![contact page](/readme-images/wireframes/low-res-contact-page.png "Contact Page")
 
+The contact form is not active as I have not learnt this technology yet.
 The contact form was set to method GET after viewing a post on Slack regarding form methods: https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1653483581074199
 
 In order to do this, I created a copy of the index.html page but changed the content to have an acknowledgement of the form submision rather than going to the Code Institute page. If this site was to go live for the public, this would be changed.
@@ -167,14 +169,24 @@ The contact page does not feature a hero image to create a greater focus on the 
 - Credit for all images can be found below.
 
 ## Footer
-
+The footer element links to social media chanels and shows the phone number and email address for ease of contact.
+It features a gradient colour for interest.
 
 ## Future Features
 * I will research using NextGen formats for images in future.
+* In order to make the form action POST work, I need to learn the scripting behind the form.
+* It was suggested in Peer Review that I make the page one scrolling page rather than seperate pages. This is something I will consider for the future.
 
 ___
 
 # Technologies Used
+* HTML -used for structuring and presenting information on the website.
+* CSS - used for styling the HTML code.
+* Bootstrap v5.1.3 - used to improve the responsiveness of the site for access on different size devices.
+* Balsamiq: Balsamiq was used to create wireframes for the project.
+* Font Awesome: The project uses icons from Font Awesome version 6.
+* Chrome DevTools: This featured heavily as I tested the site throughout to adjust sizings and spacings.
+* Google Fonts: The fonts used have been imported from Google Fonts.
 
  ___
 
@@ -271,6 +283,10 @@ The reports for meeting.html and events.html showed 'good' for all areas:
 ## Peer Review
 The project was shared to Slack for peer review and the following changes were made:
 * the images for readme.md were moved to their own folder not in assets.
+* font sizes were changed to rem.
+
+## Contrast Checker
+The colours used in the site were checked for contrast using https://coolors.co/contrast-checker/
 
 ___
 
@@ -295,12 +311,23 @@ ___
 * After running the Lighthouse check, it recommended changing to the latest versions of Bootstrap (v. 5.1.3), therefore I updated my code to this version. This then prevented the hamburger menu working on mobile view. I fixed this by checking the code against the code sourced on getbootstrap.com and found the toggler class needed BS adding. Then then fixed the problem and allowed the hamburger menu to expand again.
 
 * The Lighthouse report for the Contact page showed a missing form label, which I fixed.
- 
+
+* Following peer review, I changed the font size specification to rem.
+
 ___
 
 # Deployment
+The project was deployed using these steps:
+1. Create a repository: Go to GitHub and create a public repository, named username.github.io. Make the username your username on GitHub.
 
-___
+2. Go to your repository
+- on top right click Settings.
+- Scroll down to GitHub Pages, select main/master branch from the dropdown and press save.
+- A link will be generated for your live site.
+
+
+
+__
 
 # Credits
 
@@ -366,4 +393,5 @@ Other images were sourced from:
 
 * Thank you to my mentor, Marcel, for helpful feedback, industry insights and recommended tools.
 * Thank you to my friends, Jeanette and Chelsea and son, Ben, for participating in testing and review.
+* Thank you to Eventyret_mentor, Simen Daehlin, for their suggestions during Peer Review of code on Slack.
 * Thank you to the tutors and staff at Code Institute for their support. 
