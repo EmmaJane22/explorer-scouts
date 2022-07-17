@@ -149,6 +149,7 @@ ___
 ![home page](/readme-images/page-screenshots/home-screenshot.jpg "Home page")
 
 Page bottom
+
 ![home page bottom](/readme-images/page-screenshots/home-screenshot-2.jpg "Home page bottom")
 
 The home page (index.html) is a simple landing page. It has a welcome message underneath the hero image and below that are three images in circle containers that are hyperlinks to the site pages, allowing very easy site navigation.
@@ -157,6 +158,7 @@ The home page (index.html) is a simple landing page. It has a welcome message un
 ![Meeting page](/readme-images/page-screenshots/meeting-screenshot-1.jpg "Meeting page")
 
 Page bottom
+
 ![Meeting page bottom](/readme-images/page-screenshots/meeting-screenshot-2.jpg "Meeting page bottom")
 
 The meeting page (meetings.html) provides clear information about meetings, joining the unit and the badges the unit works towards. There is an accompanying image for each block of text to make it visually appealing.
@@ -167,6 +169,7 @@ Beneath the rows of text is an embedded, responsive Google map linked to the gro
 ![Events page](/readme-images/page-screenshots/events-screenshot.jpg "Events page")
 
 Page bottom
+
 ![Events page bottom](/readme-images/page-screenshots/events-screenshot-2.jpg "Events page bottom")
 
 The events page (events.html) follows a similar layout to the meeting page, with clear informative text followed by an embedded YouTube video from the official Scouts YouTube channel. The page provides information about the activities the unit participate in and has an image gallery to showcase these.
@@ -291,6 +294,7 @@ The following elements were manually tested:
 | Font-style | The heading font displays as Special Elite and the paragraph font appears as Roboto.     | PASS |
 | Hero Image | The image covers the width of the screen and is the specified height. The image loads quickly on desktop and mobile. The image is responsive and resizes for different devices. The image is static on mobile devices but the animation works on larger devices. | PASS |
 | Google Map | Map shows the correct area and resizes on different devices.      | PASS |
+| External Link | Link goes to the correct site. Link opens in a new browser window.      | PASS |
 
 ### Events Page
 
