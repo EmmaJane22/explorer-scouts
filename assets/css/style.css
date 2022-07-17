@@ -393,6 +393,7 @@ header {
     
     .heroimage {
         height: 175px;
+        background: url('../images/mobile-hero-scouts.png') no-repeat center center;
     }
 
     .meet-image {
