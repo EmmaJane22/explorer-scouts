@@ -403,23 +403,23 @@ header {
     .heroimage {
         height: 175px;
         background: url('../images/mobile-hero-scouts.png') no-repeat center center;
-        animation-name: none;
-        animation-duration: none;
-        animation-fill-mode: none;
+        animation-name: hero-zoom;
+        animation-duration: 0s;
+        animation-fill-mode: forwards;
     }
 
     .meet-image {
         height: 175px;
-        animation-name: none;
-        animation-duration: none;
-        animation-fill-mode: none;
+        animation-name: hero-zoom;
+        animation-duration: 0s;
+        animation-fill-mode: forwards;
     }
 
     .events-image {
         height: 175px;
-        animation-name: none;
-        animation-duration: none;
-        animation-fill-mode: none;
+        animation-name: hero-zoom;
+        animation-duration: 0s;
+        animation-fill-mode: forwards;
     }
     /*hero image end*/
 
