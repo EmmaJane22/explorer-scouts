@@ -280,7 +280,7 @@ The following elements were manually tested:
 | Text Colour | The text colour contrasts to the background colour to allow good accessibility.     | PASS |
 | Font-style | The heading font displays as Special Elite and the paragraph font appears as Roboto.     | PASS |
 | Hero Image | The image covers the width of the screen and is the specified height. The image loads quickly on desktop and mobile. The image is responsive and resizes for different devices.     | PASS |
-| Links on circular images | The images are displayed as circles with a border. A transparent overlay and the hyperlink text appears when hovered over. Each circle links to the correct page.    | PASS |
+| Links on circular images | The images are displayed as circles with a border. A transparent overlay and the hyperlink text appears when hovered over. Each circle links to the correct page. The layout of the circles changes on different size devices - 3 columns on desktop, 2 on tablet and 1 column on mobile. The image is static on mobile devices but the animation works on larger devices. | PASS |
 | Welcome message | The text is centered on the screen.     | PASS |
 
 ### Meeting Page
@@ -289,9 +289,38 @@ The following elements were manually tested:
 | -------------------- | --------------------------------     | ------------ |
 | Text Colour | The text colour contrasts to the background colour to allow good accessibility.     | PASS |
 | Font-style | The heading font displays as Special Elite and the paragraph font appears as Roboto.     | PASS |
-| Hero Image | The image covers the width of the screen and is the specified height. The image loads quickly on desktop and mobile. The image is responsive and resizes for different devices.     | PASS |
-| Links on circular images | The images are displayed as circles with a border. A transparent overlay and the hyperlink text appears when hovered over. Each circle links to the correct page.    | PASS |
-| Welcome message | The text is centered on the screen.     | PASS |
+| Hero Image | The image covers the width of the screen and is the specified height. The image loads quickly on desktop and mobile. The image is responsive and resizes for different devices. The image is static on mobile devices but the animation works on larger devices. | PASS |
+| Google Map | Map shows the correct area and resizes on different devices.      | PASS |
+
+### Events Page
+
+|TEST                  | DESIRED OUTCOME                      | PASS / FAIL  |
+| -------------------- | --------------------------------     | ------------ |
+| Text Colour | The text colour contrasts to the background colour to allow good accessibility.     | PASS |
+| Font-style | The heading font displays as Special Elite and the paragraph font appears as Roboto.     | PASS |
+| Hero Image | The image covers the width of the screen and is the specified height. The image loads quickly on desktop and mobile. The image is responsive and resizes for different devices. The image is static on mobile devices but the animation works on larger devices. | PASS |
+| YouTube video | The video does not autoplay and is muted. It resizes on different devices. It links to the correct video.  | PASS |
+| Gallery | The image gallery displays as one column on mobile, two on tablet and three on desktop. The images are aligned with each other. The images load quickly and are not pixelated. | PASS |
+
+### Contact Page
+
+|TEST                  | DESIRED OUTCOME                      | PASS / FAIL  |
+| -------------------- | --------------------------------     | ------------ |
+| Text Colour | The text colour contrasts to the background colour to allow good accessibility.     | PASS |
+| Background image | The background image covers the container. It is hidden on mobile devices.     | PASS |
+| Hero Image | The hero image is hidden on tablet and desktop devices but displays on mobile devices. The image covers the width of the screen and is the specified height. The image loads quickly. The image is static. | PASS |
+| Form | The form is centered. The background area is transparent. The font can be easily read on the background. The placeholder text is displayed. The submit button directs the form to the Thank-you page. All fields are required.  | PASS |
+
+### Thank You Page
+
+|TEST                  | DESIRED OUTCOME                      | PASS / FAIL  |
+| -------------------- | --------------------------------     | ------------ |
+| Text Colour | The text colour contrasts to the background colour to allow good accessibility.     | PASS |
+| Background image | The background image covers the container. It is hidden on mobile devices.     | PASS |
+| Hero Image | The image covers the width of the screen and is the specified height. The image loads quickly on desktop and mobile. The image is responsive and resizes for different devices. The image is static on mobile devices but the animation works on larger devices. | PASS |
+| Acknowledgment message | The message is centered and displayed in the Special Elite font. All links direct to the correct page. | PASS |
+
+___
 
 ## Code Validation
 
