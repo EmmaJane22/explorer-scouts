@@ -414,7 +414,7 @@ The project was shared to Slack for peer review and the following changes were m
 * 'integrity' and 'cross origin' code was removed to improve performance.
 
 ## Contrast Checker
-The colours used in the site were checked for contrast using https://coolors.co/contrast-checker/ to improve accessibility.
+The colours used in the site were checked for contrast using https://coolors.co/contrast-checker/ and results were 'super'.
 
 ___
 
