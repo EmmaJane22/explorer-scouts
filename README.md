@@ -360,35 +360,24 @@ I used the Lighthouse reports in Google DevTools to examine the desktop pages of
 * Best Practices
 * SEO
 
-The report for index.html on desktop was 'good' for Accessibility and SEO but 'needs improvement' for Performance and Best Practices. 
+Every page was reported as 'good' for all areas. 
 
-![lighthouse screenshot](/readme-images/testing/lighthouse1.jpg "Lighthouse screenshot")
+index.html
 
-![lighthouse 2 screenshot](/readme-images/testing/lighthouse2.jpg "Lighthouse 2 screenshot")
+![lighthouse desktop home screenshot](/readme-images/testing/lighthouse-home-desk.jpg "Lighthouse desktop home screenshot")
 
-![lighthouse 3 screenshot](/readme-images/testing/lighthouse3.jpg "Lighthouse 3 screenshot")
-
-![lighthouse 4 screenshot](/readme-images/testing/lighthouse4.jpg "Lighthouse 4 screenshot")
-
-The reports showed that I needed to update the version of Bootstrap. Updating this to version 5.1.3 resolved this issue.
-
-A new Lighthouse report was actioned and showed 'good' for all areas. 
-
-![lighthouse desktop screenshot](/readme-images/testing/desktop-home.jpg "Lighthouse desktop screenshot")
-
-Subsequent reports for the other website pages showed all areas to be 'good' on desktop:
 
 meetings.html:
 
-![lighthouse desktop meetings screenshot](/readme-images/testing/desktop-meetings.jpg "Lighthouse desktop meetings screenshot")
+![lighthouse desktop meetings screenshot](/readme-images/testing/lighthouse-meeting-desk.jpg "Lighthouse desktop meetings screenshot")
 
 events.html:
 
-![lighthouse desktop events screenshot](/readme-images/testing/desktop-events.jpg "Lighthouse desktop events screenshot")
+![lighthouse desktop events screenshot](/readme-images/testing/lighthouse-events-desk.jpg "Lighthouse desktop events screenshot")
 
 contact.html:
 
-![lighthouse desktop contact screenshot](/readme-images/testing/desktop-contact.jpg "Lighthouse desktop contact screenshot")
+![lighthouse desktop contact screenshot](/readme-images/testing/lighthouse-contact-desk.jpg "Lighthouse desktop contact screenshot")
 
 ### Lighthouse mobile
 
@@ -398,29 +387,24 @@ I used the Lighthouse reports in Google DevTools to examine the mobile pages of 
 * Best Practices
 * SEO
 
-The reports showed 'good' for Accessibility, Best Practices and SEO on the contact.html and index.html pages: 
+The results for all pages came back as 'good'.
 
-![lighthouse mobile contact screenshot](/readme-images/testing/mobile-contact.jpg "Lighthouse mobile contact screenshot")
+index.html
 
-![lighthouse mobile home screenshot](/readme-images/testing/mobile-home.jpg "Lighthouse mobile index screenshot")
+![lighthouse mobile home screenshot](/readme-images/testing/lighthousehome.jpg "Lighthouse mobile home screenshot")
 
-Upon inspection of the Performance errors, it recommended saving images in NextGen formats. This is something I can look into for the future.
 
-The reports for meeting.html and events.html showed 'good' for all areas:
+meetings.html:
 
-![lighthouse mobile meeting screenshot](/readme-images/testing/mobile-meeting.jpg "Lighthouse mobile meeting screenshot")
+![lighthouse mobile meetings screenshot](/readme-images/testing/lighthousemeetings.jpg "Lighthouse mobile meetings screenshot")
 
-![lighthouse mobile events screenshot](/readme-images/testing/mobile-events.jpg "Lighthouse mobile events screenshot")
+events.html:
 
-To try to improve Performance, I changed removed the animation from the hero images on mobile view for all pages and removed the background image on the contact form page, replacing it with a hero image to maintain consistency.
+![lighthouse mobile events screenshot](/readme-images/testing/lighthouseevents.jpg "Lighthouse desktop mobile screenshot")
 
-The new reports for the mobile pages were: 
+contact.html:
 
-![lighthouse mobile home screenshot](/readme-images/testing/mobile-home-lighthouse.jpg "Lighthouse mobile home screenshot")
-
-![lighthouse mobile events screenshot](/readme-images/testing/mobile-contact-lighthouse.jpg "Lighthouse mobile contact screenshot")
-
-While the Performance score is still 'needs improvement' there has been an improvement. 
+![lighthouse mobile contact screenshot](/readme-images/testing/lighthousecontact.jpg "Lighthouse mobile contact screenshot")
 
 ## Peer Review
 The project was shared to Slack for peer review and the following changes were made:
@@ -454,13 +438,15 @@ ___
 
 * After running the Lighthouse check, it recommended changing to the latest versions of Bootstrap (v. 5.1.3), therefore I updated my code to this version. This then prevented the hamburger menu working on mobile view. I fixed this by checking the code against the code sourced on getbootstrap.com and found the toggler class needed BS adding. Then then fixed the problem and allowed the hamburger menu to expand again.
 
-* The Lighthouse report for the Contact page showed a missing form label, which I fixed.
+* An initial Lighthouse report for the Contact page showed a missing form label, which I fixed.
+
+* The lighhouse reports showed that I needed to update the version of Bootstrap. Updating this to version 5.1.3 resolved this issue.
+
+* To improve the Performance score on Lighthouse on the mobile versions of all pages, I removed the hero image animation which was slowing loading speed.
 
 * Following peer review, I changed the font size specification to rem.
 
 * Following peer review, I removed 'integrity' and 'crossorigin' code from all pages.
-
-* To improve the Performance score on Lighthouse on the mobile versions of all pages, I removed the hero image animation which was slowing loading speed.
 
 ___
 
