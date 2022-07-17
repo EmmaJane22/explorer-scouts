@@ -277,6 +277,11 @@ header {
 }
 
 /* Contact Us page */
+
+.hero-outer-contact{
+    display: none;
+}
+
 #contact-us-section {
     background-size: cover;
     background-position: center;
@@ -390,6 +395,10 @@ header {
     .hero-outer {
         height: 175px;
     }
+
+    .hero-outer-contact{
+        display: contents;
+    }
     
     .heroimage {
         height: 175px;
@@ -411,14 +420,40 @@ header {
         animation-name: none;
         animation-duration: none;
         animation-fill-mode: none;
-    }/*hero image end*/
+    }
+    /*hero image end*/
 
     #contact-us-section {
-        background-size: cover;
-        background-position: center;
-        height: 785px;
-        background-image: url('../images/contact-mobile.png');
-        margin: 0 0;
+        background: none;
+    }
+    
+    .form-area {
+        color: #132b40;
+        background-color: rgba(255, 255, 255, 0.7);
+        max-width: 600px;
+        padding: 30px;
+        display: inline-block;
+        margin-top: 10px
+    }
+
+    .text-input {
+        background: inherit;
+        color: #132b40;
+        width: 100%;
+        height: 25px;
+        margin:  5px 0 20px 0;
+        border: 1px solid #023535;
+        border-radius: 2px;
+    }
+
+    #message_area {
+        background: inherit;
+        width: 100%;
+        color: #132b40;
+        margin: 5px 0 20px 0;
+        text-align: center;
+        border: 1px solid #023535;
+        border-radius: 2px;
     }
 
     .footer-headings {
