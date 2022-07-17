@@ -387,7 +387,7 @@ I used the Lighthouse reports in Google DevTools to examine the mobile pages of 
 * Best Practices
 * SEO
 
-The results for all pages came back as 'good'.
+The results for all pages came back as 'good' for all areas.
 
 index.html
 
