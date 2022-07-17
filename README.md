@@ -13,60 +13,61 @@ ___
 
 # Table of Contents:
 [1. User Experience (UX)](#ux)
-  - [User Stories](#user-stories)
-  - [External Users' Goals](#external-users)
-  -	[Site Owners goals](#owner-goals)
+  - [1.1 User Stories](#user-stories)
+  - [1.2 External Users' Goals](#external-users)
+  -	[1.3 Site Owners goals](#owner-goals)
+  -	[1.4 Features to include](#features)
 
       
 [2. Design Choices](#design)
-  - [Colour Palette](#colour)
-  - [Typography](#typography)
-  - [Images](#images)
+  - [2.1 Colour Palette](#colour)
+  - [2.2 Typography](#typography)
+  - [2.3 Images](#images)
 
 [3. Site Structure](#structure)
-  - [Wireframes](#wireframes)
-  - [Site Map](#map)
-  - [Landing Pages](#landing)
-  - [Meeting Page](#meeting)
-  - [Events Page](#events)
-  - [Contact Page](#contact)
-  - [Thank-you Page](#thank-you)
+  - [3.1 Wireframes](#wireframes)
+  - [3.2 Home Page](#home)
+  - [3.3 Meeting Page](#meeting)
+  - [3.4 Events Page](#events)
+  - [3.5 Contact Page](#contact)
+  - [3.6 Thank-you Page](#thank-you)
  
 [4. Features](#sitefeatures)
-  - [Navigation Bar](#nav)
-  - [Hero Images](#hero)
-  - [Gallery](#gallery)
-  - [Video](#video)
-  - [Form](#form)
-  - [Footer](#footer)
-  - [Future Features](#future)
+  - [4.1 Navigation Bar](#nav)
+  - [4.2 Hero Images](#hero)
+  - [4.3 Gallery](#gallery)
+  - [4.4 Video](#video)
+  - [4.5 Form](#form)
+  - [4.6 Footer](#footer)
+  - [4.7 Future Features](#future)
 
 [5. Technologies Used](#tech)
 
 [6. Testing](#testing)
-  - [Chrome DevTools](#devtools)
-  - [Manual Testing](#manual)  
-  - [Code Validation](#val)
-  - [W3C HTML](#w3chtml)
-  - [W3C CSS](#w3ccss)
-  - [Lighthouse](#lighthouse)
+  - [6.1 Chrome DevTools](#devtools)
+  - [6.2 Manual Testing](#manual)  
+  - [6.3 W3C HTML](#w3chtml)
+  - [6.4 W3C CSS](#w3ccss)
+  - [6.6 Lighthouse](#lighthouse)
+  - [6.6 Peer review](#peer-review)
+  - [6.7 Contrast Checker](#contrast)
 
 [7. Bugs & Fixes](#bugs)
 
 [8. Deployment](#deployment)
 
 [9. Credits](#credit)
-  - [Code](#code)
-  - [Images](#image-credit)
-  - [Content](#content)
-  - [Acknowledgements](#acknowledge)
+  - [9.1 Code](#code)
+  - [9.2 Images](#image-credit)
+  - [9.3 Content](#content)
+  - [9.4 Acknowledgements](#acknowledge)
  
 <a name="ux"></a>
-# User Experience (UX)
+# 1. User Experience (UX)
 
-## User stories
+## 1.1 User stories
 
-### External Users' Goals:
+### 1.2 External Users' Goals:
 
 * The site users are Explorer Scout members and potential members and their parents/carers, who want to know more about the Explorer Scout unit and its activities.
 
@@ -77,7 +78,7 @@ ___
 * External users may want to find out who can join Explorer Scout groups, age requirements and Scouting aims and the activities their child might take part in if they become an Explorer. 
 
 
-### Site Owner's Goals:
+### 1.3 Site Owner's Goals:
 * The Explorer Scout group is interested in attracting new members as well as retaining current members.
 
 * The group also wants to celebrate their successes and showcase their activities/events to a wider community, as parents and the public are not permitted to attend group sessions. Scouting officials from county level are also interested in viewing the group's activities.
@@ -85,7 +86,7 @@ ___
 * The site owner requires a simple contact form that people can use to ask questions.
 
 
-### Features to include:
+### 1.4 Features to include:
 * Showcase photos of members having fun at group activities.
 
 * Provide details of the activities Explorer Scouts participate in and the structure of meetings.
@@ -93,9 +94,9 @@ ___
 * Provide information on the packs location, meeting times, contact details and any external resources (e.g. Scouts official website). 
 ___
 
-# Design Choices
+# 2. Design Choices
 
-## Colour Palette
+## 2.1 Colour Palette
 
 ![colour palette](/readme-images/colour_scheme.png)
 
@@ -107,12 +108,12 @@ ___
 
 - The font colour and background colour for the header and body were checked for contrast on https://coolors.co/contrast-checker/ and scored '13.43 - super' showing the contrast makes the accessibility good. The contrast was checked for the footer and was scored '12.44 - Super'.
 
-## Typography
+## 2.2 Typography
 
 - The 'Special Elite' font is used for the logo at the top of the site and for headings. Sans-serif is the fallback font in case the title font is not being imported correctly. 'Special Elite' adds character to the logo, as it creates an image of adventures.
 - The 'Roboto' font is used for all other body text. It is a clean and easily legible font.
 
-## Images
+## 2.3 Images
 
 - A consistent aspect ratio of 16:9 has been used for all of the hero images to bring consistency to the pages. 
 - A square ratio has been used for the landing page circles to prevent stretch.
@@ -120,32 +121,32 @@ ___
 
 ___
 
-# Site Structure
+# 3. Site Structure
 
 The website has a Home page and four other pages. The initial wireframes for these can be found below.
 
 
-## Wireframes
+## 3.1 Wireframes
 
-### Site Map
+### 3.1.1 Site Map
 ![site map](/readme-images/wireframes/site-map.jpg "Site Map")
 
-### Landing Page
+### 3.1.2 Landing Page
 ![landing page](/readme-images/wireframes/low-res-landing-page.png "Landing Page")
 
  
-### Meeting Page
+### 3.1.3 Meeting Page
 ![meeting page](/readme-images/wireframes/low-res-meeting-page.png "Meeting Page")
 
-### Events Page
+### 3.1.4 Events Page
 ![events page](/readme-images/wireframes/low-res-events-page.png "Events Page")
 
-### Contact Page
+### 3.1.5 Contact Page
 ![contact page](/readme-images/wireframes/low-res-contact-page.png "Contact Page")
 
 ___
 
-## Home Page
+## 3.2 Home Page
 ![home page](/readme-images/page-screenshots/home-screenshot.jpg "Home page")
 
 Page bottom
@@ -154,7 +155,7 @@ Page bottom
 
 The home page (index.html) is a simple landing page. It has a welcome message underneath the hero image and below that are three images in circle containers that are hyperlinks to the site pages, allowing very easy site navigation.
 
-## Meeting Page
+## 3.3 Meeting Page
 ![Meeting page](/readme-images/page-screenshots/meeting-screenshot-1.jpg "Meeting page")
 
 Page bottom
@@ -165,7 +166,7 @@ The meeting page (meetings.html) provides clear information about meetings, join
 
 Beneath the rows of text is an embedded, responsive Google map linked to the groups address and the address is also next to the map to provide information easily and intuitively.  
 
-## Events Page
+## 3.4 Events Page
 ![Events page](/readme-images/page-screenshots/events-screenshot.jpg "Events page")
 
 Page bottom
@@ -174,23 +175,23 @@ Page bottom
 
 The events page (events.html) follows a similar layout to the meeting page, with clear informative text followed by an embedded YouTube video from the official Scouts YouTube channel. The page provides information about the activities the unit participate in and has an image gallery to showcase these.
 
-## Contact Page
+## 3.5 Contact Page
 ![Contact page](/readme-images/page-screenshots/contact-screenshot.jpg "Contact page")
 
 The contact page (contact.html) provides a simple contact form for users to ask questions. The contact form is not active as I have not learnt this technology yet. The contact form was set to method GET after viewing a post on Slack regarding form methods: https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1653483581074199
 
 In order to do this, I created a copy of the index.html page but changed the content to have an acknowledgement of the form submission rather than going to the Code Institute page. If this site was to go live for the public, this would be changed. The form redirects to the thank-you.html page.
 
-## Thank-you page
+## 3.6 Thank-you page
 ![Thank-you page](/readme-images/page-screenshots/thanks-screenshot.jpg "Thank-you page")
 
 The contact form is set to direct to this page rather than the Code Institute form dump. It redirects users back to the site.
 
 ___
 
-# Features
+# 4. Features
 
-## Navigation Bar
+## 4.1 Navigation Bar
 All pages are accessible from the navbar apart from the thank-you.html as this is the form response. This allows the user to easily navigate the site without the need to return to the home page.
 The navbar appears as a horizontal list on desktop and changes to a vertical drop-down menu on mobile.
 The decision was made to not make the navbar sticky so that the user can see more on the page as they scroll down.
@@ -200,7 +201,7 @@ I used Bootstrap to produce the menu and added an underline for the active page 
 
 ![navbar mobile](/readme-images/navbar-mobile.jpg "navbar mobile")
 
-## Hero Images
+## 4.2 Hero Images
 
 All pages feature a hero image across the top to create a consistent view. The hero images use different images on each page to reflect the content of that page.
 The desktop contact page does not feature a hero image to create a greater focus on the form itself. The form has a background image instead with a semi-transparent overlay to maintain the branding. The mobile version has a hero image and the background image removed to increase the loading speed and because the impact of the background image was lost on a small screen.
@@ -208,27 +209,27 @@ The desktop contact page does not feature a hero image to create a greater focus
 - All images were compressed to allow faster loading using https://tinypng.com/
 - Credit for all images can be found below.
 
-## Gallery
+## 4.3 Gallery
 The events page (events.html) features a gallery of images showing the Explorers activities. This has been styled to appear as three columns on desktop pages, reduce to two columns on tablets and reduce to one column on mobiles.
 
-## Video
+## 4.4 Video
 The events page (events.html) features an embedded YouTube video from the official Scouts YouTube channel. This has been styled to be responsive on all device sizes. It is also set to turn off autoplay and to set to mute.
 
-## Form
+## 4.5 Form
 The contact page (contact.html) features a simple form that users can complete to send enquiries to the Explorer unit. The fields are all set to be required and the large text area features placeholder text. 
 
-## Footer
+## 4.6 Footer
 The footer element links to social media channels and shows the phone number and email address for ease of contact.
 It features a gradient colour for interest.
 
-## Future Features
+## 4.7 Future Features
 * I will research using NextGen formats for images in future.
 * In order to make the form action POST work, I need to learn the scripting behind the form.
 * It was suggested in Peer Review that I make the page one scrolling page rather than separate pages. This is something I will consider for the future.
 
 ___
 
-# Technologies Used
+# 5. Technologies Used
 * HTML -used for structuring and presenting information on the website.
 * CSS - used for styling the HTML code.
 * Bootstrap v5.1.3 - used to improve the responsiveness of the site for access on different size devices.
@@ -239,14 +240,14 @@ ___
 
  ___
 
-# Testing
+# 6. Testing
 
 The St John's Explorer Scouts website has been tested using the following methods:
 
-### Chrome Devoloper Tools
+### 6.1 Chrome Devoloper Tools
 * I made use of the Developer Tools to aid debugging throughout the project to inspect my pages and make changes accordingly.
 
-## Manual Testing
+## 6.2 Manual Testing
 The following aspects were manually tested as I progressed through the project. I checked each element using the Live Server in Gitpod to confirm that what I expected to happen, happened successfully, and then also checked it in an incognito window with the cache cleared.
 The following elements were manually tested:
 
@@ -328,7 +329,7 @@ ___
 
 ## Code Validation
 
-### W3C HTML Validator
+### 6.3 W3C HTML Validator
 
 The HTML code for all pages was tested using W3C Validator. It was validated by direct input.
 
@@ -345,14 +346,14 @@ The HTML code for all pages was tested using W3C Validator. It was validated by 
 The pages all passed the validator with no errors apart from the events page which had a warning that an article lacks a heading. 
 
 
-### W3C CSS Validator
+### 6.4 W3C CSS Validator
 
 The CSS code was tested using Jigsaw W3C CSS Validator. It was validated by direct input and passed all checks.
 
 ![css](/readme-images/testing/jigsawvalidator.jpg "CSS Validator screenshot")
 
 
-### Lighthouse Desktop
+### 6.5 Lighthouse Desktop
 
 I used the Lighthouse reports in Google DevTools to examine the desktop pages of the website for:
 * Performance
@@ -406,19 +407,19 @@ contact.html:
 
 ![lighthouse mobile contact screenshot](/readme-images/testing/lighthousecontact.jpg "Lighthouse mobile contact screenshot")
 
-## Peer Review
+## 6.6 Peer Review
 The project was shared to Slack for peer review and the following changes were made:
 * the images for readme.md were moved to their own folder not in assets.
 * font sizes were changed to rem.
 * the hero image animation was removed on the mobile pages.
 * 'integrity' and 'cross origin' code was removed to improve performance.
 
-## Contrast Checker
+## 6.7 Contrast Checker
 The colours used in the site were checked for contrast using https://coolors.co/contrast-checker/ and results were 'super'.
 
 ___
 
-# Bugs & Fixes:
+# 7. Bugs & Fixes:
 
 * When I produced the pages originally I worked from desktop down. This created the need for a lot of media queries which I initially added, however I wasn't happy with the amount of queries needed so decided to rewrite all of the pages starting from mobile-first and using more Bootstrap code to make the elements much more responsive on larger devices. This was a major fix which took a large amount of time, but I am much more satisfied with the end product.
 
@@ -450,7 +451,7 @@ ___
 
 ___
 
-# Deployment
+# 8. Deployment
 The project was deployed using these steps:
 1. Create a repository: Go to GitHub and create a public repository named username.github.io. Make the username your username on GitHub.
 2. Go to your repository.
@@ -460,9 +461,9 @@ The project was deployed using these steps:
 
 ___
 
-# Credits
+# 9. Credits
 
-## Code
+## 9.1 Code
 
 * The initial code for the header, footer and circle images/containers was taken from the Code Institute Love Running project.
 
@@ -495,7 +496,7 @@ and https://stackoverflow.com/questions/42388989/bootstrap-center-vertical-and-h
 
 * Tutorial used to fit images without stretching https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching 
 
-## Images
+## 9.2 Images
 
 Most images were sourced from the open source websites, Pexels.
 Several of these were produced by EKATERINA BOLOVTSOVA, and used to maintain the colour theme. These include:
@@ -516,11 +517,11 @@ Other images were sourced from:
 
 * #SkillsForLife video sourced from https://www.youtube.com/watch?v=cMGyuucCmuY
 
-## Content
+## 9.3 Content
 
 * All content was written by myself using information from the official Scouts website https://www.scouts.org.uk/ and the Sunderland District webpage https://www.sunderlandscouts.org.uk/
 
-## Acknowledgements
+## 9.4 Acknowledgements
 
 * Thank you to my mentor, Marcel, for helpful feedback, industry insights and recommended tools.
 * Thank you to my friends, Jeanette and Chelsea and son, Ben, for participating in testing and review.
