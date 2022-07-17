@@ -10,7 +10,7 @@
 ## Live Project
 [View the live project here.](https://emmajane22.github.io/explorer-scouts/ "View the Live project here")
 
-## Repository
+## GitHub Repository
 [View the project repository here.](https://github.com/EmmaJane22/explorer-scouts.git "View the project repository here")
 ___
 
@@ -104,15 +104,25 @@ ___
 - I used https://color.adobe.com/ to decide on the colour scheme.
 
 ## Typography
+
 - The 'Special Elite' font is used for the logo at the top of the site and for headings. Sans-serif is the fallback font in case the title font is not being imported correctly. 'Special ELite' adds character to the logo, as it creates an image of adventures.
 - The 'Roboto' font is used for all other body text. It is a clean and easily legible font.
 
 ## Images
 
 - A consistent aspect ratio of 16:9 has been used for all of the hero images to bring consistency to the pages. 
+- A square ratio has been used for the landing page circles to prevent stretch.
+- I used Font Awesome icons for the social media information and contact information to give the user visual clues.
 
 ___
+
 # Site Structure
+
+The website has a Home page and four other pages:
+- Meetings - provides information about where meetings are and who can join.
+- Events - provides information about the activities the unit participate in and has photos to showcase these.
+- Contact - provides a simple contact form for users to ask questions.
+- Thank you - the contact form is set to direct to this page rather than the Code Institue form dump. It redircets users back to the site.
 
 ## Wireframes
 
@@ -122,7 +132,7 @@ ___
 ### Landing Page
 ![landing page](assets/images/wireframes/low-res-landing-page.png "Landing Page")
 
-
+ 
 ### Meeting Page
 ![meeting page](assets/images/wireframes/low-res-meeting-page.png "Meeting Page")
 
@@ -134,15 +144,20 @@ ___
 
 The contact form was set to method GET after viewing a post on Slack regarding form methods: https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1653483581074199
 
-In order to do this, I created a copy of the index.html page but changed the content to have an acknowledgement of the form submision rather than going to the Code Institute page.
+In order to do this, I created a copy of the index.html page but changed the content to have an acknowledgement of the form submision rather than going to the Code Institute page. If this site was to go live for the public, this would be changed.
 ___
 
 # Features
 
 ## Naviagtion Bar
-- Code sourced from the Code Institute Whiskey Drop tutorial.
+All pages are accessible from the NavBar apart from the thank-you.html as this is the form response. This allows the user to easliy naviagte the site without the need to return to the home page.
+The navbar appears as a horizontal list on desktop and changes to a vertical drop down menu on mobile.
+The decision was made to not make the navbar sticky so that the user can see more on the page as they scroll down.
+I used Bootstrap to produce the menu, and added an underline for the active page and a hover state to non-active pages.
 
-- Hover effects sourced from https://stackoverflow.com/questions/58939609/bootstrap-4-nav-link-hover-effect
+![navbar desktop](assets/readme/navbar.jpg "navbar")
+
+![navbar mobile](assets/readme/navbar-mobile.jpg "navbar mobile")
 
 ## Hero Images
 - Images were compressed to allow faster loading using https://tinypng.com/
@@ -285,6 +300,10 @@ ___
 * The initial code for the header, footer and circle images/containers was taken from the Code Institute Love Running project.
 
 * Help centering the images on the Landing page circles was found here: https://stackoverflow.com/questions/32477563/how-can-i-fit-images-into-circles-without-stretching
+
+* Code sourced from the Code Institute Whiskey Drop tutorial.
+
+* Hover effects sourced from https://stackoverflow.com/questions/58939609/bootstrap-4-nav-link-hover-effect
 
 * Help creating the footer grid layout was found from https://getbootstrap.com/docs/4.0/layout/grid/ and https://codepen.io/cojdev/pen/QGwyOJ
 
