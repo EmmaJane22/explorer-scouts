@@ -118,6 +118,7 @@ ___
 
 - The 'Special Elite' font is used for the logo at the top of the site and for headings. Sans-serif is the fallback font in case the title font is not being imported correctly. 'Special Elite' adds character to the logo, as it creates an image of adventures.
 - The 'Roboto' font is used for all other body text. It is a clean and easily legible font.
+
 <a name="images"></a>
 ## 2.3 Images
 
@@ -139,16 +140,20 @@ The website has a Home page and four other pages. The initial wireframes for the
 ![site map](/readme-images/wireframes/site-map.jpg "Site Map")
 
 ### 3.1.2 Landing Page
+
 ![landing page](/readme-images/wireframes/low-res-landing-page.png "Landing Page")
 
  
 ### 3.1.3 Meeting Page
+
 ![meeting page](/readme-images/wireframes/low-res-meeting-page.png "Meeting Page")
 
 ### 3.1.4 Events Page
+
 ![events page](/readme-images/wireframes/low-res-events-page.png "Events Page")
 
 ### 3.1.5 Contact Page
+
 ![contact page](/readme-images/wireframes/low-res-contact-page.png "Contact Page")
 
 ___
@@ -245,11 +250,13 @@ The contact page (contact.html) features a simple form that users can complete t
 <a name="footer"></a>
 
 ## 4.6 Footer
+
 The footer element links to social media channels and shows the phone number and email address for ease of contact.
 It features a gradient colour for interest.
 
 <a name="future"></a>
 ## 4.7 Future Features
+
 * I will research using NextGen formats for images in future.
 * In order to make the form action POST work, I need to learn the scripting behind the form.
 * It was suggested in Peer Review that I make the page one scrolling page rather than separate pages. This is something I will consider for the future.
@@ -439,9 +446,12 @@ events.html:
 contact.html:
 
 ![lighthouse mobile contact screenshot](/readme-images/testing/lighthousecontact.jpg "Lighthouse mobile contact screenshot")
+
 <a name="peer-review"></a>
 ## 6.6 Peer Review
+
 The project was shared to Slack for peer review and the following changes were made:
+
 * the images for readme.md were moved to their own folder not in assets.
 * font sizes were changed to rem.
 * the hero image animation was removed on the mobile pages.
@@ -537,7 +547,7 @@ and https://stackoverflow.com/questions/42388989/bootstrap-center-vertical-and-h
 <a name="image-credit"></a>
 ## 9.2 Images
 
-Most images were sourced from the open source websites, Pexels.
+Most images were sourced from the open source website, pexels.com
 Several of these were produced by EKATERINA BOLOVTSOVA, and used to maintain the colour theme. These include:
 
 * 'Meeting' Photo https://www.pexels.com/photo/happy-children-making-campfire-in-forest-5036955/
